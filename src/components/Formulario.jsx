@@ -3,50 +3,80 @@ import { plataformas } from '../data/plataformas';
 import { aleatorizarRespuestas } from '../utils/aleatorizarRespuestas';
 import { useLocation } from 'react-router-dom';
 import { cyberseguridad } from '../data/cyberseguridad';
-
+import { desarrollo } from '../data/desarrollo';
+import { direccion } from '../data/direccion';
+import { metodologias } from '../data/metodologias';
 
 const Quiz = () => {
     const location = useLocation();
-    const { subject } = location.state || {};
-    const [responses, setResponses] = useState({});
+    const { subject, questionCount } = location.state || {};
+    const [responses, setResponses] = useState(JSON.parse(localStorage.getItem('quizResponses')) || {});
     const [submitted, setSubmitted] = useState(false);
     const [shuffledQuestions, setShuffledQuestions] = useState([]);
     const [currentPage, setCurrentPage] = useState(0);
     const questionsPerPage = 5;
 
     useEffect(() => {
-        // Mezclar las opciones al cargar el componente
         let questions = [];
-
-        switch (
-            subject
-        ) {
+        switch (subject) {
             case 'plataformas':
                 questions = [...plataformas];
                 break;
             case 'cyberseguridad':
                 questions = [...cyberseguridad];
                 break;
+            case 'desarrollo':
+                questions = [...desarrollo];
+                break;
+            case 'direccion':
+                questions = [...direccion];
+                break;
+            case 'metodologias':
+                questions = [...metodologias];
+                break;
+            default:
+                questions = []; // Manejo por defecto
         }
 
+        // Seleccionar preguntas al azar
+        const selectedQuestions = selectRandomQuestions(questions, questionCount);
 
-        const mixedQuestions = questions.map(q => ({
+        const mixedQuestions = selectedQuestions.map(q => ({
             ...q,
             options: aleatorizarRespuestas(q.options),
         }));
+
         setShuffledQuestions(mixedQuestions);
-    }, []);
+    }, [subject, questionCount]);
+
+    const selectRandomQuestions = (questions, count) => {
+        // Mezclar las preguntas y seleccionar las primeras 'count' preguntas
+        const shuffled = questions.sort(() => 0.5 - Math.random());
+        return shuffled.slice(0, count);
+    };
+
+    useEffect(() => {
+        // Guardar respuestas en localStorage
+        localStorage.setItem('quizResponses', JSON.stringify(responses));
+    }, [responses]);
 
     const handleChange = (questionIndex, option) => {
-        setResponses({
-            ...responses,
+        setResponses(prevResponses => ({
+            ...prevResponses,
             [questionIndex]: option,
-        });
+        }));
     };
 
     const handleSubmit = (e) => {
         e.preventDefault();
         setSubmitted(true);
+    };
+
+    const handleReset = () => {
+        setResponses({});
+        localStorage.removeItem('quizResponses');
+        setSubmitted(false);
+        setCurrentPage(0);
     };
 
     const handleNextPage = () => {
@@ -111,8 +141,9 @@ const Quiz = () => {
                 <div>
                     <h2>Resultados</h2>
                     <p>
-                        Puntaje: {Object.keys(responses).filter((key) => responses[key] === shuffledQuestions[key].answer).length} de {shuffledQuestions.length}
+                        Puntaje: {Object.keys(responses).filter((key) => responses[key] === shuffledQuestions[key]?.answer).length} de {shuffledQuestions.length}
                     </p>
+                    <button onClick={handleReset}>Borrar Respuestas</button>
                 </div>
             )}
             <div className='pageNumber'>
@@ -122,7 +153,6 @@ const Quiz = () => {
             </div>
             <div className="pagination" style={{ textAlign: 'center' }}>
                 <button onClick={handlePrevPage} disabled={currentPage === 0}>Anterior</button>
-                
                 <button onClick={handleNextPage} disabled={currentPage >= totalPages - 1}>Siguiente</button>
             </div>
         </div>
