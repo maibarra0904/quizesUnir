@@ -1,16 +1,15 @@
 import { useEffect, useState } from 'react';
 import { plataformas } from '../data/plataformas';
 import { aleatorizarRespuestas } from '../utils/aleatorizarRespuestas';
-import { useLocation } from 'react-router-dom';
 import { cyberseguridad } from '../data/cyberseguridad';
 import { desarrollo } from '../data/desarrollo';
 import { direccion } from '../data/direccion';
 import { metodologias } from '../data/metodologias';
 
 const Quiz = () => {
-    const location = useLocation();
-    const { subject } = location.state || JSON.parse(localStorage.getItem('selectedSubject')) || {};
-    const { questionCount } = location.state || JSON.parse(localStorage.getItem('questionCount')) || {};
+    
+    const [subject, setSubject] = useState(localStorage.getItem('selectedSubject') || {});
+    const [questionCount, setQuestionCount] = useState(JSON.parse(localStorage.getItem('questionCount')) || {});
     const [responses, setResponses] = useState(JSON.parse(localStorage.getItem('quizResponses')) || {});
     const [submitted, setSubmitted] = useState(false);
     const [shuffledQuestions, setShuffledQuestions] = useState([]);
@@ -48,6 +47,11 @@ const Quiz = () => {
         }));
 
         setShuffledQuestions(mixedQuestions);
+
+        setSubject(localStorage.getItem('selectedSubject') || {})
+
+        setQuestionCount(JSON.parse(localStorage.getItem('questionCount')) || {})
+
     }, [subject, questionCount]);
 
     const selectRandomQuestions = (questions, count) => {
