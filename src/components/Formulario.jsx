@@ -9,7 +9,8 @@ import { metodologias } from '../data/metodologias';
 
 const Quiz = () => {
     const location = useLocation();
-    const { subject, questionCount } = location.state || {};
+    const { subject } = location.state || JSON.parse(localStorage.getItem('selectedSubject')) || {};
+    const { questionCount } = location.state || JSON.parse(localStorage.getItem('questionCount')) || {};
     const [responses, setResponses] = useState(JSON.parse(localStorage.getItem('quizResponses')) || {});
     const [submitted, setSubmitted] = useState(false);
     const [shuffledQuestions, setShuffledQuestions] = useState([]);
