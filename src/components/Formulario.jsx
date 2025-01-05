@@ -1,15 +1,16 @@
 import { useEffect, useState } from 'react';
 import { plataformas } from '../data/plataformas';
 import { aleatorizarRespuestas } from '../utils/aleatorizarRespuestas';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { cyberseguridad } from '../data/cyberseguridad';
 import { desarrollo } from '../data/desarrollo';
 import { direccion } from '../data/direccion';
 import { metodologias } from '../data/metodologias';
 
 const Quiz = () => {
-    
-    const [subject, setSubject] = useState(localStorage.getItem('selectedSubject') || {});
-    const [questionCount, setQuestionCount] = useState(JSON.parse(localStorage.getItem('questionCount')) || {});
+    const location = useLocation();
+    const navigate = useNavigate();
+    const { subject, questionCount } = location.state || {};
     const [responses, setResponses] = useState(JSON.parse(localStorage.getItem('quizResponses')) || {});
     const [submitted, setSubmitted] = useState(false);
     const [shuffledQuestions, setShuffledQuestions] = useState([]);
@@ -38,7 +39,6 @@ const Quiz = () => {
                 questions = []; // Manejo por defecto
         }
 
-        // Seleccionar preguntas al azar
         const selectedQuestions = selectRandomQuestions(questions, questionCount);
 
         const mixedQuestions = selectedQuestions.map(q => ({
@@ -47,21 +47,14 @@ const Quiz = () => {
         }));
 
         setShuffledQuestions(mixedQuestions);
-
-        setSubject(localStorage.getItem('selectedSubject') || {})
-
-        setQuestionCount(JSON.parse(localStorage.getItem('questionCount')) || {})
-
     }, [subject, questionCount]);
 
     const selectRandomQuestions = (questions, count) => {
-        // Mezclar las preguntas y seleccionar las primeras 'count' preguntas
         const shuffled = questions.sort(() => 0.5 - Math.random());
         return shuffled.slice(0, count);
     };
 
     useEffect(() => {
-        // Guardar respuestas en localStorage
         localStorage.setItem('quizResponses', JSON.stringify(responses));
     }, [responses]);
 
@@ -82,6 +75,11 @@ const Quiz = () => {
         localStorage.removeItem('quizResponses');
         setSubmitted(false);
         setCurrentPage(0);
+    };
+
+    const handleRestart = () => {
+        handleReset();
+        navigate('/quiz', { state: { subject, questionCount } });
     };
 
     const handleNextPage = () => {
@@ -137,28 +135,27 @@ const Quiz = () => {
 
                 {currentPage === Math.ceil(shuffledQuestions.length / questionsPerPage) - 1 && (
                     <div style={{ textAlign: 'center', margin: '20px 0' }}>
-                        <button type="submit">Enviar</button>
+                        <button type="submit" disabled={Object.keys(responses).length !== questionCount}>Enviar</button>
                     </div>
                 )}
             </form>
 
             {submitted && (
-                <div>
+                <div className='results'>
                     <h2>Resultados</h2>
                     <p>
                         Puntaje: {Object.keys(responses).filter((key) => responses[key] === shuffledQuestions[key]?.answer).length} de {shuffledQuestions.length}
                     </p>
                     <button onClick={handleReset}>Borrar Respuestas</button>
+                    <button onClick={handleRestart}>Reiniciar Formulario</button>
                 </div>
             )}
-            <div className='pageNumber'>
-                <span style={{ margin: '0 10px' }}>
-                    Página {currentPage + 1} de {totalPages}
-                </span>
-            </div>
-            <div className="pagination" style={{ textAlign: 'center' }}>
-                <button onClick={handlePrevPage} disabled={currentPage === 0}>Anterior</button>
-                <button onClick={handleNextPage} disabled={currentPage >= totalPages - 1}>Siguiente</button>
+            <div className="pagination-container">
+                <div className="pagination">
+                    <button onClick={handlePrevPage} disabled={currentPage === 0}>◀</button>
+                    <span>{currentPage + 1} / {totalPages}</span>
+                    <button onClick={handleNextPage} disabled={currentPage >= totalPages - 1}>▶</button>
+                </div>
             </div>
         </div>
     );
