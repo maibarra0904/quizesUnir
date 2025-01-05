@@ -82,6 +82,13 @@ const Quiz = () => {
         navigate('/quiz', { state: { subject, questionCount } });
     };
 
+    const handleHome = () => {
+        handleReset();
+        localStorage.removeItem('selectedSubject');
+        localStorage.removeItem('questionCount');
+        navigate('/');
+    };
+
     const handleNextPage = () => {
         if (currentPage < Math.ceil(shuffledQuestions.length / questionsPerPage) - 1) {
             setCurrentPage(currentPage + 1);
@@ -147,7 +154,8 @@ const Quiz = () => {
                         Puntaje: {Object.keys(responses).filter((key) => responses[key] === shuffledQuestions[key]?.answer).length} de {shuffledQuestions.length}
                     </p>
                     <button onClick={handleReset}>Borrar Respuestas</button>
-                    <button onClick={handleRestart}>Reiniciar Formulario</button>
+                    <button onClick={handleRestart}>Reiniciar Quiz</button>
+                    <button onClick={handleHome}>Escoger otro quiz</button>
                 </div>
             )}
             <div className="pagination-container">
