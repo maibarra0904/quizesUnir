@@ -18,6 +18,10 @@ const Quiz = () => {
     const questionsPerPage = 5;
 
     useEffect(() => {
+        generateQuiz()
+    }, []);
+
+    const generateQuiz = () => {
         let questions = [];
         switch (subject) {
             case 'plataformas':
@@ -47,7 +51,7 @@ const Quiz = () => {
         }));
 
         setShuffledQuestions(mixedQuestions);
-    }, [subject, questionCount]);
+    }
 
     const selectRandomQuestions = (questions, count) => {
         const shuffled = questions.sort(() => 0.5 - Math.random());
@@ -79,6 +83,7 @@ const Quiz = () => {
 
     const handleRestart = () => {
         handleReset();
+        generateQuiz();
         navigate('/quiz', { state: { subject, questionCount } });
     };
 
@@ -153,9 +158,9 @@ const Quiz = () => {
                     <p>
                         Puntaje: {Object.keys(responses).filter((key) => responses[key] === shuffledQuestions[key]?.answer).length} de {shuffledQuestions.length}
                     </p>
-                    <button onClick={handleReset}>Borrar Respuestas</button>
-                    <button onClick={handleRestart}>Reiniciar Quiz</button>
-                    <button onClick={handleHome}>Escoger otro quiz</button>
+                    <button onClick={handleReset}>Reiniciar Mismo Quiz</button>
+                    <button onClick={handleRestart}>Hacer Otro Quiz</button>
+                    <button onClick={handleHome}>Escoger Otra Materia</button>
                 </div>
             )}
             <div className="pagination-container">
