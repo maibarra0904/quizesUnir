@@ -11,6 +11,7 @@ const Quiz = () => {
     const location = useLocation();
     const navigate = useNavigate();
     const { subject, questionCount } = location.state || {};
+    const [subjectName, setSubjectName] = useState('');
     const [responses, setResponses] = useState(JSON.parse(localStorage.getItem('quizResponses')) || {});
     const [submitted, setSubmitted] = useState(false);
     const [shuffledQuestions, setShuffledQuestions] = useState([]);
@@ -25,18 +26,23 @@ const Quiz = () => {
         let questions = [];
         switch (subject) {
             case 'plataformas':
+                setSubjectName('Plataformas de Desarrollo');
                 questions = [...plataformas];
                 break;
             case 'cyberseguridad':
+                setSubjectName('Cyberseguridad');
                 questions = [...cyberseguridad];
                 break;
             case 'desarrollo':
+                setSubjectName('Desarrollo Web');
                 questions = [...desarrollo];
                 break;
             case 'direccion':
+                setSubjectName('Dirección de Proyectos');
                 questions = [...direccion];
                 break;
             case 'metodologias':
+                setSubjectName('Metodologías de Desarrollo Web');
                 questions = [...metodologias];
                 break;
             default:
@@ -114,7 +120,7 @@ const Quiz = () => {
 
     return (
         <div>
-            <h1>Formulario de Preguntas</h1>
+            <h1>Formulario de Preguntas: {subjectName}</h1>
             <form onSubmit={handleSubmit}>
                 {currentQuestions.map((q, index) => (
                     <div key={index}>
