@@ -528,5 +528,223 @@ export const desarrollo = [
         },
         answer: "D",
         detail: "El path /Pizza es el que coincide para renderizar el componente."
+    },
+    {
+        "question": "¿Con cuál de los siguientes componentes de un back-end puede interactuar un usuario de forma directa?",
+        "options": {
+            A: "Las bases de datos.",
+            B: "Los servidores de correo.",
+            C: "Los servidores DNS.",
+            D: "Ninguna."
+         },
+        "answer": "D",
+         "detail": "Un usuario no interactúa directamente con los componentes del back-end [1]."
+    },
+    {
+        question: "¿Cuáles de los siguientes frameworks están especialmente diseñados para el back-end?",
+        options: {
+            A: "A. Laravel.",
+            B: "B. Spring.",
+            C: "C. Angular js.",
+            D: "D. a y b"
+        },
+        answer: "D",
+        detail: "**Laravel** y **Spring** son frameworks diseñados para el back-end."
+    },
+    {
+        question: "¿Cuál es la finalidad del lenguaje WSDL?",
+        options: {
+            A: "A. Indicar en qué dirección está disponible un servicio web.",
+            B: "B. Indicar cuáles son las operaciones que puedo realizar en servicio web, así como sus entradas y salidas.",
+            C: "Ninguna",
+            D: "A. y B."
+        },
+        answer: "D",
+        detail: "El lenguaje WSDL se usa para indicar la dirección de un servicio web y las operaciones que se pueden realizar, incluyendo sus entradas y salidas."
+    },
+    {
+        question: "¿Qué aspectos de la comunicación describe un archivo WSDL?",
+        options: {
+            A: "Los tipos de datos empleados en todas las operaciones del servicio.",
+            B: "El nombre del servicio.",
+            C: "Los bindings.",
+            D: "Todas las anteriores."
+        },
+        answer: "D",
+        detail: "Un archivo WSDL describe los tipos de datos, el nombre del servicio y los bindings."
+    },
+    {
+        question: "¿Cuáles son las partes obligatorias que cualquier mensaje que siga el protocolo SOAP debe tener?",
+        options: {
+            A: "A. Envelope.",
+            B: "B. Header.",
+            C: "C. Body.",
+            D: "A. y C."
+        },
+        answer: "D",
+        detail: "Las partes obligatorias de un mensaje SOAP son el Envelope y el Body."
+    },
+    {
+        question: "¿Cuál es la función de la parte Fault de un mensaje que siga el protocolo SOAP?",
+        options: {
+            A: "Informar de los errores, si los hay.",
+            B: "Informar de los warnings que hayan ocurrido durante la ejecución del servicio.",
+            C: "Mostrar la lista de errores posibles para una operación de un servicio.",
+            D: "No existe tal parte en el protocolo SOAP."
+        },
+        answer: "A",
+        detail: "La parte Fault en un mensaje SOAP se usa para informar de los errores."
+    },
+    {
+        question: "REST es por definición stateless.",
+        options: {
+            A: "Verdadero.",
+            B: "Falso."
+        },
+        answer: "A",
+        detail: "REST es stateless por definición."
+    },
+    {
+        question: "¿Qué método HTTP deberíamos utilizar si queremos modificar un recurso parcialmente?",
+        options: {
+            A: "PUT.",
+            B: "PATCH.",
+            C: "UPDATE.",
+            D: "POST."
+        },
+        answer: "B",
+        detail: "Para modificar un recurso parcialmente, se debe usar el método HTTP **PATCH**."
+    },
+    {
+        question: "¿Cuál es la diferencia entre PUT y POST?",
+        options: {
+            A: "PUT actualiza recursos, pero en ningún caso creará un recurso nuevo.",
+            B: "POST se utiliza para crear nuevos recursos.",
+            C: "Ambos.",
+            D: "Ninguno."
+        },
+        answer: "C",
+        detail: "**PUT** se usa para actualizar recursos, sin crear nuevos, mientras que **POST** se usa para crear nuevos recursos."
+    },
+    {
+        question: "¿Qué código de respuesta HTTP deberíamos usar para indicar que la entrada recibida no es correcta?",
+        options: {
+            A: "401 Unauthorized.",
+            B: "404 Not Found.",
+            C: "400 Bad Request.",
+            D: "403 Forbidden."
+        },
+        answer: "C",
+        detail: "El código de respuesta **400 Bad Request** indica que la entrada recibida no es correcta."
+    },
+    {
+        question: "Las siglas MVC significan:",
+        options: {
+            A: "Model View Control.",
+            B: "Model View Controller.",
+            C: "Modelador Vista Control.",
+            D: "Modelado visual del controlador."
+        },
+        answer: "B",
+        detail: "Las siglas MVC significan **Model View Controller**."
+    },
+    {
+        question: "El componente del patrón MVC que recibe los datos y los incorpora a la web es:",
+        options: {
+            A: "El modelo.",
+            B: "La vista.",
+            C: "El controlador.",
+            D: "Ninguno de los anteriores."
+        },
+        answer: "B",
+        detail: "La **vista** es el componente del patrón MVC que recibe los datos y los incorpora a la web."
+    },
+    {
+        question: "El componente del patrón MVC que se encarga de la lógica de control es:",
+        options: {
+            A: "El modelo.",
+            B: "La vista.",
+            C: "El controlador.",
+            D: "Ninguno de los anteriores."
+        },
+        answer: "C",
+        detail: "El **controlador** es el componente del patrón MVC que se encarga de la lógica de control."
+    },
+    {
+        question: "El componente del patrón MVC que se encarga de la lógica de negocio es:",
+        options: {
+            A: "El modelo.",
+            B: "La vista.",
+            C: "El controlador.",
+            D: "Ninguno de los anteriores."
+        },
+        answer: "A",
+        detail: "El **modelo** es el componente del patrón MVC que se encarga de la lógica de negocio."
+    },
+    {
+        question: "El componente del patrón MVC que debe asegurar que las conexiones a la base de datos se realizan correctamente y de forma segura es:",
+        options: {
+            A: "El modelo.",
+            B: "La vista.",
+            C: "El controlador.",
+            D: "Ninguno de los anteriores."
+        },
+        answer: "A",
+        detail: "El **modelo** es el componente del patrón MVC que debe asegurar que las conexiones a la base de datos se realizan correctamente y de forma segura."
+    },
+    {
+        question: "Señala aquellas características propias de los sistemas distribuidos:",
+        options: {
+            A: "A. Fácil escalabilidad horizontal.",
+            B: "B. Dependencia de un reloj global.",
+            C: "C. Concurrencia real.",
+            D: "A. y C."
+        },
+        answer: "D",
+        detail: "Los sistemas distribuidos se caracterizan por ser **fáciles**, tener **escalabilidad horizontal** y **concurrencia real**."
+    },
+    {
+        question: "En una arquitectura orientada a microservicios, ¿cuál es la función del servidor de registro?",
+        options: {
+            A: "Proveer al llamante de una dirección única sobre la cuál realizar sus consultas, a modo de proxy inverso.",
+            B: "Redirigir las peticiones entrantes a los nodos con menos carga en un momento dado.",
+            C: "Guardar una relación de los microservicios activos en un momento dado, en estas se incluye su dirección y puerto.",
+            D: "No existe tal componente en una arquitectura orientada a microservicios."
+        },
+        answer: "C",
+        detail: "El servidor de registro guarda una relación de los microservicios activos en un momento dado, incluyendo su dirección y puerto."
+    },
+    {
+        question: "Eureka es utilizado para ayudarnos a implementar:",
+        options: {
+            A: "Un servidor de registro.",
+            B: "Un servidor perimetral.",
+            C: "Un servidor de configuración.",
+            D: "Un servicio de gestión de logs."
+        },
+        answer: "A",
+        detail: "**Eureka** se utiliza para implementar un servidor de registro."
+    },
+    {
+        question: "La orquestación de microservicios:",
+        options: {
+            A: "Requiere de uno o varios componentes que actúen como orquestadores, en los cuales se indique el orden de las llamadas a realizar a los microservicios.",
+            B: "Generan puntos únicos de fallo.",
+            C: "Ambas.",
+            D: "Ninguna."
+        },
+        answer: "C",
+        detail: "La orquestación de microservicios requiere componentes orquestadores que indiquen el orden de las llamadas y puede generar puntos únicos de fallo."
+    },
+    {
+        question: "La coreografía de microservicios:",
+        options: {
+            A: "Es lo mismo que la orquestación.",
+            B: "Busca conseguir un alto acoplamiento entre los diferentes microservicios.",
+            C: "Ayuda a construir flujos de trabajo asíncronos.",
+            D: "Ayuda a construir flujos de trabajo síncronos."
+        },
+        answer: "C",
+        detail: "La coreografía de microservicios ayuda a construir flujos de trabajo asíncronos."
     }
 ];

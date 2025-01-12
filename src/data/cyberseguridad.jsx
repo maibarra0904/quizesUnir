@@ -548,5 +548,381 @@ export const cyberseguridad = [
         },
         answer: "D",
         detail: "La A y la B son correctas."
+    },
+    {
+        question: "El coste de ruptura debe ser inferior al…",
+        options: {
+            A: "Coste de implementar defensas en los sistemas",
+            B: "Coste de construcción",
+            C: "Pérdida de beneficio",
+            D: "Beneficios que obtiene el atacante"
+        },
+        answer: "B",
+        detail: "Coste de construcción."
+    },
+    {
+        question: "Cuando un activo A depende un activo B, el riesgo de A se acumula en B y el resultado se denomina:",
+        options: {
+            A: "Riesgo total",
+            B: "Riesgo repercutido",
+            C: "Riesgo acumulado",
+            D: "Riesgo redundante"
+        },
+        answer: "C",
+        detail: "Riesgo acumulado."
+    },
+    {
+        question: "Cuando un activo A depende un activo B, el riesgo de B repercute en A y el resultado se denomina:",
+        options: {
+            A: "Riesgo total",
+            B: "Riesgo repercutido",
+            C: "Riesgo acumulado",
+            D: "Riesgo redundante"
+        },
+        answer: "B",
+        detail: "Riesgo repercutido."
+    },
+    {
+        question: "Cuando un activo A depende un activo B, el impacto de A se acumula en B y el resultado se denomina:",
+        options: {
+            A: "Impacto total",
+            B: "Impacto repercutido",
+            C: "Impacto acumulado",
+            D: "Impacto redundante"
+        },
+        answer: "C",
+        detail: "Impacto acumulado."
+    },
+    {
+        question: "Cuando un activo A depende un activo B, el impacto de B repercute en A y el resultado se denomina:",
+        options: {
+            A: "Impacto total",
+            B: "Impacto repercutido",
+            C: "Impacto acumulado",
+            D: "Impacto redundante"
+        },
+        answer: "B",
+        detail: "Impacto repercutido."
+    },
+    {
+        question: "El impacto en un activo es igual a:",
+        options: {
+            A: "Valor acumulado según dimensiones",
+            B: "Valor x degradación por materialización de amenaza",
+            C: "Riesgo acumulado x degradación por materialización de amenaza",
+            D: "Riesgo redundante x degradación por materialización de amenaza"
+        },
+        answer: "B",
+        detail: "Valor x degradación por materialización de amenaza."
+    },
+    {
+        question: "El riesgo es igual a:",
+        options: {
+            A: "Impacto por degradación",
+            B: "Impacto por frecuencia de ocurrencia de la amenaza",
+            C: "Impacto por probabilidad de ocurrencia de la amenaza",
+            D: "La B y la C"
+        },
+        answer: "D",
+        detail: "La B y la C."
+    },
+    {
+        question: "La pérdida de beneficios debido a los incidentes de seguridad contra los activos debe ser MAYOR que…",
+        options: {
+            A: "Coste de implementar defensas en los sistemas",
+            B: "Coste de corrección de las vulnerabilidades",
+            C: "Todas las demás son ciertas",
+            D: "El coste de las salvaguardas que protegen el activo"
+        },
+        answer: "C",
+        detail: "Todas las demás son ciertas."
+    },
+    {
+        question: "Principales agentes o actores de la amenaza:",
+        options: {
+            A: "Actores estado. (Actividad de grupos)",
+            B: "Ciberdelincuencia (Ransomware, phishing, malware)",
+            C: "Hactivismo",
+            D: "Actores internos",
+            E: "Todas las anteriores son ciertas"
+        },
+        answer: "E",
+        detail: "Todas las anteriores son ciertas."
+    },
+    {
+        question: "Los factores más comunes que se dan en los ataques son los siguientes:",
+        options: {
+            A: "La falta de conocimiento de amenazas de seguridad (especialmente debido a la reutilización de credenciales o el phishing)",
+            B: "Actualizaciones de software insuficientes.",
+            C: "Fallos en la gestión de las copias de seguridad.",
+            D: "Todas las anteriores son ciertas"
+        },
+        answer: "D",
+        detail: "Todas las anteriores son ciertas."
+    },
+    {
+        question: "Ataque que consiste en obtener la máxima información privada relacionada con un objetivo para publicarla después en fuentes públicas:",
+        options: {
+            A: "Defacement",
+            B: "DDOS",
+            C: "Doxxing",
+            D: "Ninguna de las anteriores es cierta"
+        },
+        answer: "C",
+        detail: "Doxxing."
+    },
+    {
+        question: "¿Cuál es el método de ataque que cifra sistemas de ficheros?",
+        options: {
+            A: "Ransomware",
+            B: "Botnets (IOT)",
+            C: "Código dañino avanzado",
+            D: "Ataques Web"
+        },
+        answer: "A",
+        detail: "Ransomware."
+    },
+    {
+        question: "Actualmente, se estima que el 33% de los dispositivos IOT han experimentado un incidente de seguridad, frente al 19% del año anterior. Este crecimiento sin precedentes se debe principalmente a los siguientes factores:",
+        options: {
+            A: "El crecimiento exponencial de los dispositivos IoT.",
+            B: "Implementación insegura de dispositivos IoT a los que se puede acceder fácilmente directamente desde Internet.",
+            C: "Falta de actualizaciones de seguridad para estos dispositivos, lo que los hace vulnerables.",
+            D: "Los dispositivos tienen una contraseña predeterminada, conocida por el público, que en la mayoría de los casos no se reemplaza.",
+            E: "Todas las anteriores son ciertas"
+        },
+        answer: "E",
+        detail: "Todas las anteriores son ciertas."
+    },
+    {
+        question: "Proporcionar la prueba de que una determinada transmisión o recepción ha sido realizada, no pudiendo su receptor/transmisor negar que se haya producido, usando las propiedades de la firma digital avanzada:",
+        options: {
+            A: "Confidencialidad",
+            B: "Integridad",
+            C: "No repudio",
+            D: "Autenticar"
+        },
+        answer: "C",
+        detail: "No repudio."
+    },
+    {
+        question: "Las ………… son similares a los estándares, pero son solo recomendaciones, no son de obligado cumplimiento. Son un mecanismo más flexible que los estándares y pueden utilizarse para determinar estándares:",
+        options: {
+            A: "Políticas funcionales",
+            B: "Procedimientos",
+            C: "Guías",
+            D: "Directrices"
+        },
+        answer: "D",
+        detail: "Directrices."
+    },
+    {
+        question: "Los …………. (a veces denominados «prácticas») son descripciones detalladas de los pasos para llevar a cabo una determinada tarea para que los usuarios los puedan llevar a cabo sin dudas:",
+        options: {
+            A: "Políticas funcionales",
+            B: "Procedimientos",
+            C: "Guías",
+            D: "Directrices"
+        },
+        answer: "B",
+        detail: "Procedimientos."
+    },
+    {
+        question: "Las …………… son descripciones sobre cómo configurar determinados elementos de seguridad para que sean aplicados de manera uniforme en toda la organización:",
+        options: {
+            A: "Líneas base",
+            B: "Procedimientos",
+            C: "Políticas",
+            D: "Directrices"
+        },
+        answer: "A",
+        detail: "Líneas base."
+    },
+    {
+        question: "Los documentos que indican qué debe hacerse, pero no detallan el cómo:",
+        options: {
+            A: "Líneas base o guías",
+            B: "Procedimientos",
+            C: "Políticas funcionales",
+            D: "Directrices"
+        },
+        answer: "C",
+        detail: "Políticas funcionales."
+    },
+    {
+        question: "El principio ………. que consiste en tratar de minimizar el número de usuarios con privilegios de administrador, el conjunto de equipos externos con acceso a sistemas locales y el número de situaciones en las que alguien o algo tiene privilegios de acceso, que no necesita, para que el trabajo salga adelante es:",
+        options: {
+            A: "Identificación puntos débiles",
+            B: "Profundidad de la defensa",
+            C: "Mínimo privilegio",
+            D: "Diversidad de la defensa"
+        },
+        answer: "C",
+        detail: "Mínimo privilegio."
+    },
+    {
+        question: "El principio …………. que consiste en garantizar que ante un incidente de ataque con éxito a un componente éste queda aislado del resto de activos de la organización:",
+        options: {
+            A: "Identificación puntos débiles",
+            B: "Profundidad de la defensa",
+            C: "Cierre completo",
+            D: "Diversidad de la defensa"
+        },
+        answer: "C",
+        detail: "Cierre completo."
+    },
+    {
+        question: "Hay varios modelos que se pueden seguir para implantar un SGSI, normalmente siguen un enfoque basado en:",
+        options: {
+            A: "Identificación puntos débiles",
+            B: "Profundidad de la defensa",
+            C: "Cierre completo",
+            D: "FASES: Plan-do-check-act"
+        },
+        answer: "D",
+        detail: "FASES: Plan-do-check-act."
+    },
+    {
+        question: "Entre las actividades a llevar a cabo en un SGSI están:",
+        options: {
+            A: "Definición de la política de seguridad",
+            B: "Análisis y gestión del riesgo",
+            C: "Monitorización y mejora continua",
+            D: "Todas las anteriores"
+        },
+        answer: "D",
+        detail: "Todas las anteriores."
+    },
+    {
+        question: "¿Qué actividad se debe llevar a cabo en un SSDLC en primer lugar?",
+        options: {
+            A: "Análisis de seguridad del código",
+            B: "Test de penetración",
+            C: "Derivación de requisitos de seguridad",
+            D: "Análisis funcional de seguridad"
+        },
+        answer: "C",
+        detail: "Derivación de requisitos de seguridad."
+    },
+    {
+        question: "Una vulnerabilidad publicada corresponde a:",
+        options: {
+            A: "CAPEC",
+            B: "CWE",
+            C: "CVE",
+            D: "CVSS"
+        },
+        answer: "C",
+        detail: "CVE."
+    },
+    {
+        question: "¿Cómo envía basic las credenciales al servidor de aplicaciones?",
+        options: {
+            A: "Cifrados.",
+            B: "En claro.",
+            C: "Codificadas en Base64.",
+            D: "Hash MD5."
+        },
+        answer: "C",
+        detail: "Codificadas en Base64."
+    },
+    {
+        question: "Digest usa:",
+        options: {
+            A: "Nonce.",
+            B: "Response.",
+            C: "Hash.",
+            D: "Todas las anteriores."
+        },
+        answer: "D",
+        detail: "Todas las anteriores."
+    },
+    {
+        question: "¿Qué tipo de tiques usa Kerberos para obtener tiques de servicio?",
+        options: {
+            A: "TGT.",
+            B: "TGS.",
+            C: "TFS.",
+            D: "AES."
+        },
+        answer: "A",
+        detail: "TGT."
+    },
+    {
+        question: "¿Qué tipo de tiques usa Kerberos para acceder al servicio?",
+        options: {
+            A: "TGT.",
+            B: "TGS.",
+            C: "TFS.",
+            D: "AES."
+        },
+        answer: "B",
+        detail: "TGS."
+    },
+    {
+        question: "¿Cuál es el parámetro en digest que, bien implementado, evita ataques de repetición?",
+        options: {
+            A: "MD5.",
+            B: "Cnonce.",
+            C: "Nonce.",
+            D: "Response."
+        },
+        answer: "C",
+        detail: "Nonce."
+    },
+    {
+        question: "OAUT2 usa:",
+        options: {
+            A: "Token de acceso servicio.",
+            B: "Código de autorización.",
+            C: "Ambas.",
+            D: "Ninguna."
+        },
+        answer: "C",
+        detail: "Ambas."
+    },
+    {
+        question: "¿Qué métodos de autenticación se suelen usar en Active Directory?",
+        options: {
+            A: "NTLM.",
+            B: "KERBEROS.",
+            C: "Ambas.",
+            D: "Ninguna."
+        },
+        answer: "C",
+        detail: "Ambas."
+    },
+    {
+        question: "Kerberos usa:",
+        options: {
+            A: "Base64.",
+            B: "Tiques.",
+            C: "Tokens.",
+            D: "Assertion."
+        },
+        answer: "B",
+        detail: "Tiques."
+    },
+    {
+        question: "¿Cuál es un ataque a la autenticación?",
+        options: {
+            A: "Repetición.",
+            B: "Fuerza bruta.",
+            C: "Man in the middle (MITM).",
+            D: "Todas las anteriores."
+        },
+        answer: "D",
+        detail: "Todas las anteriores."
+    },
+    {
+        question: "Recomendación para una robusta autenticación:",
+        options: {
+            A: "Política robusta de contraseñas.",
+            B: "Captcha.",
+            C: "Salt.",
+            D: "Todas las anteriores."
+        },
+        answer: "D",
+        detail: "Todas las anteriores."
     }
 ];
