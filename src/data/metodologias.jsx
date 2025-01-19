@@ -548,5 +548,225 @@ export const metodologias = [
         },
         answer: "C",
         detail: "En revisar la calidad del producto desde el punto de vista del cliente y reflexionar sobre el proceso desarrollado."
+    },
+    {
+        "question": "¿Qué dimensiones abarca el concepto de requisito?",
+        "options": {
+            "A": "El ámbito al que va dirigido, el tipo de característica que define, la audiencia a la que va dirigido.",
+            "B": "La dimensión social, la dimensión humana y la dimensión de negocio.",
+            "C": "Los procesos, las actividades y las tareas.",
+            "D": "Ninguna de las respuestas anteriores es correcta."
+        },
+        "answer": "A",
+        "detail": "El concepto de requisito abarca el ámbito, tipo de característica y audiencia."
+    },
+    {
+        "question": "¿Qué tipos de requisitos originan los proyectos?",
+        "options": {
+            "A": "Los requisitos funcionales, porque constituyen la especificación que guía el proceso de desarrollo.",
+            "B": "Los requisitos de sistema, porque pueden imponer restricciones sobre otros requisitos del software desarrollado.",
+            "C": "Los requisitos de negocio, porque expresan las intenciones de una organización con un nuevo desarrollo.",
+            "D": "Los requisitos no funcionales, porque son los más importantes."
+        },
+        "answer": "C",
+        "detail": "Los requisitos de negocio expresan las intenciones de una organización."
+    },
+    {
+        "question": "¿Qué se considera requisito falso?",
+        "options": {
+            "A": "Un requisito imposible de implementar.",
+            "B": "Un requisito que si se implementa el sistema no cumplirá con las especificaciones.",
+            "C": "Un requisito que, aunque no se implemente el sistema, seguirá cumpliendo con las especificaciones.",
+            "D": "Un requisito dado por el cliente que luego decide cambiar."
+        },
+        "answer": "C",
+        "detail": "Un requisito falso es aquel que cumple con las especificaciones aunque no se implemente."
+    },
+    {
+        "question": "Si dos actores aparecen conectados a un mismo caso de uso significa:",
+        "options": {
+            "A": "Que los dos actores representan lo mismo.",
+            "B": "Que los dos actores han de realizar una acción de manera simultánea para que se ejecute el caso de uso.",
+            "C": "Que cada actor realiza el caso de uso de manera independiente.",
+            "D": "Presenta ambigüedad y habría que consultar información adicional para determinar de qué manera los actores participan en el caso de uso."
+        },
+        "answer": "D",
+        "detail": "La conexión de dos actores a un caso de uso puede ser ambigua."
+    },
+    {
+        "question": "Las relaciones de generalización que aparecen en un diagrama de casos de uso:",
+        "options": {
+            "A": "Indican jerarquía entre los elementos relacionados.",
+            "B": "Indican funcionalidad adicional del caso de uso.",
+            "C": "Indican el orden en el que se deben realizar los casos de uso.",
+            "D": "Ninguna de las anteriores definiciones es correcta."
+        },
+        "answer": "A",
+        "detail": "Las generalizaciones indican jerarquía entre los elementos."
+    },
+    {
+        "question": "El modelo del sistema:",
+        "options": {
+            "A": "Incluye el modelo de análisis y el modelo de diseño del sistema.",
+            "B": "Modela el entorno del sistema tal y como queda una vez implementado el sistema.",
+            "C": "Identifica las clases, atributos y métodos del sistema a implementar en términos de la plataforma de desarrollo escogida.",
+            "D": "Identifica las clases, atributos y métodos del sistema a implementar en términos del dominio del negocio."
+        },
+        "answer": "C",
+        "detail": "El modelo del sistema identifica clases, atributos y métodos en términos de la plataforma de desarrollo."
+    },
+    {
+        "question": "El modelo del entorno:",
+        "options": {
+            "A": "Modela el negocio tal y como va a quedar una vez se haya implementado el sistema.",
+            "B": "Identifica las clases, atributos y operaciones del sistema a implementar en términos del dominio.",
+            "C": "Identifica las clases, atributos y métodos del sistema a implementar en términos de la plataforma de desarrollo escogida.",
+            "D": "Modela la parte de la realidad que rodea al sistema informático y con la que este interactúa para proporcionarle determinados servicios."
+        },
+        "answer": "D",
+        "detail": "El modelo del entorno describe la realidad que interactúa con el sistema."
+    },
+    {
+        "question": "¿Qué define la ley de Demeter?",
+        "options": {
+            "A": "La ley de Demeter define el conjunto de operaciones que se dan entre las clases en un sistema concreto.",
+            "B": "La ley de Demeter define las restricciones de comunicación entre objetos que se dan en el sistema.",
+            "C": "La ley de Demeter define que un objeto no se puede mandar mensajes a sí mismo si no tiene definida una asociación reflexiva.",
+            "D": "La ley de Demeter no define a qué instancias puede enviar mensajes un objeto de una clase."
+        },
+        "answer": "B",
+        "detail": "La ley de Demeter establece restricciones en la comunicación entre objetos."
+    },
+    {
+        "question": "El polimorfismo de mensajes significa:",
+        "options": {
+            "A": "Que distintos objetos pueden actuar de manera distinta ante el mismo mensaje.",
+            "B": "Que distintos objetos pueden invocar una operación con el mismo nombre, pero con diferente número de parámetros definidos en cada operación.",
+            "C": "Que un objeto puede enviar varios mensajes a la vez.",
+            "D": "Que distintos objetos de distintas clases comparten una misma interfaz."
+        },
+        "answer": "A",
+        "detail": "El polimorfismo permite a distintos objetos reaccionar de manera diferente al mismo mensaje."
+    },
+    {
+        "question": "¿Qué se considera componente desde el punto de vista de modelado de software?",
+        "options": {
+            "A": "Una unidad reutilizable persistente.",
+            "B": "Una unidad compuesta de objetos.",
+            "C": "Una unidad de «despliegue» independiente que se puede reutilizar y reemplazar.",
+            "D": "Una unidad que proporciona alta cohesión y un alto acoplamiento."
+        },
+        "answer": "C",
+        "detail": "Un componente es una unidad de despliegue independiente que puede ser reutilizada."
+    },
+    {
+        "question": "En la programación orientada a objetos:",
+        "options": {
+            "A": "Las clases heredan atributos y operaciones de los objetos.",
+            "B": "El software se organiza en forma de objetos, pero no siempre serán instancia de una clase.",
+            "C": "Los elementos principales son los algoritmos que definen los objetos.",
+            "D": "Las clases se organizan en jerarquías a través de la herencia."
+        },
+        "answer": "D",
+        "detail": "Las clases en programación orientada a objetos se organizan mediante herencia."
+    },
+    {
+        "question": "¿Qué afirmación satisface todo lenguaje orientado a objetos?",
+        "options": {
+            "A": "Las clases son de un tipo concreto.",
+            "B": "Los objetos son de un tipo concreto.",
+            "C": "Las clases no pueden heredar atributos de sus superclases.",
+            "D": "Las clases siempre tendrán atributos y operaciones."
+        },
+        "answer": "D",
+        "detail": "En un lenguaje orientado a objetos, las clases siempre tienen atributos y operaciones."
+    },
+    {
+        "question": "El análisis orientado a objetos (AOO):",
+        "options": {
+            "A": "Define las clases que servirán siempre de base para el diseño orientado a objetos (DOO).",
+            "B": "Define las clases que se traducirán siempre automáticamente en una clase de diseño.",
+            "C": "En realidad no es un análisis del sistema.",
+            "D": "Ninguna de las anteriores definiciones es correcta."
+        },
+        "answer": "A",
+        "detail": "El AOO establece clases que son fundamentales para el diseño orientado a objetos."
+    },
+    {
+        "question": "Un sistema debería enfocarse con una orientación a objetos siempre que:",
+        "options": {
+            "A": "Se quiera reutilizar.",
+            "B": "El mundo real en el que está basado esté formado por objetos.",
+            "C": "Haya una colaboración de objetos.",
+            "D": "Siempre hay que utilizar la orientación a objetos para desarrollar sistemas, es lo más eficiente."
+        },
+        "answer": "C",
+        "detail": "La orientación a objetos es adecuada cuando hay colaboración entre objetos."
+    },
+    {
+        "question": "¿Cuál de las siguientes afirmaciones no es correcta?",
+        "options": {
+            "A": "UML es un lenguaje visual.",
+            "B": "UML modela las vistas estática y dinámica de los sistemas.",
+            "C": "UML es un lenguaje solo válido para un tipo de dominios.",
+            "D": "UML es un lenguaje de propósito general."
+        },
+        "answer": "C",
+        "detail": "UML es un lenguaje de propósito general y no se limita a un solo tipo de dominio."
+    },
+    {
+        "question": "¿Cuál de las siguientes afirmaciones es correcta?",
+        "options": {
+            "A": "Un objeto puede que no tenga tipo.",
+            "B": "Un objeto es una instancia de una clase.",
+            "C": "Cuando dos objetos tienen los mismos valores en los atributos es porque son iguales.",
+            "D": "Los objetos se comunican con otros objetos a través del envío de mensajes solo si son instancias de la misma clase."
+        },
+        "answer": "B",
+        "detail": "Un objeto es efectivamente una instancia de una clase."
+    },
+    {
+        "question": "¿Cuál de las siguientes afirmaciones es correcta?",
+        "options": {
+            "A": "Una clase representa un conjunto de objetos tangibles.",
+            "B": "Una clase recoge las características y el comportamiento comunes de un conjunto de objetos.",
+            "C": "Una clase no puede heredar de varias clases, solo de una.",
+            "D": "Una clase no define la comunicación con otras clases, eso se define a nivel de objeto."
+        },
+        "answer": "B",
+        "detail": "Una clase define características y comportamientos comunes de objetos."
+    },
+    {
+        "question": "La identidad de un objeto viene definida por:",
+        "options": {
+            "A": "La información del objeto en el mundo real que le identifica de manera unívoca.",
+            "B": "El atributo identificador de la clase.",
+            "C": "La clase a la que pertenece.",
+            "D": "Cuando la clase a la que pertenece hereda de otra clase, entonces tiene varias identidades."
+        },
+        "answer": "A",
+        "detail": "La identidad se define por la información única del objeto en el mundo real."
+    },
+    {
+        "question": "El comportamiento de una clase viene definido por:",
+        "options": {
+            "A": "Las operaciones que se hayan definido en la clase.",
+            "B": "Los estados por los que puede pasar la clase.",
+            "C": "Las responsabilidades que tenga definidas.",
+            "D": "Todas las respuestas anteriores son correctas."
+        },
+        "answer": "D",
+        "detail": "El comportamiento de una clase se define por operaciones, estados y responsabilidades."
+    },
+    {
+        "question": "Las herramientas CASE:",
+        "options": {
+            "A": "Solo son válidas para introducir código.",
+            "B": "Facilitan la extracción de requisitos.",
+            "C": "No facilitan la ingeniería de requisitos.",
+            "D": "Transforman la especificación del sistema software en una especificación específica para la plataforma de desarrollo seleccionada."
+        },
+        "answer": "D",
+        "detail": "Las herramientas CASE transforman especificaciones en formatos para plataformas específicas."
     }
 ];

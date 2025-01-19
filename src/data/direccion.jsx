@@ -525,5 +525,115 @@ export const direccion = [
         },
         answer: "C",
         detail: "Es esencial analizar el impacto del cambio antes de proceder."
+    },
+    {
+        "question": "¿Cuál es el objetivo principal de la comunicación en la dirección de proyectos?",
+        "options": {
+            "A": "Distribuir información del emisor al receptor.",
+            "B": "Que el receptor entienda el mensaje.",
+            "C": "Que nadie pueda utilizar la falta de información como un problema real.",
+            "D": "Orientar al receptor a la acción."
+        },
+        "answer": "D",
+        "detail": "El objetivo es guiar al receptor hacia la acción adecuada."
+    },
+    {
+        "question": "¿Cuánto tiempo pasa el director de proyectos comunicando, tanto de forma formal como informal?",
+        "options": {
+            "A": "Su comunicación es formal y es aproximadamente el 90 % del tiempo.",
+            "B": "La comunicación informal debe ser menos del 20 % del tiempo.",
+            "C": "Entre el 75 % y el 90 %.",
+            "D": "Entre el 60 % y el 80 %."
+        },
+        "answer": "C",
+        "detail": "El director de proyectos pasa entre el 75 % y el 90 % del tiempo comunicando."
+    },
+    {
+        "question": "¿Cuál de estos factores no afecta habitualmente a la selección de la tecnología de comunicaciones?",
+        "options": {
+            "A": "La urgencia de la necesidad de información.",
+            "B": "La ubicación de los interesados.",
+            "C": "La confidencialidad de la información.",
+            "D": "El alcance del proyecto."
+        },
+        "answer": "D",
+        "detail": "El alcance del proyecto no suele ser un factor que afecte la selección de tecnología de comunicaciones."
+    },
+    {
+        "question": "¿Cuál no es uno de los objetivos prioritarios de las reuniones de trabajo dentro del proyecto?",
+        "options": {
+            "A": "Crear y potenciar la identidad de equipo de trabajo.",
+            "B": "Aumentar la autoridad del líder de proyectos.",
+            "C": "Generar soluciones creativas e innovadoras.",
+            "D": "Aumentar el compromiso con las decisiones grupales."
+        },
+        "answer": "B",
+        "detail": "Aumentar la autoridad del líder no es un objetivo prioritario de las reuniones."
+    },
+    {
+        "question": "De las siguientes sentencias, ¿cuál es falsa?",
+        "options": {
+            "A": "El informe debe tener un objetivo, la toma de decisiones y la implementación de las acciones correctivas o preventivas adecuadas.",
+            "B": "Los informes deben suministrar información adecuada a cada nivel de audiencia.",
+            "C": "Los informes deben ser fácilmente comprensibles y orientados a los intereses de los stakeholders.",
+            "D": "Los informes pueden contener información que no sea veraz siempre que su objetivo sea constructivo y orientado a la búsqueda de soluciones reales."
+        },
+        "answer": "D",
+        "detail": "Los informes deben ser veraces y no contener información falsa."
+    },
+    {
+        "question": "Todas los siguientes son formas de poder derivadas de la posición del director de proyectos, excepto:",
+        "options": {
+            "A": "Formal.",
+            "B": "Recompensa.",
+            "C": "Penalizar.",
+            "D": "Experto."
+        },
+        "answer": "D",
+        "detail": "El poder experto no es derivado de la posición del director de proyectos."
+    },
+    {
+        "question": "El punto más alto de la pirámide de necesidades de Maslow es:",
+        "options": {
+            "A": "Necesidades básicas.",
+            "B": "Necesidad de seguridad.",
+            "C": "Autoestima.",
+            "D": "Necesidades sociales."
+        },
+        "answer": "C",
+        "detail": "La autoestima es el punto más alto en la pirámide de Maslow."
+    },
+    {
+        "question": "¿Qué técnica de resolución de conflictos está usando un director de proyectos cuando dice: «No puedo tratar ese problema ahora»?",
+        "options": {
+            "A": "Resolución de conflictos.",
+            "B": "Forzando.",
+            "C": "Retirada.",
+            "D": "Compromiso."
+        },
+        "answer": "C",
+        "detail": "La técnica utilizada es la retirada del conflicto."
+    },
+    {
+        "question": "Un miembro del equipo no está realizando bien su trabajo porque no tiene experiencia en sistemas de desarrollo del trabajo, nadie más está disponible para hacer el trabajo, ¿cuál es la mejor solución posible?",
+        "options": {
+            "A": "Consultar con el director funcional para conseguir algunos incentivos para el miembro del equipo.",
+            "B": "Conseguir un nuevo recurso más experto.",
+            "C": "Pedir al miembro del equipo que haga formación.",
+            "D": "Despedir al miembro del equipo."
+        },
+        "answer": "C",
+        "detail": "La mejor solución es capacitar al miembro del equipo."
+    },
+    {
+        "question": "Cuando un miembro del equipo del proyecto no acepta ninguna solución negociada con el resto del equipo frente a un problema, ¿qué técnica puede utilizar el gestor del proyecto?",
+        "options": {
+            "A": "Suavizar.",
+            "B": "Compromiso.",
+            "C": "Forzar.",
+            "D": "Confrontación."
+        },
+        "answer": "C",
+        "detail": "La técnica utilizada es forzar la solución."
     }
 ];
