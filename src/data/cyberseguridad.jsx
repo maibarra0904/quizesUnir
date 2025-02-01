@@ -924,5 +924,225 @@ export const cyberseguridad = [
         },
         answer: "D",
         detail: "Todas las anteriores."
+    },
+    {
+        question: "¿Cuál es la longitud mínima recomendada de un ID de sesión?",
+        options: {
+            A: "28 bits.",
+            B: "128 bits.",
+            C: "1024 bits.",
+            D: "2048 bits."
+        },
+        answer: "B",
+        detail: "128 bits."
+    },
+    {
+        question: "¿Con qué parámetros de los siguientes es más segura una cookie?",
+        options: {
+            A: "Secure.",
+            B: "HTTPOnly.",
+            C: "Expires.",
+            D: "Todas las anteriores."
+        },
+        answer: "D",
+        detail: "Todas las anteriores."
+    },
+    {
+        question: "¿Qué tipo de ataque permite suplantar a un usuario?",
+        options: {
+            A: "De repetición capturando un ID de sesión activo.",
+            B: "Adivinación del ID de un ID de sesión activo.",
+            C: "Fijación de sesión.",
+            D: "Todas las anteriores."
+        },
+        answer: "D",
+        detail: "Todas las anteriores."
+    },
+    {
+        question: "Un token anti-CSRF permite:",
+        options: {
+            A: "Validar la procedencia de una petición.",
+            B: "Evitar XSS.",
+            C: "Evitar SQLi.",
+            D: "Ninguna de las anteriores."
+        },
+        answer: "A",
+        detail: "Validar la procedencia de una petición."
+    },
+    {
+        question: "¿Cuándo se debe crear el ID de sesión?",
+        options: {
+            A: "Antes de la autenticación.",
+            B: "Después de la autenticación correcta.",
+            C: "En cualquier momento.",
+            D: "No es necesario."
+        },
+        answer: "B",
+        detail: "Después de la autenticación correcta."
+    },
+    {
+        question: "¿Dónde puede ubicarse el ID de sesión?",
+        options: {
+            A: "Cabecera set-cookie.",
+            B: "Parámetro URL.",
+            C: "Parámetro POST.",
+            D: "Todas las anteriores."
+        },
+        answer: "D",
+        detail: "Todas las anteriores."
+    },
+    {
+        question: "¿Cómo se denomina la base de datos del mecanismo de autorización?",
+        options: {
+            A: "Lista de control de acceso.",
+            B: "Base de datos.",
+            C: "Roles.",
+            D: "Recursos."
+        },
+        answer: "A",
+        detail: "Lista de control de acceso."
+    },
+    {
+        question: "¿Cuál es un ataque a la autorización?",
+        options: {
+            A: "TOCTOU.",
+            B: "XSS.",
+            C: "LFI.",
+            D: "Todos los anteriores."
+        },
+        answer: "D",
+        detail: "Todos los anteriores."
+    },
+    {
+        question: "¿Cuál es un mecanismo de defensa para una buena autorización?",
+        options: {
+            A: "Política robusta de contraseñas.",
+            B: "Separación de roles y tareas.",
+            C: "Administración robusta de permisos.",
+            D: "Todas las anteriores."
+        },
+        answer: "D",
+        detail: "Todas las anteriores."
+    },
+    {
+        question: "¿A qué es debido TOCTOU?",
+        options: {
+            A: "A no diseñar operaciones atómicas.",
+            B: "A no bloquear el acceso a los recursos debidamente.",
+            C: "Ambas.",
+            D: "Ninguna."
+        },
+        answer: "C",
+        detail: "Ambas."
+    },
+    {
+        question: "¿Cómo validar vulnerabilidades del tipo inyección SQL?",
+        options: {
+            A: "Mejor mediante blacklist que whitelist.",
+            B: "Validando en el lado cliente.",
+            C: "Mediante sentencias preparadas de SQL.",
+            D: "Ninguna de las anteriores."
+        },
+        answer: "C",
+        detail: "Mediante sentencias preparadas de SQL."
+    },
+    {
+        question: "¿Cuál de los siguientes es un proyecto con librerías para validación y control de seguridad en el código de varios lenguajes?",
+        options: {
+            A: "OWASP ESAPI.",
+            B: "OWASP Java Encoder Project.",
+            C: "https://npmjs.com/package/validator.",
+            D: "Ninguna de las anteriores."
+        },
+        answer: "A",
+        detail: "OWASP ESAPI."
+    },
+    {
+        question: "¿Cómo se previene CSRF?",
+        options: {
+            A: "Validación de salida.",
+            B: "Validación de token anti-CSRF.",
+            C: "Consultas parametrizadas.",
+            D: "Ninguna de las anteriores."
+        },
+        answer: "B",
+        detail: "Validación de token anti-CSRF."
+    },
+    {
+        question: "La mejor forma de evitar path traversal o inclusión de ficheros es:",
+        options: {
+            A: "Protegiendo los sistemas de ficheros adecuadamente.",
+            B: "Ninguna.",
+            C: "Comprobando una lista blanca de ficheros permitidos.",
+            D: "Ambas."
+        },
+        answer: "D",
+        detail: "Ambas."
+    },
+    {
+        question: "¿Cuáles son formas de prevención de XSS en el código?",
+        options: {
+            A: "Validación de entrada.",
+            B: "Validación de salida.",
+            C: "Cabecera XSS-protection y Content Security Policy.",
+            D: "Todas las anteriores son ciertas."
+        },
+        answer: "D",
+        detail: "Todas las anteriores son ciertas."
+    },
+    {
+        question: "La vulnerabilidad que puede llevar a un usuario a otro sitio web se denomina:",
+        options: {
+            A: "LFI.",
+            B: "HTTP response splitting.",
+            C: "SQLi.",
+            D: "Open redirect."
+        },
+        answer: "D",
+        detail: "Open redirect."
+    },
+    {
+        question: "¿Qué función hay que usar en lugar de eval()?",
+        options: {
+            A: "innerhtml().",
+            B: "innertext().",
+            C: "JSON.parse().",
+            D: "Las herramientas IAST pueden detectar únicamente, bloquear o sanear la petición."
+        },
+        answer: "C",
+        detail: "JSON.parse()."
+    },
+    {
+        question: "¿Cómo se pueden evitar vulnerabilidades XXE?",
+        options: {
+            A: "Validando los datos de entrada en el código fuente.",
+            B: "Validando los datos de entrada a través del XSD.",
+            C: "Sin admitir definiciones DTD.",
+            D: "Todas las anteriores son ciertas."
+        },
+        answer: "D",
+        detail: "Todas las anteriores son ciertas."
+    },
+    {
+        question: "¿Qué parámetro y valor de una cabecera set-cookie permite que las cookies solo se envíen en el contexto del dominio propio de la aplicación y no se envíen junto con solicitudes iniciadas por sitios web de terceros?",
+        options: {
+            A: "SameSite=strict.",
+            B: "SameSite=None.",
+            C: "SameSite=Lax.",
+            D: "Ninguna de las anteriores."
+        },
+        answer: "A",
+        detail: "SameSite=strict."
+    },
+    {
+        question: "¿Cuál puede ser una fuente de entrada de datos a una aplicación?",
+        options: {
+            A: "Un formulario.",
+            B: "Una conexión TCP/IP.",
+            C: "Un campo de una tabla de una base de datos.",
+            D: "Todas las anteriores son ciertas."
+        },
+        answer: "D",
+        detail: "Todas las anteriores son ciertas."
     }
 ];
