@@ -746,5 +746,221 @@ export const desarrollo = [
         },
         answer: "C",
         detail: "La coreografía de microservicios ayuda a construir flujos de trabajo asíncronos."
+    },
+    {
+        question: "Indica cuáles de las siguientes son características del lenguaje Java:",
+        options: {
+            a: "Es un lenguaje orientado a objetos.",
+            b: "Soporta la programación multihilo.",
+            c: "Las aplicaciones desarrolladas con él pueden ser ejecutadas en diferentes plataformas (Windows, Linux, etc) gracias a la máquina virtual de Java.",
+            d: "Todas son correctas."
+        },
+        answer: "d",
+        detail: "Todas son correctas."
+    },
+    {
+        question: "¿Qué es Spring?",
+        options: {
+            a: "Un framework de código abierto para Java, orientado al desarrollo de aplicaciones empresariales.",
+            b: "Una única librería que podemos incluir como dependencia externa de una aplicación hecha en Java.",
+            c: "Un entorno de desarrollo integrado (IDE) para desarrollar aplicaciones empresariales con Java.",
+            d: "Ninguna opción es correcta."
+        },
+        answer: "a",
+        detail: "Un framework de código abierto para Java, orientado al desarrollo de aplicaciones empresariales."
+    },
+    {
+        question: "Indica cuáles de los siguientes módulos forman parte del core container de Spring:",
+        options: {
+            a: "Beans.",
+            b: "Core.",
+            c: "Context.",
+            d: "Todas."
+        },
+        answer: "d",
+        detail: "Todas."
+    },
+    {
+        question: "¿Qué es un bean en el contexto del framework Spring?",
+        options: {
+            a: "Un objeto Java gestionado por el contenedor de Spring.",
+            b: "Un tipo de dato aplicable a los atributos de una clase.",
+            c: "Un hilo de ejecución de una aplicación.",
+            d: "Ninguna opción es correcta."
+        },
+        answer: "a",
+        detail: "Un objeto Java gestionado por el contenedor de Spring."
+    },
+    {
+        question: "Spring boot…",
+        options: {
+            a: "i) Incluye un conjunto de librerías denominadas starters que facilitan la integración con algunas tecnologías de terceros.",
+            b: "ii) Facilita en gran medida la configuración de las dependencias de las aplicaciones.",
+            c: "iii) Incluye dentro del JAR construido un servidor Tomcat, Jetty o undertow embebido que se utiliza para que la aplicación sea completamente autosuficiente.",
+            d: "i) y iii)"
+        },
+        answer: "d",
+        detail: "i) y iii)."
+    },
+    {
+        question: "Spring Data…",
+        options: {
+            a: "Forma parte del core de Spring.",
+            b: "Permite simplificar el acceso a diferentes orígenes de datos, el programador deberá encargarse de la declaración de interfaces y asumir la responsabilidad de generar las implementaciones.",
+            c: "Soporta la integración con bases de datos relacionales y no relacionales.",
+            d: "Todas las opciones son correctas."
+        },
+        answer: "c",
+        detail: "Soporta la integración con bases de datos relacionales y no relacionales."
+    },
+    {
+        question: "¿Qué nos indica la anotación @Component?",
+        options: {
+            a: "Que la clase anotada debe ser gestionada por Spring, por tanto, será un bean asociado al nivel de servicio.",
+            b: "Que la clase anotada debe ser gestionada por Spring, por tanto, será un bean destinado a interceptar las peticiones HTTP entrantes.",
+            c: "Que la clase anotada debe ser gestionada por Spring, por tanto, será un bean de tipo repository, que tendrá acceso a orígenes de datos.",
+            d: "Que la clase anotada debe ser gestionada por Spring, por tanto, será un bean de tipo genérico."
+        },
+        answer: "d",
+        detail: "Que la clase anotada debe ser gestionada por Spring, por tanto, será un bean de tipo genérico."
+    },
+    {
+        question: "La inyección de dependencias en Spring puede darse a través:",
+        options: {
+            a: "De atributos de una clase.",
+            b: "Del constructor de la clase.",
+            c: "De interfaces.",
+            d: "Todas las opciones son correctas."
+        },
+        answer: "d",
+        detail: "Todas las opciones son correctas."
+    },
+    {
+        question: "¿Qué nos permite conseguir Eureka?",
+        options: {
+            a: "i) Service discovery.",
+            b: "ii) Abstracción de la localización física de los microservicios.",
+            c: "iii) Disaster recovery.",
+            d: "i) y ii)."
+        },
+        answer: "d",
+        detail: "i) y ii)."
+    },
+    {
+        question: "Un bean definido con el scope singleton:",
+        options: {
+            a: "i) Generará siempre una única instancia del objeto.",
+            b: "ii) Generará una instancia del objeto por cada petición que se haga al contenedor de Spring.",
+            c: "Ambas.",
+            d: "Ninguna."
+        },
+        answer: "a",
+        detail: "Generará siempre una única instancia del objeto."
+    },
+    {
+        question: "¿Qué es Apache Lucene?",
+        options: {
+            a: "Una librería.",
+            b: "Un sistema distribuido.",
+            c: "Un motor de búsqueda.",
+            d: "Un índice."
+        },
+        answer: "a",
+        detail: "Una librería."
+    },
+    {
+        question: "¿Cuál es el elemento más importante dentro de Lucene?",
+        options: {
+            a: "Su API REST.",
+            b: "Los índices.",
+            c: "Su fase de ingesta de datos.",
+            d: "Su fase de consulta de datos."
+        },
+        answer: "b",
+        detail: "Los índices."
+    },
+    {
+        question: "Técnicamente, ¿podría comportarse Lucene como una base de datos?",
+        options: {
+            a: "Sí, como una base de datos relacional, aunque no se recomienda utilizar esta tecnología como una base de datos sino como un motor de indexación y búsqueda de datos.",
+            b: "No, no es técnicamente posible.",
+            c: "Sí, como una base de datos relacional. De hecho, Apache recomienda hacerlo.",
+            d: "Sí, como una base de datos no relacional, aunque no se recomienda utilizar esta tecnología como una base de datos sino como un motor de indexación y búsqueda de datos."
+        },
+        answer: "d",
+        detail: "Sí, como una base de datos no relacional, aunque no se recomienda utilizar esta tecnología como una base de datos sino como un motor de indexación y búsqueda de datos."
+    },
+    {
+        question: "¿Qué es Elasticsearch?",
+        options: {
+            a: "Una librería.",
+            b: "Un producto consistente en un servidor con un motor de analítica y búsqueda de datos.",
+            c: "Un sistema distribuido.",
+            d: "Uno de los componentes del Elastic Stack."
+        },
+        answer: "b",
+        detail: "Un producto consistente en un servidor con un motor de analítica y búsqueda de datos."
+    },
+    {
+        question: "Elasticsearch es capaz de tratar datos geoespaciales.",
+        options: {
+            a: "Verdadero.",
+            b: "Falso."
+        },
+        answer: "a",
+        detail: "Verdadero."
+    },
+    {
+        question: "Elasticsearch dispone de varios tipos de dato para cadenas de texto:",
+        options: {
+            a: "Verdadero.",
+            b: "Falso."
+        },
+        answer: "a",
+        detail: "Verdadero."
+    },
+    {
+        question: "Nos encontramos decidiendo el tipo de dato que utilizaremos para almacenar la sinopsis de una película en un índice de películas. Nuestra intención es poder realizar después búsquedas full-text sobre este campo. ¿Qué tipo de dato deberíamos utilizar?",
+        options: {
+            a: "Text.",
+            b: "Keyword.",
+            c: "Search as you type.",
+            d: "No existe un tipo de dato para ese caso de uso."
+        },
+        answer: "a",
+        detail: "Text."
+    },
+    {
+        question: "Realizando un buscador de productos, nos han encargado que desarrollemos la funcionalidad necesaria para que, cuando el usuario escriba en la barra de búsqueda el comienzo del nombre de un producto, aparezca una lista de máximo 10 productos que empiezan por las letras introducidas. Queremos dejar del lado de Elasticsearch esta lógica. ¿Qué tipo de dato deberíamos utilizar?",
+        options: {
+            a: "Text.",
+            b: "Keyword.",
+            c: "Search as you type.",
+            d: "No existe un tipo de dato para ese caso de uso."
+        },
+        answer: "c",
+        detail: "Search as you type."
+    },
+    {
+        question: "¿Cuál es la diferencia entre term y match a la hora de realizar una consulta a un índice en Elasticsearch?",
+        options: {
+            a: "Se recomienda utilizar term cuando el tipo de dato objetivo es keyword.",
+            b: "Se recomienda utilizar term cuando el tipo de dato objetivo es text.",
+            c: "Se recomienda utilizar match cuando el tipo de dato objetivo es keyword.",
+            d: "Se recomienda utilizar term cuando el tipo de dato objetivo es search as you type."
+        },
+        answer: "a",
+        detail: "Se recomienda utilizar term cuando el tipo de dato objetivo es keyword."
+    },
+    {
+        question: "¿Qué librería utilizaremos para integrar una aplicación hecha con Spring con un clúster de Elasticsearch?",
+        options: {
+            a: "Spring Data Elasticsearch.",
+            b: "Spring Elasticsearch.",
+            c: "Springsearch.",
+            d: "Spring Elastic."
+        },
+        answer: "a",
+        detail: "Spring Data Elasticsearch."
     }
 ];
