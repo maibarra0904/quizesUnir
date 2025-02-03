@@ -527,113 +527,223 @@ export const direccion = [
         detail: "Es esencial analizar el impacto del cambio antes de proceder."
     },
     {
-        "question": "¿Cuál es el objetivo principal de la comunicación en la dirección de proyectos?",
-        "options": {
-            "A": "Distribuir información del emisor al receptor.",
-            "B": "Que el receptor entienda el mensaje.",
-            "C": "Que nadie pueda utilizar la falta de información como un problema real.",
-            "D": "Orientar al receptor a la acción."
+        question: "¿Cuál es el objetivo principal de la comunicación en la dirección de proyectos?",
+        options: {
+            A: "Distribuir información del emisor al receptor.",
+            B: "Que el receptor entienda el mensaje.",
+            C: "Que nadie pueda utilizar la falta de información como un problema real.",
+            D: "Orientar al receptor a la acción."
         },
-        "answer": "D",
-        "detail": "El objetivo es guiar al receptor hacia la acción adecuada."
+        answer: "D",
+        detail: "El objetivo es guiar al receptor hacia la acción adecuada."
     },
     {
-        "question": "¿Cuánto tiempo pasa el director de proyectos comunicando, tanto de forma formal como informal?",
-        "options": {
-            "A": "Su comunicación es formal y es aproximadamente el 90 % del tiempo.",
-            "B": "La comunicación informal debe ser menos del 20 % del tiempo.",
-            "C": "Entre el 75 % y el 90 %.",
-            "D": "Entre el 60 % y el 80 %."
+        question: "¿Cuánto tiempo pasa el director de proyectos comunicando, tanto de forma formal como informal?",
+        options: {
+            A: "Su comunicación es formal y es aproximadamente el 90 % del tiempo.",
+            B: "La comunicación informal debe ser menos del 20 % del tiempo.",
+            C: "Entre el 75 % y el 90 %.",
+            D: "Entre el 60 % y el 80 %."
         },
-        "answer": "C",
-        "detail": "El director de proyectos pasa entre el 75 % y el 90 % del tiempo comunicando."
+        answer: "C",
+        detail: "El director de proyectos pasa entre el 75 % y el 90 % del tiempo comunicando."
     },
     {
-        "question": "¿Cuál de estos factores no afecta habitualmente a la selección de la tecnología de comunicaciones?",
-        "options": {
-            "A": "La urgencia de la necesidad de información.",
-            "B": "La ubicación de los interesados.",
-            "C": "La confidencialidad de la información.",
-            "D": "El alcance del proyecto."
+        question: "¿Cuál de estos factores no afecta habitualmente a la selección de la tecnología de comunicaciones?",
+        options: {
+            A: "La urgencia de la necesidad de información.",
+            B: "La ubicación de los interesados.",
+            C: "La confidencialidad de la información.",
+            D: "El alcance del proyecto."
         },
-        "answer": "D",
-        "detail": "El alcance del proyecto no suele ser un factor que afecte la selección de tecnología de comunicaciones."
+        answer: "D",
+        detail: "El alcance del proyecto no suele ser un factor que afecte la selección de tecnología de comunicaciones."
     },
     {
-        "question": "¿Cuál no es uno de los objetivos prioritarios de las reuniones de trabajo dentro del proyecto?",
-        "options": {
-            "A": "Crear y potenciar la identidad de equipo de trabajo.",
-            "B": "Aumentar la autoridad del líder de proyectos.",
-            "C": "Generar soluciones creativas e innovadoras.",
-            "D": "Aumentar el compromiso con las decisiones grupales."
+        question: "¿Cuál no es uno de los objetivos prioritarios de las reuniones de trabajo dentro del proyecto?",
+        options: {
+            A: "Crear y potenciar la identidad de equipo de trabajo.",
+            B: "Aumentar la autoridad del líder de proyectos.",
+            C: "Generar soluciones creativas e innovadoras.",
+            D: "Aumentar el compromiso con las decisiones grupales."
         },
-        "answer": "B",
-        "detail": "Aumentar la autoridad del líder no es un objetivo prioritario de las reuniones."
+        answer: "B",
+        detail: "Aumentar la autoridad del líder no es un objetivo prioritario de las reuniones."
     },
     {
-        "question": "De las siguientes sentencias, ¿cuál es falsa?",
-        "options": {
-            "A": "El informe debe tener un objetivo, la toma de decisiones y la implementación de las acciones correctivas o preventivas adecuadas.",
-            "B": "Los informes deben suministrar información adecuada a cada nivel de audiencia.",
-            "C": "Los informes deben ser fácilmente comprensibles y orientados a los intereses de los stakeholders.",
-            "D": "Los informes pueden contener información que no sea veraz siempre que su objetivo sea constructivo y orientado a la búsqueda de soluciones reales."
+        question: "De las siguientes sentencias, ¿cuál es falsa?",
+        options: {
+            A: "El informe debe tener un objetivo, la toma de decisiones y la implementación de las acciones correctivas o preventivas adecuadas.",
+            B: "Los informes deben suministrar información adecuada a cada nivel de audiencia.",
+            C: "Los informes deben ser fácilmente comprensibles y orientados a los intereses de los stakeholders.",
+            D: "Los informes pueden contener información que no sea veraz siempre que su objetivo sea constructivo y orientado a la búsqueda de soluciones reales."
         },
-        "answer": "D",
-        "detail": "Los informes deben ser veraces y no contener información falsa."
+        answer: "D",
+        detail: "Los informes deben ser veraces y no contener información falsa."
     },
     {
-        "question": "Todas los siguientes son formas de poder derivadas de la posición del director de proyectos, excepto:",
-        "options": {
-            "A": "Formal.",
-            "B": "Recompensa.",
-            "C": "Penalizar.",
-            "D": "Experto."
+        question: "Todas los siguientes son formas de poder derivadas de la posición del director de proyectos, excepto:",
+        options: {
+            A: "Formal.",
+            B: "Recompensa.",
+            C: "Penalizar.",
+            D: "Experto."
         },
-        "answer": "D",
-        "detail": "El poder experto no es derivado de la posición del director de proyectos."
+        answer: "D",
+        detail: "El poder experto no es derivado de la posición del director de proyectos."
     },
     {
-        "question": "El punto más alto de la pirámide de necesidades de Maslow es:",
-        "options": {
-            "A": "Necesidades básicas.",
-            "B": "Necesidad de seguridad.",
-            "C": "Autoestima.",
-            "D": "Necesidades sociales."
+        question: "El punto más alto de la pirámide de necesidades de Maslow es:",
+        options: {
+            A: "Necesidades básicas.",
+            B: "Necesidad de seguridad.",
+            C: "Autoestima.",
+            D: "Necesidades sociales."
         },
-        "answer": "C",
-        "detail": "La autoestima es el punto más alto en la pirámide de Maslow."
+        answer: "C",
+        detail: "La autoestima es el punto más alto en la pirámide de Maslow."
     },
     {
-        "question": "¿Qué técnica de resolución de conflictos está usando un director de proyectos cuando dice: «No puedo tratar ese problema ahora»?",
-        "options": {
-            "A": "Resolución de conflictos.",
-            "B": "Forzando.",
-            "C": "Retirada.",
-            "D": "Compromiso."
+        question: "¿Qué técnica de resolución de conflictos está usando un director de proyectos cuando dice: «No puedo tratar ese problema ahora»?",
+        options: {
+            A: "Resolución de conflictos.",
+            B: "Forzando.",
+            C: "Retirada.",
+            D: "Compromiso."
         },
-        "answer": "C",
-        "detail": "La técnica utilizada es la retirada del conflicto."
+        answer: "C",
+        detail: "La técnica utilizada es la retirada del conflicto."
     },
     {
-        "question": "Un miembro del equipo no está realizando bien su trabajo porque no tiene experiencia en sistemas de desarrollo del trabajo, nadie más está disponible para hacer el trabajo, ¿cuál es la mejor solución posible?",
-        "options": {
-            "A": "Consultar con el director funcional para conseguir algunos incentivos para el miembro del equipo.",
-            "B": "Conseguir un nuevo recurso más experto.",
-            "C": "Pedir al miembro del equipo que haga formación.",
-            "D": "Despedir al miembro del equipo."
+        question: "Un miembro del equipo no está realizando bien su trabajo porque no tiene experiencia en sistemas de desarrollo del trabajo, nadie más está disponible para hacer el trabajo, ¿cuál es la mejor solución posible?",
+        options: {
+            A: "Consultar con el director funcional para conseguir algunos incentivos para el miembro del equipo.",
+            B: "Conseguir un nuevo recurso más experto.",
+            C: "Pedir al miembro del equipo que haga formación.",
+            D: "Despedir al miembro del equipo."
         },
-        "answer": "C",
-        "detail": "La mejor solución es capacitar al miembro del equipo."
+        answer: "C",
+        detail: "La mejor solución es capacitar al miembro del equipo."
     },
     {
-        "question": "Cuando un miembro del equipo del proyecto no acepta ninguna solución negociada con el resto del equipo frente a un problema, ¿qué técnica puede utilizar el gestor del proyecto?",
-        "options": {
-            "A": "Suavizar.",
-            "B": "Compromiso.",
-            "C": "Forzar.",
-            "D": "Confrontación."
+        question: "Cuando un miembro del equipo del proyecto no acepta ninguna solución negociada con el resto del equipo frente a un problema, ¿qué técnica puede utilizar el gestor del proyecto?",
+        options: {
+            A: "Suavizar.",
+            B: "Compromiso.",
+            C: "Forzar.",
+            D: "Confrontación."
         },
-        "answer": "C",
-        "detail": "La técnica utilizada es forzar la solución."
+        answer: "C",
+        detail: "La técnica utilizada es forzar la solución."
+    },
+    {
+        question: "Estás trabajando para un proyecto externo y el cliente te pide realizar trabajos extra que no están incluidos en el contrato inicial. ¿Qué deberías hacer?",
+        options: {
+            A: "Cumplir con el requerimiento del cliente como signo de cooperación para asegurar el trabajo en el futuro.",
+            B: "Rechazas el requerimiento e informas al patrocinador.",
+            C: "Recoges el requerimiento y comunicas al cliente que debe emitir un requerimiento formal del cambio.",
+            D: "Convocas una reunión con el equipo del proyecto y rescribes la definición del alcance."
+        },
+        answer: "C",
+        detail: "Es importante seguir el proceso formal de gestión de cambios."
+    },
+    {
+        question: "En una reunión con el cliente del proyecto te ofrecen un sustancioso incentivo monetario para modificar la configuración del producto de acuerdo con las necesidades del cliente. Este cambio puede provocar mayores costes y retrasos en la planificación. ¿Cuál sería la acción adecuada que deberías tomar?",
+        options: {
+            A: "Abstenerte de aceptar la oferta y recomendar al cliente que emita un requerimiento a la mesa de control de cambios.",
+            B: "Aceptar la oferta y emitir un requerimiento interno de cambio de configuración al grupo de diseño.",
+            C: "Obtener información adicional del requerimiento y de la necesidad del cliente antes de aceptar la oferta.",
+            D: "Retrasar la aceptación de la oferta hasta asegurar que te puedes proteger de responsabilidades legales."
+        },
+        answer: "A",
+        detail: "Es fundamental seguir los procedimientos adecuados para cambios en el proyecto."
+    },
+    {
+        question: "Estás trabajando en un país en el que se acostumbra a intercambiar regalos entre cliente y proveedor. El código de conducta de tu compañía establece claramente que no puedes aceptar regalos de ningún cliente. El no aceptar el regalo de este cliente puede conllevar a la cancelación del contrato. La acción por tomar en este caso sería:",
+        options: {
+            A: "Suministrar al cliente una copia del código de conducta de tu compañía y rechazar los regalos.",
+            B: "Intercambiar regalos con el cliente y mantener el intercambio confidencialmente.",
+            C: "Contactar con el departamento legal o de relaciones públicas del patrocinador del proyecto para que dé asistencia.",
+            D: "Pedir al patrocinador del proyecto o a los ejecutivos que intercambien los regalos."
+        },
+        answer: "C",
+        detail: "Es necesario consultar con el departamento legal para manejar la situación correctamente."
+    },
+    {
+        question: "Como líder de un equipo de proyecto, al gestor del proyecto se le puede pedir que asesore en las competencias de los miembros de su equipo. Ocasionalmente, se pueden identificar áreas de debilidad o de mejora. ¿Qué debería hacer?",
+        options: {
+            A: "Echar a los miembros del equipo que han demostrado debilidad en áreas de conocimiento críticas.",
+            B: "Comunicar esas debilidades y establecer un programa de mejora del rendimiento.",
+            C: "Contratar recursos adicionales para compensar áreas débiles.",
+            D: "Esperar a que fallen los miembros del equipo en una tarea para justificar su despido."
+        },
+        answer: "B",
+        detail: "Es crucial abordar las debilidades y fomentar el desarrollo del equipo."
+    },
+    {
+        question: "El gestor de proyectos debe ser un comunicador efectivo para asegurar que los interesados en el proyecto reciben y entienden la información y el estado del proyecto. Antes de publicar la información a los interesados el gestor del proyecto debería:",
+        options: {
+            A: "Investigar y entender el área de experiencia de los interesados en el proyecto antes de transmitir la información.",
+            B: "Identificar aquellos interesados que tienen la misma experiencia que el director del proyecto.",
+            C: "Filtrar la información para eliminar detalles.",
+            D: "Restringir la información a detalles técnicos específicos."
+        },
+        answer: "A",
+        detail: "Entender a los interesados es clave para una comunicación efectiva."
+    },
+    {
+        question: "Uno de tus empleados está listo para ser promocionado. Si se le concede la promoción, será reasignado a otro proyecto, causando trastornos al tuyo. Puedes retrasar la promoción hasta que finalice el proyecto. ¿Qué deberías hacer?",
+        options: {
+            A: "Apoyar la promoción pero trabajar con el empleado y su nuevo jefe para desarrollar un buen plan de transición.",
+            B: "Pedir al empleado que rechace la promoción hasta que tu proyecto finalice.",
+            C: "Arreglar un retraso de la promoción hasta que el proyecto finalice.",
+            D: "Decir al empleado que es su responsabilidad el encontrar un sustituto adecuado para no perjudicar el proyecto."
+        },
+        answer: "A",
+        detail: "Facilitar una transición adecuada es esencial para el bienestar del equipo."
+    },
+    {
+        question: "Durante la implementación del proyecto, el cliente interpreta una cláusula del contrato como que está autorizado a modificar el alcance del proyecto cuando lo estime oportuno sin modificar el resto de los compromisos. Tú revisas la cláusula y discrepas de la conclusión del cliente. Como gestor del proyecto, ¿qué deberías hacer?",
+        options: {
+            A: "No haces caso de la conclusión del cliente y continúas procesando facturas.",
+            B: "Documentas la disputa y acudes a las provisiones del contrato de cómo gestionar las interpretaciones discrepantes y las disputas.",
+            C: "Avisas al cliente de que en el caso de información ambigua en el contrato siempre se interpreta a favor del proveedor.",
+            D: "Inmediatamente corriges la cláusula para eliminar posibles malas interpretaciones del cliente."
+        },
+        answer: "B",
+        detail: "Es fundamental documentar y gestionar disputas conforme a lo estipulado en el contrato."
+    },
+    {
+        question: "Todas las siguientes describen el uso de planteamientos éticos, excepto:",
+        options: {
+            A: "Intentar entender las tendencias religiosas y culturales de un país al que has sido asignado.",
+            B: "Asegurarse de que los intereses personales no interfieren en el proceso de la toma de decisiones.",
+            C: "Aceptar regalos por favorecer un proveedor en lugar de otro.",
+            D: "Mantener confidencialmente la información secreta obtenida durante el ciclo de vida del proyecto."
+        },
+        answer: "C",
+        detail: "Aceptar regalos para favorecer a un proveedor es una práctica poco ética."
+    },
+    {
+        question: "Te solicitan escribir un papel para que tu patrocinador pueda presentarlo en una reunión técnica. Se te informa de que su nombre será el único que aparezca en el papel. ¿Qué deberías hacer?",
+        options: {
+            A: "Seguir las instrucciones.",
+            B: "Seguir las instrucciones pero pedir que tu nombre también aparezca.",
+            C: "Rechazar seguir las instrucciones.",
+            D: "Pasar del patrocinador y pedir consejo."
+        },
+        answer: "B",
+        detail: "Es justo que se reconozca tu trabajo en la publicación."
+    },
+    {
+        question: "Al revisar las estimaciones de un director funcional asignado a tu proyecto, descubres que una estimación de coste es claramente mayor que la emitida en proyectos anteriores. ¿Qué deberías hacer?",
+        options: {
+            A: "Rechazar la estimación y echar al director funcional del proyecto.",
+            B: "Solicitar más información sobre la estimación para asegurarte de que se ha preparado correctamente.",
+            C: "Aceptar la estimación y planear el uso de fondos adicionales como reserva.",
+            D: "Solicitar a cada director funcional información acerca de esta estimación."
+        },
+        answer: "B",
+        detail: "Es importante entender la razón detrás de las estimaciones antes de tomar decisiones."
     }
 ];

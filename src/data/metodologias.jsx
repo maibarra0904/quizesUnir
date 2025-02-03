@@ -550,223 +550,554 @@ export const metodologias = [
         detail: "En revisar la calidad del producto desde el punto de vista del cliente y reflexionar sobre el proceso desarrollado."
     },
     {
-        "question": "¿Qué dimensiones abarca el concepto de requisito?",
-        "options": {
-            "A": "El ámbito al que va dirigido, el tipo de característica que define, la audiencia a la que va dirigido.",
-            "B": "La dimensión social, la dimensión humana y la dimensión de negocio.",
-            "C": "Los procesos, las actividades y las tareas.",
-            "D": "Ninguna de las respuestas anteriores es correcta."
+        question: "¿Qué dimensiones abarca el concepto de requisito?",
+        options: {
+            A: "El ámbito al que va dirigido, el tipo de característica que define, la audiencia a la que va dirigido.",
+            B: "La dimensión social, la dimensión humana y la dimensión de negocio.",
+            C: "Los procesos, las actividades y las tareas.",
+            D: "Ninguna de las respuestas anteriores es correcta."
         },
-        "answer": "A",
-        "detail": "El concepto de requisito abarca el ámbito, tipo de característica y audiencia."
+        answer: "A",
+        detail: "El concepto de requisito abarca el ámbito, tipo de característica y audiencia."
     },
     {
-        "question": "¿Qué tipos de requisitos originan los proyectos?",
-        "options": {
-            "A": "Los requisitos funcionales, porque constituyen la especificación que guía el proceso de desarrollo.",
-            "B": "Los requisitos de sistema, porque pueden imponer restricciones sobre otros requisitos del software desarrollado.",
-            "C": "Los requisitos de negocio, porque expresan las intenciones de una organización con un nuevo desarrollo.",
-            "D": "Los requisitos no funcionales, porque son los más importantes."
+        question: "¿Qué tipos de requisitos originan los proyectos?",
+        options: {
+            A: "Los requisitos funcionales, porque constituyen la especificación que guía el proceso de desarrollo.",
+            B: "Los requisitos de sistema, porque pueden imponer restricciones sobre otros requisitos del software desarrollado.",
+            C: "Los requisitos de negocio, porque expresan las intenciones de una organización con un nuevo desarrollo.",
+            D: "Los requisitos no funcionales, porque son los más importantes."
         },
-        "answer": "C",
-        "detail": "Los requisitos de negocio expresan las intenciones de una organización."
+        answer: "C",
+        detail: "Los requisitos de negocio expresan las intenciones de una organización."
     },
     {
-        "question": "¿Qué se considera requisito falso?",
-        "options": {
-            "A": "Un requisito imposible de implementar.",
-            "B": "Un requisito que si se implementa el sistema no cumplirá con las especificaciones.",
-            "C": "Un requisito que, aunque no se implemente el sistema, seguirá cumpliendo con las especificaciones.",
-            "D": "Un requisito dado por el cliente que luego decide cambiar."
+        question: "¿Qué se considera requisito falso?",
+        options: {
+            A: "Un requisito imposible de implementar.",
+            B: "Un requisito que si se implementa el sistema no cumplirá con las especificaciones.",
+            C: "Un requisito que, aunque no se implemente el sistema, seguirá cumpliendo con las especificaciones.",
+            D: "Un requisito dado por el cliente que luego decide cambiar."
         },
-        "answer": "C",
-        "detail": "Un requisito falso es aquel que cumple con las especificaciones aunque no se implemente."
+        answer: "C",
+        detail: "Un requisito falso es aquel que cumple con las especificaciones aunque no se implemente."
     },
     {
-        "question": "Si dos actores aparecen conectados a un mismo caso de uso significa:",
-        "options": {
-            "A": "Que los dos actores representan lo mismo.",
-            "B": "Que los dos actores han de realizar una acción de manera simultánea para que se ejecute el caso de uso.",
-            "C": "Que cada actor realiza el caso de uso de manera independiente.",
-            "D": "Presenta ambigüedad y habría que consultar información adicional para determinar de qué manera los actores participan en el caso de uso."
+        question: "Si dos actores aparecen conectados a un mismo caso de uso significa:",
+        options: {
+            A: "Que los dos actores representan lo mismo.",
+            B: "Que los dos actores han de realizar una acción de manera simultánea para que se ejecute el caso de uso.",
+            C: "Que cada actor realiza el caso de uso de manera independiente.",
+            D: "Presenta ambigüedad y habría que consultar información adicional para determinar de qué manera los actores participan en el caso de uso."
         },
-        "answer": "D",
-        "detail": "La conexión de dos actores a un caso de uso puede ser ambigua."
+        answer: "D",
+        detail: "La conexión de dos actores a un caso de uso puede ser ambigua."
     },
     {
-        "question": "Las relaciones de generalización que aparecen en un diagrama de casos de uso:",
-        "options": {
-            "A": "Indican jerarquía entre los elementos relacionados.",
-            "B": "Indican funcionalidad adicional del caso de uso.",
-            "C": "Indican el orden en el que se deben realizar los casos de uso.",
-            "D": "Ninguna de las anteriores definiciones es correcta."
+        question: "Las relaciones de generalización que aparecen en un diagrama de casos de uso:",
+        options: {
+            A: "Indican jerarquía entre los elementos relacionados.",
+            B: "Indican funcionalidad adicional del caso de uso.",
+            C: "Indican el orden en el que se deben realizar los casos de uso.",
+            D: "Ninguna de las anteriores definiciones es correcta."
         },
-        "answer": "A",
-        "detail": "Las generalizaciones indican jerarquía entre los elementos."
+        answer: "A",
+        detail: "Las generalizaciones indican jerarquía entre los elementos."
     },
     {
-        "question": "El modelo del sistema:",
-        "options": {
-            "A": "Incluye el modelo de análisis y el modelo de diseño del sistema.",
-            "B": "Modela el entorno del sistema tal y como queda una vez implementado el sistema.",
-            "C": "Identifica las clases, atributos y métodos del sistema a implementar en términos de la plataforma de desarrollo escogida.",
-            "D": "Identifica las clases, atributos y métodos del sistema a implementar en términos del dominio del negocio."
+        question: "El modelo del sistema:",
+        options: {
+            A: "Incluye el modelo de análisis y el modelo de diseño del sistema.",
+            B: "Modela el entorno del sistema tal y como queda una vez implementado el sistema.",
+            C: "Identifica las clases, atributos y métodos del sistema a implementar en términos de la plataforma de desarrollo escogida.",
+            D: "Identifica las clases, atributos y métodos del sistema a implementar en términos del dominio del negocio."
         },
-        "answer": "C",
-        "detail": "El modelo del sistema identifica clases, atributos y métodos en términos de la plataforma de desarrollo."
+        answer: "C",
+        detail: "El modelo del sistema identifica clases, atributos y métodos en términos de la plataforma de desarrollo."
     },
     {
-        "question": "El modelo del entorno:",
-        "options": {
-            "A": "Modela el negocio tal y como va a quedar una vez se haya implementado el sistema.",
-            "B": "Identifica las clases, atributos y operaciones del sistema a implementar en términos del dominio.",
-            "C": "Identifica las clases, atributos y métodos del sistema a implementar en términos de la plataforma de desarrollo escogida.",
-            "D": "Modela la parte de la realidad que rodea al sistema informático y con la que este interactúa para proporcionarle determinados servicios."
+        question: "El modelo del entorno:",
+        options: {
+            A: "Modela el negocio tal y como va a quedar una vez se haya implementado el sistema.",
+            B: "Identifica las clases, atributos y operaciones del sistema a implementar en términos del dominio.",
+            C: "Identifica las clases, atributos y métodos del sistema a implementar en términos de la plataforma de desarrollo escogida.",
+            D: "Modela la parte de la realidad que rodea al sistema informático y con la que este interactúa para proporcionarle determinados servicios."
         },
-        "answer": "D",
-        "detail": "El modelo del entorno describe la realidad que interactúa con el sistema."
+        answer: "D",
+        detail: "El modelo del entorno describe la realidad que interactúa con el sistema."
     },
     {
-        "question": "¿Qué define la ley de Demeter?",
-        "options": {
-            "A": "La ley de Demeter define el conjunto de operaciones que se dan entre las clases en un sistema concreto.",
-            "B": "La ley de Demeter define las restricciones de comunicación entre objetos que se dan en el sistema.",
-            "C": "La ley de Demeter define que un objeto no se puede mandar mensajes a sí mismo si no tiene definida una asociación reflexiva.",
-            "D": "La ley de Demeter no define a qué instancias puede enviar mensajes un objeto de una clase."
+        question: "¿Qué define la ley de Demeter?",
+        options: {
+            A: "La ley de Demeter define el conjunto de operaciones que se dan entre las clases en un sistema concreto.",
+            B: "La ley de Demeter define las restricciones de comunicación entre objetos que se dan en el sistema.",
+            C: "La ley de Demeter define que un objeto no se puede mandar mensajes a sí mismo si no tiene definida una asociación reflexiva.",
+            D: "La ley de Demeter no define a qué instancias puede enviar mensajes un objeto de una clase."
         },
-        "answer": "B",
-        "detail": "La ley de Demeter establece restricciones en la comunicación entre objetos."
+        answer: "B",
+        detail: "La ley de Demeter establece restricciones en la comunicación entre objetos."
     },
     {
-        "question": "El polimorfismo de mensajes significa:",
-        "options": {
-            "A": "Que distintos objetos pueden actuar de manera distinta ante el mismo mensaje.",
-            "B": "Que distintos objetos pueden invocar una operación con el mismo nombre, pero con diferente número de parámetros definidos en cada operación.",
-            "C": "Que un objeto puede enviar varios mensajes a la vez.",
-            "D": "Que distintos objetos de distintas clases comparten una misma interfaz."
+        question: "El polimorfismo de mensajes significa:",
+        options: {
+            A: "Que distintos objetos pueden actuar de manera distinta ante el mismo mensaje.",
+            B: "Que distintos objetos pueden invocar una operación con el mismo nombre, pero con diferente número de parámetros definidos en cada operación.",
+            C: "Que un objeto puede enviar varios mensajes a la vez.",
+            D: "Que distintos objetos de distintas clases comparten una misma interfaz."
         },
-        "answer": "A",
-        "detail": "El polimorfismo permite a distintos objetos reaccionar de manera diferente al mismo mensaje."
+        answer: "A",
+        detail: "El polimorfismo permite a distintos objetos reaccionar de manera diferente al mismo mensaje."
     },
     {
-        "question": "¿Qué se considera componente desde el punto de vista de modelado de software?",
-        "options": {
-            "A": "Una unidad reutilizable persistente.",
-            "B": "Una unidad compuesta de objetos.",
-            "C": "Una unidad de «despliegue» independiente que se puede reutilizar y reemplazar.",
-            "D": "Una unidad que proporciona alta cohesión y un alto acoplamiento."
+        question: "¿Qué se considera componente desde el punto de vista de modelado de software?",
+        options: {
+            A: "Una unidad reutilizable persistente.",
+            B: "Una unidad compuesta de objetos.",
+            C: "Una unidad de «despliegue» independiente que se puede reutilizar y reemplazar.",
+            D: "Una unidad que proporciona alta cohesión y un alto acoplamiento."
         },
-        "answer": "C",
-        "detail": "Un componente es una unidad de despliegue independiente que puede ser reutilizada."
+        answer: "C",
+        detail: "Un componente es una unidad de despliegue independiente que puede ser reutilizada."
     },
     {
-        "question": "En la programación orientada a objetos:",
-        "options": {
-            "A": "Las clases heredan atributos y operaciones de los objetos.",
-            "B": "El software se organiza en forma de objetos, pero no siempre serán instancia de una clase.",
-            "C": "Los elementos principales son los algoritmos que definen los objetos.",
-            "D": "Las clases se organizan en jerarquías a través de la herencia."
+        question: "En la programación orientada a objetos:",
+        options: {
+            A: "Las clases heredan atributos y operaciones de los objetos.",
+            B: "El software se organiza en forma de objetos, pero no siempre serán instancia de una clase.",
+            C: "Los elementos principales son los algoritmos que definen los objetos.",
+            D: "Las clases se organizan en jerarquías a través de la herencia."
         },
-        "answer": "D",
-        "detail": "Las clases en programación orientada a objetos se organizan mediante herencia."
+        answer: "D",
+        detail: "Las clases en programación orientada a objetos se organizan mediante herencia."
     },
     {
-        "question": "¿Qué afirmación satisface todo lenguaje orientado a objetos?",
-        "options": {
-            "A": "Las clases son de un tipo concreto.",
-            "B": "Los objetos son de un tipo concreto.",
-            "C": "Las clases no pueden heredar atributos de sus superclases.",
-            "D": "Las clases siempre tendrán atributos y operaciones."
+        question: "¿Qué afirmación satisface todo lenguaje orientado a objetos?",
+        options: {
+            A: "Las clases son de un tipo concreto.",
+            B: "Los objetos son de un tipo concreto.",
+            C: "Las clases no pueden heredar atributos de sus superclases.",
+            D: "Las clases siempre tendrán atributos y operaciones."
         },
-        "answer": "D",
-        "detail": "En un lenguaje orientado a objetos, las clases siempre tienen atributos y operaciones."
+        answer: "D",
+        detail: "En un lenguaje orientado a objetos, las clases siempre tienen atributos y operaciones."
     },
     {
-        "question": "El análisis orientado a objetos (AOO):",
-        "options": {
-            "A": "Define las clases que servirán siempre de base para el diseño orientado a objetos (DOO).",
-            "B": "Define las clases que se traducirán siempre automáticamente en una clase de diseño.",
-            "C": "En realidad no es un análisis del sistema.",
-            "D": "Ninguna de las anteriores definiciones es correcta."
+        question: "El análisis orientado a objetos (AOO):",
+        options: {
+            A: "Define las clases que servirán siempre de base para el diseño orientado a objetos (DOO).",
+            B: "Define las clases que se traducirán siempre automáticamente en una clase de diseño.",
+            C: "En realidad no es un análisis del sistema.",
+            D: "Ninguna de las anteriores definiciones es correcta."
         },
-        "answer": "A",
-        "detail": "El AOO establece clases que son fundamentales para el diseño orientado a objetos."
+        answer: "A",
+        detail: "El AOO establece clases que son fundamentales para el diseño orientado a objetos."
     },
     {
-        "question": "Un sistema debería enfocarse con una orientación a objetos siempre que:",
-        "options": {
-            "A": "Se quiera reutilizar.",
-            "B": "El mundo real en el que está basado esté formado por objetos.",
-            "C": "Haya una colaboración de objetos.",
-            "D": "Siempre hay que utilizar la orientación a objetos para desarrollar sistemas, es lo más eficiente."
+        question: "Un sistema debería enfocarse con una orientación a objetos siempre que:",
+        options: {
+            A: "Se quiera reutilizar.",
+            B: "El mundo real en el que está basado esté formado por objetos.",
+            C: "Haya una colaboración de objetos.",
+            D: "Siempre hay que utilizar la orientación a objetos para desarrollar sistemas, es lo más eficiente."
         },
-        "answer": "C",
-        "detail": "La orientación a objetos es adecuada cuando hay colaboración entre objetos."
+        answer: "C",
+        detail: "La orientación a objetos es adecuada cuando hay colaboración entre objetos."
     },
     {
-        "question": "¿Cuál de las siguientes afirmaciones no es correcta?",
-        "options": {
-            "A": "UML es un lenguaje visual.",
-            "B": "UML modela las vistas estática y dinámica de los sistemas.",
-            "C": "UML es un lenguaje solo válido para un tipo de dominios.",
-            "D": "UML es un lenguaje de propósito general."
+        question: "¿Cuál de las siguientes afirmaciones no es correcta?",
+        options: {
+            A: "UML es un lenguaje visual.",
+            B: "UML modela las vistas estática y dinámica de los sistemas.",
+            C: "UML es un lenguaje solo válido para un tipo de dominios.",
+            D: "UML es un lenguaje de propósito general."
         },
-        "answer": "C",
-        "detail": "UML es un lenguaje de propósito general y no se limita a un solo tipo de dominio."
+        answer: "C",
+        detail: "UML es un lenguaje de propósito general y no se limita a un solo tipo de dominio."
     },
     {
-        "question": "¿Cuál de las siguientes afirmaciones es correcta?",
-        "options": {
-            "A": "Un objeto puede que no tenga tipo.",
-            "B": "Un objeto es una instancia de una clase.",
-            "C": "Cuando dos objetos tienen los mismos valores en los atributos es porque son iguales.",
-            "D": "Los objetos se comunican con otros objetos a través del envío de mensajes solo si son instancias de la misma clase."
+        question: "¿Cuál de las siguientes afirmaciones es correcta?",
+        options: {
+            A: "Un objeto puede que no tenga tipo.",
+            B: "Un objeto es una instancia de una clase.",
+            C: "Cuando dos objetos tienen los mismos valores en los atributos es porque son iguales.",
+            D: "Los objetos se comunican con otros objetos a través del envío de mensajes solo si son instancias de la misma clase."
         },
-        "answer": "B",
-        "detail": "Un objeto es efectivamente una instancia de una clase."
+        answer: "B",
+        detail: "Un objeto es efectivamente una instancia de una clase."
     },
     {
-        "question": "¿Cuál de las siguientes afirmaciones es correcta?",
-        "options": {
-            "A": "Una clase representa un conjunto de objetos tangibles.",
-            "B": "Una clase recoge las características y el comportamiento comunes de un conjunto de objetos.",
-            "C": "Una clase no puede heredar de varias clases, solo de una.",
-            "D": "Una clase no define la comunicación con otras clases, eso se define a nivel de objeto."
+        question: "¿Cuál de las siguientes afirmaciones es correcta?",
+        options: {
+            A: "Una clase representa un conjunto de objetos tangibles.",
+            B: "Una clase recoge las características y el comportamiento comunes de un conjunto de objetos.",
+            C: "Una clase no puede heredar de varias clases, solo de una.",
+            D: "Una clase no define la comunicación con otras clases, eso se define a nivel de objeto."
         },
-        "answer": "B",
-        "detail": "Una clase define características y comportamientos comunes de objetos."
+        answer: "B",
+        detail: "Una clase define características y comportamientos comunes de objetos."
     },
     {
-        "question": "La identidad de un objeto viene definida por:",
-        "options": {
-            "A": "La información del objeto en el mundo real que le identifica de manera unívoca.",
-            "B": "El atributo identificador de la clase.",
-            "C": "La clase a la que pertenece.",
-            "D": "Cuando la clase a la que pertenece hereda de otra clase, entonces tiene varias identidades."
+        question: "La identidad de un objeto viene definida por:",
+        options: {
+            A: "La información del objeto en el mundo real que le identifica de manera unívoca.",
+            B: "El atributo identificador de la clase.",
+            C: "La clase a la que pertenece.",
+            D: "Cuando la clase a la que pertenece hereda de otra clase, entonces tiene varias identidades."
         },
-        "answer": "A",
-        "detail": "La identidad se define por la información única del objeto en el mundo real."
+        answer: "A",
+        detail: "La identidad se define por la información única del objeto en el mundo real."
     },
     {
-        "question": "El comportamiento de una clase viene definido por:",
-        "options": {
-            "A": "Las operaciones que se hayan definido en la clase.",
-            "B": "Los estados por los que puede pasar la clase.",
-            "C": "Las responsabilidades que tenga definidas.",
-            "D": "Todas las respuestas anteriores son correctas."
+        question: "El comportamiento de una clase viene definido por:",
+        options: {
+            A: "Las operaciones que se hayan definido en la clase.",
+            B: "Los estados por los que puede pasar la clase.",
+            C: "Las responsabilidades que tenga definidas.",
+            D: "Todas las respuestas anteriores son correctas."
         },
-        "answer": "D",
-        "detail": "El comportamiento de una clase se define por operaciones, estados y responsabilidades."
+        answer: "D",
+        detail: "El comportamiento de una clase se define por operaciones, estados y responsabilidades."
     },
     {
-        "question": "Las herramientas CASE:",
-        "options": {
-            "A": "Solo son válidas para introducir código.",
-            "B": "Facilitan la extracción de requisitos.",
-            "C": "No facilitan la ingeniería de requisitos.",
-            "D": "Transforman la especificación del sistema software en una especificación específica para la plataforma de desarrollo seleccionada."
+        question: "Las herramientas CASE:",
+        options: {
+            A: "Solo son válidas para introducir código.",
+            B: "Facilitan la extracción de requisitos.",
+            C: "No facilitan la ingeniería de requisitos.",
+            D: "Transforman la especificación del sistema software en una especificación específica para la plataforma de desarrollo seleccionada."
         },
-        "answer": "D",
-        "detail": "Las herramientas CASE transforman especificaciones en formatos para plataformas específicas."
+        answer: "D",
+        detail: "Las herramientas CASE transforman especificaciones en formatos para plataformas específicas."
+    },
+    {
+        question: "En la programación orientada a objetos:",
+        options: {
+            A: "Las clases heredan atributos y operaciones de los objetos.",
+            B: "El software se organiza en forma de objetos, pero no siempre serán instancia de una clase.",
+            C: "Los elementos principales son los algoritmos que definen los objetos.",
+            D: "Las clases se organizan en jerarquías a través de la herencia."
+        },
+        answer: "D",
+        detail: "Las clases se organizan en jerarquías a través de la herencia."
+    },
+    {
+        question: "¿Qué afirmación satisface todo lenguaje orientado a objetos?",
+        options: {
+            A: "Las clases son de un tipo concreto.",
+            B: "Los objetos son de un tipo concreto.",
+            C: "Las clases no pueden heredar atributos de sus superclases.",
+            D: "Las clases siempre tendrán atributos y operaciones."
+        },
+        answer: "D",
+        detail: "Las clases siempre tendrán atributos y operaciones."
+    },
+    {
+        question: "El análisis orientado a objetos (AOO):",
+        options: {
+            A: "Define las clases que servirán siempre de base para el diseño orientado a objetos.",
+            B: "Define las clases que se traducirán siempre automáticamente en una clase de diseño.",
+            C: "En realidad no es un análisis del sistema.",
+            D: "Ninguna de las anteriores definiciones es correcta."
+        },
+        answer: "A",
+        detail: "Define las clases que servirán siempre de base para el diseño orientado a objetos."
+    },
+    {
+        question: "Un sistema debería enfocarse con una orientación a objetos siempre que:",
+        options: {
+            A: "Se quiera reutilizar.",
+            B: "El mundo real en el que está basado esté formado por objetos.",
+            C: "Haya una colaboración de objetos.",
+            D: "Siempre hay que utilizar la orientación a objetos para desarrollar sistemas, es lo más eficiente."
+        },
+        answer: "C",
+        detail: "Haya una colaboración de objetos."
+    },
+    {
+        question: "¿Cuál de las siguientes afirmaciones no es correcta?",
+        options: {
+            A: "UML es un lenguaje visual.",
+            B: "UML modela las vistas estática y dinámica de los sistemas.",
+            C: "UML es un lenguaje solo válido para un tipo de dominios.",
+            D: "UML es un lenguaje de propósito general."
+        },
+        answer: "C",
+        detail: "UML es un lenguaje solo válido para un tipo de dominios."
+    },
+    {
+        question: "¿Cuál de las siguientes afirmaciones es correcta?",
+        options: {
+            A: "Un objeto puede que no tenga tipo.",
+            B: "Un objeto es una instancia de una clase.",
+            C: "Cuando dos objetos tienen los mismos valores en los atributos es porque son iguales.",
+            D: "Los objetos se comunican con otros objetos a través del envío de mensajes solo si son instancias de la misma clase."
+        },
+        answer: "B",
+        detail: "Un objeto es una instancia de una clase."
+    },
+    {
+        question: "¿Cuál de las siguientes afirmaciones es correcta?",
+        options: {
+            A: "Una clase representa un conjunto de objetos tangibles.",
+            B: "Una clase recoge las características y el comportamiento comunes de un conjunto de objetos.",
+            C: "Una clase no puede heredar de varias clases, solo de una.",
+            D: "Una clase no define la comunicación con otras clases, eso se define a nivel de objeto."
+        },
+        answer: "B",
+        detail: "Una clase recoge las características y el comportamiento comunes de un conjunto de objetos."
+    },
+    {
+        question: "La identidad de un objeto viene definida por:",
+        options: {
+            A: "La información del objeto en el mundo real que le identifica de manera unívoca.",
+            B: "El atributo identificador de la clase.",
+            C: "La clase a la que pertenece.",
+            D: "Cuando la clase a la que pertenece hereda de otra clase, entonces tiene varias identidades."
+        },
+        answer: "A",
+        detail: "La información del objeto en el mundo real que le identifica de manera unívoca."
+    },
+    {
+        question: "El comportamiento de una clase viene definido por:",
+        options: {
+            A: "Las operaciones que se hayan definido en la clase.",
+            B: "Los estados por los que puede pasar la clase.",
+            C: "Las responsabilidades que tenga definidas.",
+            D: "Todas son correctas."
+        },
+        answer: "D",
+        detail: "Todas son correctas."
+    },
+    {
+        question: "Las herramientas CASE:",
+        options: {
+            A: "Solo son válidas para introducir código.",
+            B: "Facilitan la extracción de requisitos.",
+            C: "No facilitan la ingeniería de requisitos.",
+            D: "Transforman la especificación del sistema software en una especificación específica para la plataforma de desarrollo seleccionada."
+        },
+        answer: "D",
+        detail: "Transforman la especificación del sistema software en una especificación específica para la plataforma de desarrollo seleccionada."
+    },
+    {
+        question: "¿Qué diferencia hay entre un enfoque basado en modelos y un enfoque dirigido por modelos a la hora de desarrollar software?",
+        options: {
+            A: "No hay diferencia, son términos sinónimos.",
+            B: "El enfoque dirigido por modelos utiliza los modelos básicamente como documentación o para entender mejor un determinado problema, mientras que, en el enfoque basado en modelos, los modelos constituyen los artefactos del software.",
+            C: "El enfoque basado en modelos utiliza los modelos básicamente como documentación o para entender mejor un determinado problema, mientras que, en el enfoque dirigido por modelos, los modelos constituyen los artefactos del software.",
+            D: "El enfoque basado en modelos solo utiliza modelos en la extracción de requisitos, mientras que el enfoque dirigido por modelos utiliza los modelos en todas las fases del proceso de desarrollo de software."
+        },
+        answer: "C",
+        detail: "El enfoque basado en modelos utiliza los modelos básicamente como documentación o para entender mejor un determinado problema, mientras que, en el enfoque dirigido por modelos, los modelos constituyen los artefactos del software."
+    },
+    {
+        question: "¿Cuáles son los fundamentos de MDE?",
+        options: {
+            A: "MDE se fundamenta en tres conceptos y en dos relaciones.",
+            B: "MDE se fundamenta en que los modelos sirven como documentación del sistema.",
+            C: "MDE se fundamenta en los siguientes elementos: sistema, modelo, representación y conformidad.",
+            D: "MDE se fundamenta en los principios básicos de la OO."
+        },
+        answer: "C",
+        detail: "MDE se fundamenta en los siguientes elementos: sistema, modelo, representación y conformidad."
+    },
+    {
+        question: "¿Qué es un modelo?",
+        options: {
+            A: "Una representación gráfica del sistema.",
+            B: "Una ilustración simplificada del sistema.",
+            C: "Una estructura basada en un grafo (dirigido y etiquetado) que representa todo un sistema.",
+            D: "Una estructura basada en un grafo (dirigido y etiquetado) que representa un conjunto específico de incumbencias."
+        },
+        answer: "D",
+        detail: "Una estructura basada en un grafo (dirigido y etiquetado) que representa un conjunto específico de incumbencias."
+    },
+    {
+        question: "¿Qué es un metamodelo?",
+        options: {
+            A: "Un modelo que cubre todas las vistas del sistema.",
+            B: "Un modelo que proporciona un esquema de «tipos» para los elementos del modelo.",
+            C: "Un lenguaje de modelado.",
+            D: "Un lenguaje de dominio específico."
+        },
+        answer: "B",
+        detail: "Un modelo que proporciona un esquema de «tipos» para los elementos del modelo."
+    },
+    {
+        question: "¿Cuáles son las tres dimensiones de modelado definidas en MDA?",
+        options: {
+            A: "PSG, PIM y PSM.",
+            B: "CIM, PSG y PSM.",
+            C: "CIM, PIM y PSM.",
+            D: "CIM, PMM y PSM."
+        },
+        answer: "C",
+        detail: "CIM, PIM y PSM."
+    },
+    {
+        question: "De acuerdo al enfoque de ingeniería dirigida por modelos:",
+        options: {
+            A: "Un modelo es conforme a un metamodelo.",
+            B: "Un modelo es instancia de un metamodelo.",
+            C: "Un modelo es conforme a varios metamodelos.",
+            D: "Un modelo y el sistema son equivalentes."
+        },
+        answer: "A",
+        detail: "Un modelo es conforme a un metamodelo."
+    },
+    {
+        question: "La separación en vistas del sistema:",
+        options: {
+            A: "Aumenta la complejidad del sistema y favorece la comprensión del sistema.",
+            B: "Reduce la complejidad del sistema, pero no favorece la reutilización.",
+            C: "No permite cambios en el software, ni facilita la evolución del software.",
+            D: "Favorece la reutilización y la trazabilidad entre los distintos artefactos del sistema."
+        },
+        answer: "D",
+        detail: "Favorece la reutilización y la trazabilidad entre los distintos artefactos del sistema."
+    },
+    {
+        question: "¿Qué es OCL?",
+        options: {
+            A: "Un lenguaje informal que permite añadir información adicional a los modelos UML.",
+            B: "Un lenguaje gráfico que permite añadir restricciones a los modelos UML.",
+            C: "Un lenguaje textual que permite añadir restricciones a los modelos UML.",
+            D: "Un lenguaje formal y textual que solo permite especificar restricciones sobre el sistema modelado."
+        },
+        answer: "C",
+        detail: "Un lenguaje textual que permite añadir restricciones a los modelos UML."
+    },
+    {
+        question: "¿Qué se entiende por M2M?",
+        options: {
+            A: "Un programa que toma uno o más modelos como entrada y produce uno o más modelos como salida.",
+            B: "Transformar modelos a un mismo nivel de abstracción.",
+            C: "Una técnica que se da en el enfoque MDA, pero no en el enfoque MDE.",
+            D: "Una técnica que consiste en código fuente a partir de un modelo de entrada."
+        },
+        answer: "A",
+        detail: "Un programa que toma uno o más modelos como entrada y produce uno o más modelos como salida."
+    },
+    {
+        question: "¿Qué se entiende por M2T?",
+        options: {
+            A: "Generar la documentación del sistema a partir de los modelos generados para implementar el sistema.",
+            B: "Establecer un enlace de comunicación entre herramientas de análisis, pero no con plataformas de ejecución.",
+            C: "Generar un código fuente a partir de los modelos generados para implementar el sistema.",
+            D: "Definir casos de prueba a partir de los modelos generados para implementar el sistema."
+        },
+        answer: "C",
+        detail: "Generar un código fuente a partir de los modelos generados para implementar el sistema."
+    },
+    {
+        question: "¿Qué entendemos por reutilización del software?",
+        options: {
+            A: "La reutilización de código generado en proyectos anteriores en nuevos desarrollos.",
+            B: "La utilización de patrones de diseño y de arquitectura que proporcionan conocimiento acumulado en proyectos anteriores.",
+            C: "El empleo de librerías existentes o frameworks de desarrollo en la construcción de nuevos sistemas informáticos.",
+            D: "Todas son correctas."
+        },
+        answer: "D",
+        detail: "Todas son correctas."
+    },
+    {
+        question: "¿Qué ventajas ofrece un buen diseño arquitectónico?",
+        options: {
+            A: "Permite reutilizar conocimiento acumulado por expertos en proyectos anteriores.",
+            B: "Permite analizar mejor el sistema e identificar oportunidades de reutilización de componentes existentes.",
+            C: "Constituye una potente herramienta de documentación del sistema que ayuda a su comprensión.",
+            D: "Todas son correctas."
+        },
+        answer: "D",
+        detail: "Todas son correctas."
+    },
+    {
+        question: "¿Qué posibles problemas puede plantear el empleo de librerías de enlace dinámico?",
+        options: {
+            A: "Problemas de compatibilidad cuando tenemos varios programas que dependen de una misma librería, pero necesitan distintas versiones.",
+            B: "Problemas que dificultan la comprensión del código.",
+            C: "Ambas son correctas.",
+            D: "Ninguna es correcta."
+        },
+        answer: "A",
+        detail: "Problemas de compatibilidad cuando tenemos varios programas que dependen de una misma librería, pero necesitan distintas versiones."
+    },
+    {
+        question: "¿Qué dos tipos de interfaz ofrece un componente software?",
+        options: {
+            A: "Una interfaz pública y una interfaz privada.",
+            B: "Ofrecen siempre una interfaz «proporciona» y una interfaz «requiere».",
+            C: "Una interfaz pública y otra interfaz que ofrece servicios.",
+            D: "Una interfaz «proporciona» y, a veces, una interfaz «requiere»."
+        },
+        answer: "B",
+        detail: "Ofrecen siempre una interfaz «proporciona» y una interfaz «requiere»."
+    },
+    {
+        question: "¿Qué entendemos como un «cliente pesado»?",
+        options: {
+            A: "Aquel que se conecta con un servidor empleando protocolos antiguos no estandarizados.",
+            B: "Aquel que solo contiene la capa de presentación de datos al usuario y ofrece interactividad con el sistema.",
+            C: "Un cliente que solo puede ejecutarse en PC de escritorio, pero no en dispositivos más ligeros como tabletas y móviles.",
+            D: "Un cliente que, además de contener la capa de presentación, contiene lógica de negocio y almacena y manipula datos."
+        },
+        answer: "D",
+        detail: "Un cliente que, además de contener la capa de presentación, contiene lógica de negocio y almacena y manipula datos."
+    },
+    {
+        question: "¿Cuándo es apropiado emplear arquitecturas de repositorio?",
+        options: {
+            A: "Cuando es necesario procesar grandes cantidades de información en lote, realizando varios tipos de procesamiento.",
+            B: "Cuando es necesario almacenar grandes cantidades de información durante mucho tiempo, que es consumida, o generada, por un conjunto de clientes.",
+            C: "Cuando es necesario establecer diferentes niveles de acceso a un sistema de información.",
+            D: "Todas son correctas."
+        },
+        answer: "B",
+        detail: "Cuando es necesario almacenar grandes cantidades de información durante mucho tiempo, que es consumida, o generada, por un conjunto de clientes."
+    },
+    {
+        question: "¿Qué ventajas ofrecen los sistemas distribuidos frente a los centralizados?",
+        options: {
+            A: "Es más fácil compartir recursos entre diferentes subsistemas.",
+            B: "Ambas son correctas.",
+            C: "Permiten la concurrencia, al poder ejecutar procesos simultáneamente en varias máquinas.",
+            D: "Ninguna es correcta."
+        },
+        answer: "B",
+        detail: "Ambas son correctas."
+    },
+    {
+        question: "¿En qué tres categorías suelen agruparse los patrones de diseño?",
+        options: {
+            A: "Creacionales, estructurales y conductuales.",
+            B: "Creativos, estructurales y de comportamiento.",
+            C: "Adaptativos, compuestos y mediadores.",
+            D: "Todas las respuestas anteriores son correctas."
+        },
+        answer: "A",
+        detail: "Creacionales, estructurales y conductuales."
+    },
+    {
+        question: "¿Qué patrón se debería utilizar cuando se necesite resolver interfaces incompatibles o proporcionar una interfaz estable para componentes parecidos con diferentes interfaces?",
+        options: {
+            A: "Adapter.",
+            B: "Strategy.",
+            C: "Singleton.",
+            D: "Observer."
+        },
+        answer: "A",
+        detail: "Adapter."
+    },
+    {
+        question: "¿Qué patrón se debería utilizar cuando un objeto necesite enterarse de cambios en otro objeto?",
+        options: {
+            A: "Adapter.",
+            B: "Observer.",
+            C: "Strategy.",
+            D: "Composite."
+        },
+        answer: "B",
+        detail: "Observer."
     }
+
 ];

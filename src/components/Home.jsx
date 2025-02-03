@@ -53,6 +53,13 @@ const Home = () => {
         }
     };
 
+    const handleClick = (e) => {
+        e.preventDefault();
+        if (selectedSubject) {
+            navigate('/studio', { state: { subject: selectedSubject, questionCount } });
+        }
+    };
+
     const generateQuestionOptions = (maxQuantity) => {
         const options = [];
         for (let i = 10; i <= maxQuantity; i += 10) {
@@ -100,6 +107,7 @@ const Home = () => {
 
                 <div style={{ textAlign: 'center', margin: '20px 0' }}>
                     <button type="submit" disabled={!selectedSubject}>Iniciar Quiz</button>
+                    <button type="button" onClick={handleClick} disabled={!selectedSubject}>Modo Estudio</button>
                 </div>
             </form>
         </div>

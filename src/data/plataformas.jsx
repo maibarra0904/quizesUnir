@@ -550,223 +550,333 @@ export const plataformas = [
         detail: "Que nuestras clases no hacen un new de un objeto, sino que es suministrado por otro contenedor."
     },
     {
-        "question": "Selecciona qué tipo de aplicaciones podemos desarrollar en .NET:",
-        "options": {
-            "A": "Aplicaciones de escritorio.",
-            "B": "Aplicaciones móviles.",
-            "C": "Aplicaciones web y microservicios.",
-            "D": "Todas las anteriores."
+        question: "Selecciona qué tipo de aplicaciones podemos desarrollar en .NET:",
+        options: {
+            A: "Aplicaciones de escritorio.",
+            B: "Aplicaciones móviles.",
+            C: "Aplicaciones web y microservicios.",
+            D: "Todas las anteriores."
         },
-        "answer": "D",
-        "detail": "En .NET se pueden desarrollar aplicaciones de escritorio, móviles, web y microservicios."
+        answer: "D",
+        detail: "En .NET se pueden desarrollar aplicaciones de escritorio, móviles, web y microservicios."
     },
     {
-        "question": "Cual es la relación correcta entre las plataformas y su tipo:",
-        "options": {
-            "A": "LinQPad:Playground, JetBrainsRider:IDE, ILSPy: Descompilador, Nuget: Administrador de paquetes.",
-            "B": "LinQPad:IDE, JetBrainsRider:Playground, ILSPy: Descompilador, Nuget: Administrador de paquetes.",
-            "C": "LinQPad:Playground, JetBrainsRider:IDE, ILSPy: Administrador de Paquetes, Nuget: Descompilador.",
-            "D": "LinQPad:Descompilador, JetBrainsRider:IDE, ILSPy: Playground, Nuget: Administrador de paquetes."
+        question: "Cual es la relación correcta entre las plataformas y su tipo:",
+        options: {
+            A: "LinQPad:Playground, JetBrainsRider:IDE, ILSPy: Descompilador, Nuget: Administrador de paquetes.",
+            B: "LinQPad:IDE, JetBrainsRider:Playground, ILSPy: Descompilador, Nuget: Administrador de paquetes.",
+            C: "LinQPad:Playground, JetBrainsRider:IDE, ILSPy: Administrador de Paquetes, Nuget: Descompilador.",
+            D: "LinQPad:Descompilador, JetBrainsRider:IDE, ILSPy: Playground, Nuget: Administrador de paquetes."
         },
-        "answer": "A",
-        "detail": "La relación correcta es LinQPad como Playground, JetBrainsRider como IDE, ILSPy como descompilador y NuGet como administrador de paquetes."
+        answer: "A",
+        detail: "La relación correcta es LinQPad como Playground, JetBrainsRider como IDE, ILSPy como descompilador y NuGet como administrador de paquetes."
     },
     {
-        "question": "Di cómo se llama la plataforma de código abierto que permite escribir pruebas de rendimiento en .NET y que ha sido usada en más de 6800 proyectos:",
-        "options": {
-            "A": "dotTrace.",
-            "B": "BenchmarkDotNet. Foundation.",
-            "C": "PerfView.",
-            "D": "dotPeek."
+        question: "Di cómo se llama la plataforma de código abierto que permite escribir pruebas de rendimiento en .NET y que ha sido usada en más de 6800 proyectos:",
+        options: {
+            A: "dotTrace.",
+            B: "BenchmarkDotNet.",
+            C: "PerfView.",
+            D: "dotPeek."
         },
-        "answer": "B",
-        "detail": "BenchmarkDotNet es la plataforma de código abierto utilizada para pruebas de rendimiento en .NET."
+        answer: "B",
+        detail: "BenchmarkDotNet es la plataforma de código abierto utilizada para pruebas de rendimiento en .NET."
     },
     {
-        "question": "Cual es el IDE oficial de .NET",
-        "options": {
-            "A": "Visual Studio.",
-            "B": "Visual Studio Code.",
-            "C": ".NET CLI.",
-            "D": "JetBrains Rider."
+        question: "Cual es el IDE oficial de .NET",
+        options: {
+            A: "Visual Studio.",
+            B: "Visual Studio Code.",
+            C: ".NET CLI.",
+            D: "JetBrains Rider."
         },
-        "answer": "A",
-        "detail": "Visual Studio es el IDE oficial de .NET."
+        answer: "A",
+        detail: "Visual Studio es el IDE oficial de .NET."
     },
     {
-        "question": "NuGet es el administrador de paquetes de referencia para .NET, marca la característica que no está incluida en el mismo:",
-        "options": {
-            "A": "Proporciona el repositorio central nuget.org con soporte para hospedaje privado.",
-            "B": "Proporciona las herramientas que los desarrolladores necesitan para crear, publicar y consumir paquetes.",
-            "C": "Realiza la compilación y despliegue automático de la solución.",
-            "D": "Mantiene una lista de referencia de los paquetes usados en un proyecto."
+        question: "NuGet es el administrador de paquetes de referencia para .NET, marca la característica que no está incluida en el mismo:",
+        options: {
+            A: "Proporciona el repositorio central nuget.org con soporte para hospedaje privado.",
+            B: "Proporciona las herramientas que los desarrolladores necesitan para crear, publicar y consumir paquetes.",
+            C: "Realiza la compilación y despliegue automático de la solución.",
+            D: "Mantiene una lista de referencia de los paquetes usados en un proyecto."
         },
-        "answer": "C",
-        "detail": "NuGet no realiza la compilación y despliegue automático de la solución."
+        answer: "C",
+        detail: "NuGet no realiza la compilación y despliegue automático de la solución."
     },
     {
-        "question": "ReSharper es una extensión de Visual Studio creada por JetBrains para ayudar a los desarrolladores en la codificación de .NET, que proporciona múltiples funcionalidades, excepto (marca la que no es):",
-        "options": {
-            "A": "Análisis de código.",
-            "B": "Generación de test.",
-            "C": "Generación de código.",
-            "D": "Refactorizaciones."
+        question: "ReSharper es una extensión de Visual Studio creada por JetBrains para ayudar a los desarrolladores en la codificación de .NET, que proporciona múltiples funcionalidades, excepto (marca la que no es):",
+        options: {
+            A: "Análisis de código.",
+            B: "Generación de test.",
+            C: "Generación de código.",
+            D: "Refactorizaciones."
         },
-        "answer": "B",
-        "detail": "ReSharper no proporciona funcionalidades para la generación de test."
+        answer: "B",
+        detail: "ReSharper no proporciona funcionalidades para la generación de test."
     },
     {
-        "question": "Marca aquellas funcionalidades incluidas en el gestor de paquetes ProGet:",
-        "options": {
-            "A": "Bloqueo de licencias de código abierto.",
-            "B": "Almacenamiento de Amazon S3 o Azure Blob.",
-            "C": "Registro de despliegue en Otter u Octupus Deploy.",
-            "D": "Todas las anteriores."
+        question: "Marca aquellas funcionalidades incluidas en el gestor de paquetes ProGet:",
+        options: {
+            A: "Bloqueo de licencias de código abierto.",
+            B: "Almacenamiento de Amazon S3 o Azure Blob.",
+            C: "Registro de despliegue en Otter u Octupus Deploy.",
+            D: "Todas las anteriores."
         },
-        "answer": "D",
-        "detail": "ProGet incluye bloqueo de licencias, almacenamiento y registro de despliegue."
+        answer: "D",
+        detail: "ProGet incluye bloqueo de licencias, almacenamiento y registro de despliegue."
     },
     {
-        "question": ".NET es independiente del lenguaje, lo que significa:",
-        "options": {
-            "A": "Que podemos construir una aplicación con diversos lenguajes como C#, F# o Visual Basic indistintamente, combinando módulos escritos en distintos lenguajes.",
-            "B": "Que podemos construir una aplicación con diversos lenguajes como C#, F# o Visual Basic, pero no combinarlos dentro del mismo sistema.",
-            "C": "Que puedes escribir en cualquier lenguaje de programación.",
-            "D": "Que puedes ejecutar en cualquier sistema operativo."
+        question: ".NET es independiente del lenguaje, lo que significa:",
+        options: {
+            A: "Que podemos construir una aplicación con diversos lenguajes como C#, F# o Visual Basic indistintamente, combinando módulos escritos en distintos lenguajes.",
+            B: "Que podemos construir una aplicación con diversos lenguajes como C#, F# o Visual Basic, pero no combinarlos dentro del mismo sistema.",
+            C: "Que puedes escribir en cualquier lenguaje de programación.",
+            D: "Que puedes ejecutar en cualquier sistema operativo."
         },
-        "answer": "A",
-        "detail": "La independencia del lenguaje permite combinar módulos escritos en distintos lenguajes."
+        answer: "A",
+        detail: "La independencia del lenguaje permite combinar módulos escritos en distintos lenguajes."
     },
     {
-        "question": "Selecciona la versión de Visual Studio adecuada para equipos de desarrollo empresariales pequeños:",
-        "options": {
-            "A": "Community.",
-            "B": "Professional.",
-            "C": "Enterprise.",
-            "D": "Team Explorer."
+        question: "Selecciona la versión de Visual Studio adecuada para equipos de desarrollo empresariales pequeños:",
+        options: {
+            A: "Community.",
+            B: "Professional.",
+            C: "Enterprise.",
+            D: "Team Explorer."
         },
-        "answer": "B",
-        "detail": "La versión Professional es adecuada para equipos de desarrollo empresariales pequeños."
+        answer: "B",
+        detail: "La versión Professional es adecuada para equipos de desarrollo empresariales pequeños."
     },
     {
-        "question": "Selecciona la implementación que se utiliza para compilar aplicaciones de IoT:",
-        "options": {
-            "A": ".NET Framework.",
-            "B": ".NET 5+ (incluido .NET Core).",
-            "C": "Mono.",
-            "D": "Universal Windows Platform."
+        question: "Selecciona la implementación que se utiliza para compilar aplicaciones de IoT:",
+        options: {
+            A: ".NET Framework.",
+            B: ".NET 5+ (incluido .NET Core).",
+            C: "Mono.",
+            D: "Universal Windows Platform."
         },
-        "answer": "D",
-        "detail": "La implementación utilizada para compilar aplicaciones de IoT es Universal Windows Platform."
+        answer: "D",
+        detail: "La implementación utilizada para compilar aplicaciones de IoT es Universal Windows Platform."
     },
     {
-        "question": "¿Cuál es la diferencia entre Web Application Description Language (WADL) y Web Services Definition Language (WSDL)?",
-        "options": {
-            "A": "Ninguna, ya que ambos se orientan a la descripción de servicios web.",
-            "B": "WADL es para arquitecturas cliente-servidor y WSDL para microservicios en la nube.",
-            "C": "Aunque ambos se orientan a describir servicios web, WSDL especifica aquellos que interaccionan usando SOAP y WADL se aplica para los que están basados en REST.",
-            "D": "WADL es para cualquier tecnología y WSDL solo para entornos Microsoft .NET."
+        question: "¿Cuál es la diferencia entre Web Application Description Language (WADL) y Web Services Definition Language (WSDL)?",
+        options: {
+            A: "Ninguna, ya que ambos se orientan a la descripción de servicios web.",
+            B: "WADL es para arquitecturas cliente-servidor y WSDL para microservicios en la nube.",
+            C: "Aunque ambos se orientan a describir servicios web, WSDL especifica aquellos que interaccionan usando SOAP y WADL se aplica para los que están basados en REST.",
+            D: "WADL es para cualquier tecnología y WSDL solo para entornos Microsoft .NET."
         },
-        "answer": "C",
-        "detail": "WSDL se usa para servicios que usan SOAP, mientras que WADL se usa para REST."
+        answer: "C",
+        detail: "WSDL se usa para servicios que usan SOAP, mientras que WADL se usa para REST."
     },
     {
-        "question": "En sistemas distribuidos basados en servicios se pueden combinar diferentes lenguajes y tecnologías, lo que significa:",
-        "options": {
-            "A": "Que podemos elegir el lenguaje de programación porque todos tienen librerías para servicios.",
-            "B": "Que podemos implementar cada servicio en un lenguaje diferente siempre que no exista interacción entre ellos.",
-            "C": "Que cada servicio puede escribirse en el lenguaje que mejor se adapte a su finalidad y se comunica con el resto a través de un protocolo de comunicación estandarizado.",
-            "D": "Que el cliente puede estar desarrollado en cualquier tecnología y se comunicará con nuestros servicios usando siempre SOAP."
+        question: "En sistemas distribuidos basados en servicios se pueden combinar diferentes lenguajes y tecnologías, lo que significa:",
+        options: {
+            A: "Que podemos elegir el lenguaje de programación porque todos tienen librerías para servicios.",
+            B: "Que podemos implementar cada servicio en un lenguaje diferente siempre que no exista interacción entre ellos.",
+            C: "Que cada servicio puede escribirse en el lenguaje que mejor se adapte a su finalidad y se comunica con el resto a través de un protocolo de comunicación estandarizado.",
+            D: "Que el cliente puede estar desarrollado en cualquier tecnología y se comunicará con nuestros servicios usando siempre SOAP."
         },
-        "answer": "C",
-        "detail": "Cada servicio puede ser escrito en el lenguaje más adecuado y comunicarse mediante protocolos estandarizados."
+        answer: "C",
+        detail: "Cada servicio puede ser escrito en el lenguaje más adecuado y comunicarse mediante protocolos estandarizados."
     },
     {
-        "question": "Destaca un beneficio del desarrollo de sistemas distribuidos basados en servicios:",
-        "options": {
-            "A": "Desarrollo nativo en la nube.",
-            "B": "Cliente multiplataforma.",
-            "C": "Bajo acoplamiento de los servicios.",
-            "D": "Poca escalabilidad."
+        question: "Destaca un beneficio del desarrollo de sistemas distribuidos basados en servicios:",
+        options: {
+            A: "Desarrollo nativo en la nube.",
+            B: "Cliente multiplataforma.",
+            C: "Bajo acoplamiento de los servicios.",
+            D: "Poca escalabilidad."
         },
-        "answer": "C",
-        "detail": "El bajo acoplamiento de los servicios es un gran beneficio del desarrollo distribuido."
+        answer: "C",
+        detail: "El bajo acoplamiento de los servicios es un gran beneficio del desarrollo distribuido."
     },
     {
-        "question": "¿Qué característica arquitectónica no es necesaria para una verdadera API RESTful?",
-        "options": {
-            "A": "Interfaz uniforme.",
-            "B": "Guardar el estado.",
-            "C": "Código bajo demanda.",
-            "D": "Caché."
+        question: "¿Qué característica arquitectónica no es necesaria para una verdadera API RESTful?",
+        options: {
+            A: "Interfaz uniforme.",
+            B: "Guardar el estado.",
+            C: "Código bajo demanda.",
+            D: "Caché."
         },
-        "answer": "B",
-        "detail": "Una API RESTful no necesita guardar el estado entre las interacciones."
+        answer: "B",
+        detail: "Una API RESTful no necesita guardar el estado entre las interacciones."
     },
     {
-        "question": "Un microservicio es:",
-        "options": {
-            "A": "Un servicio que no puede superar las cien líneas de código.",
-            "B": "Un servicio que siempre está desplegado en un contenedor Docker.",
-            "C": "Un servicio independiente del resto, con su propio ciclo de vida y potencialmente modelo de datos.",
-            "D": "Un servicio que no puede consumir otro servicio."
+        question: "Un microservicio es:",
+        options: {
+            A: "Un servicio que no puede superar las cien líneas de código.",
+            B: "Un servicio que siempre está desplegado en un contenedor Docker.",
+            C: "Un servicio independiente del resto, con su propio ciclo de vida y potencialmente modelo de datos.",
+            D: "Un servicio que no puede consumir otro servicio."
         },
-        "answer": "C",
-        "detail": "Un microservicio es independiente y tiene su propio ciclo de vida."
+        answer: "C",
+        detail: "Un microservicio es independiente y tiene su propio ciclo de vida."
     },
     {
-        "question": "Marca qué lenguaje no es apropiado para describir servicios:",
-        "options": {
-            "A": "RESTful API Modeling Language.",
-            "B": "OpenAPI Specification.",
-            "C": "Representational State Transfer (REST).",
-            "D": "Web Services Definition Language."
+        question: "Marca qué lenguaje no es apropiado para describir servicios:",
+        options: {
+            A: "RESTful API Modeling Language.",
+            B: "OpenAPI Specification.",
+            C: "Representational State Transfer (REST).",
+            D: "Web Services Definition Language."
         },
-        "answer": "C",
-        "detail": "Representational State Transfer (REST) no es un lenguaje para describir servicios."
+        answer: "C",
+        detail: "Representational State Transfer (REST) no es un lenguaje para describir servicios."
     },
     {
-        "question": "En las arquitecturas orientadas a servicio hay tres tipos de actores:",
-        "options": {
-            "A": "Proveedores de servicios, registros de servicios y usuarios de servicios.",
-            "B": "Clientes y servidores.",
-            "C": "Stubs, Skeletons y registros.",
-            "D": "Proveedores de servicios y usuarios de servicios."
+        question: "En las arquitecturas orientadas a servicio hay tres tipos de actores:",
+        options: {
+            A: "Proveedores de servicios, registros de servicios y usuarios de servicios.",
+            B: "Clientes y servidores.",
+            C: "Stubs, Skeletons y registros.",
+            D: "Proveedores de servicios y usuarios de servicios."
         },
-        "answer": "A",
-        "detail": "Los actores en arquitecturas orientadas a servicio incluyen proveedores, registros y usuarios."
+        answer: "A",
+        detail: "Los actores en arquitecturas orientadas a servicio incluyen proveedores, registros y usuarios."
     },
     {
-        "question": "Entre las situaciones en las que emular el comportamiento de un servicio es necesario no se encuentra:",
-        "options": {
-            "A": "Agilizar el desarrollo en paralelo.",
-            "B": "Automatizar el paso de REST a SOAP.",
-            "C": "Facilitar la integración con sistemas de terceros.",
-            "D": "Disponer de escenarios para pruebas automáticas."
+        question: "Entre las situaciones en las que emular el comportamiento de un servicio es necesario no se encuentra:",
+        options: {
+            A: "Agilizar el desarrollo en paralelo.",
+            B: "Automatizar el paso de REST a SOAP.",
+            C: "Facilitar la integración con sistemas de terceros.",
+            D: "Disponer de escenarios para pruebas automáticas."
         },
-        "answer": "D",
-        "detail": "Disponer de escenarios para pruebas automáticas no es una situación que requiera emulación de servicios."
+        answer: "D",
+        detail: "Disponer de escenarios para pruebas automáticas no es una situación que requiera emulación de servicios."
     },
     {
-        "question": "¿Cuál es la relación correcta entre las plataformas y su tipo de utilidad?",
-        "options": {
-            "A": "Lucybot: Interacción, Postman: Documentación, WireMock: Aceleración del Desarrollo, Spring WebFlux: Emulación.",
-            "B": "Lucybot: Documentación, Postman: Interacción, WireMock: Emulación, Spring WebFlux: Aceleración del Desarrollo.",
-            "C": "Lucybot: Emulación, Postman: Aceleración del Desarrollo, WireMock: Interacción, Spring WebFlux: Documentación.",
-            "D": "Lucybot: Aceleración del Desarrollo, Postman: Emulación, WireMock: Documentación, Spring WebFlux: Interacción."
+        question: "¿Cuál es la relación correcta entre las plataformas y su tipo de utilidad?",
+        options: {
+            A: "Lucybot: Interacción, Postman: Documentación, WireMock: Aceleración del Desarrollo, Spring WebFlux: Emulación.",
+            B: "Lucybot: Documentación, Postman: Interacción, WireMock: Emulación, Spring WebFlux: Aceleración del Desarrollo.",
+            C: "Lucybot: Emulación, Postman: Aceleración del Desarrollo, WireMock: Interacción, Spring WebFlux: Documentación.",
+            D: "Lucybot: Aceleración del Desarrollo, Postman: Emulación, WireMock: Documentación, Spring WebFlux: Interacción."
         },
-        "answer": "B",
-        "detail": "La relación correcta es Lucybot para documentación, Postman para interacción y WireMock para emulación."
+        answer: "B",
+        detail: "La relación correcta es Lucybot para documentación, Postman para interacción y WireMock para emulación."
     },
     {
-        "question": "¿Cuál es la relación correcta entre las plataformas de definición de APIs y sus correspondientes herramientas o estándares?",
-        "options": {
-            "A": "API Blueprint: Apish, OpenAPI: WiderShins, RAML: Apache CXF, WSDL: Osprey Mock Service.",
-            "B": "API Blueprint: WiderShins, OpenAPI: Apish, RAML: Osprey Mock Service, WSDL: Apache CXF.",
-            "C": "API Blueprint: Apish, OpenAPI: WiderShins, RAML: Osprey Mock Service, WSDL: Apache CXF.",
-            "D": "API Blueprint: Osprey Mock Service, OpenAPI: Apache CXF, RAML: Apish, WSDL: WiderShins."
+        question: "¿Cuál es la relación correcta entre las plataformas de definición de APIs y sus correspondientes herramientas o estándares?",
+        options: {
+            A: "API Blueprint: Apish, OpenAPI: WiderShins, RAML: Apache CXF, WSDL: Osprey Mock Service.",
+            B: "API Blueprint: WiderShins, OpenAPI: Apish, RAML: Osprey Mock Service, WSDL: Apache CXF.",
+            C: "API Blueprint: Apish, OpenAPI: WiderShins, RAML: Osprey Mock Service, WSDL: Apache CXF.",
+            D: "API Blueprint: Osprey Mock Service, OpenAPI: Apache CXF, RAML: Apish, WSDL: WiderShins."
         },
-        "answer": "C",
-        "detail": "La relación correcta es API Blueprint con Apish, OpenAPI con WiderShins, RAML con Osprey Mock Service, y WSDL con Apache CXF."
+        answer: "C",
+        detail: "La relación correcta es API Blueprint con Apish, OpenAPI con WiderShins, RAML con Osprey Mock Service, y WSDL con Apache CXF."
+    },
+    {
+        question: "Un sitio web que se ve y se comporta como si fuera una aplicación móvil se denomina app:",
+        options: {
+            A: "Nativa.",
+            B: "Reactiva.",
+            C: "Web progresiva.",
+            D: "Responsive."
+        },
+        answer: "C",
+        detail: "Una app web progresiva se comporta como una app móvil."
+    },
+    {
+        question: "Relaciona las características:",
+        options: {
+            A: "1 i, 2 iv, 3 ii, 4 iii.",
+            B: "1 i, 2 ii, 3 iii, 4 iv.",
+            C: "1 i, 2 iii, 3 ii, 4 iv.",
+            D: "1 ii, 2 i, 3 iv, 4 iii."
+        },
+        answer: "A",
+        detail: "1 es web responsive, 2 es app híbrida, 3 es app nativa, 4 es app web progresiva."
+    },
+    {
+        question: "Marca aquella característica que no es propia de las apps sobre IOS:",
+        options: {
+            A: "Compras en la aplicación.",
+            B: "iCloud.",
+            C: "Procesos monotarea.",
+            D: "Servicios de ubicación."
+        },
+        answer: "C",
+        detail: "Los procesos monotarea no son una característica de las apps en iOS."
+    },
+    {
+        question: "La versión open source de la solución comercial Adobe Phonegap es:",
+        options: {
+            A: "Apache Cordova.",
+            B: "Xamarin.",
+            C: "Flutter.",
+            D: "Ionic."
+        },
+        answer: "A",
+        detail: "Apache Cordova es la versión open source de Adobe Phonegap."
+    },
+    {
+        question: "Selecciona aquel lenguaje de programación que no es válido para desarrollar apps para iOS:",
+        options: {
+            A: "Swift.",
+            B: "Kotlin.",
+            C: "Objective-C.",
+            D: "C++."
+        },
+        answer: "B",
+        detail: "Kotlin no es un lenguaje válido para desarrollar apps en iOS."
+    },
+    {
+        question: "Selecciona aquel lenguaje de programación que Android Studio no soporta:",
+        options: {
+            A: "Swift.",
+            B: "C++.",
+            C: "Java.",
+            D: "Kotlin."
+        },
+        answer: "A",
+        detail: "Android Studio no soporta Swift."
+    },
+    {
+        question: "Marca cómo se llama la plataforma de código abierto para compilar aplicaciones modernas y con mejor rendimiento para iOS, Android y Windows con .NET:",
+        options: {
+            A: "Flutter.",
+            B: "Ionic.",
+            C: "Xamarin.",
+            D: "React Native."
+        },
+        answer: "C",
+        detail: "Xamarin es la plataforma de código abierto para compilar aplicaciones con .NET."
+    },
+    {
+        question: "Marca aquella característica que no es propia de las aplicaciones Android:",
+        options: {
+            A: "Se adaptan a diferentes dispositivos.",
+            B: "Se ejecutan sobre un Linux multiusuario.",
+            C: "Se ejecutan bajo el principio de mínimo privilegio.",
+            D: "Proporcionan un único punto de entrada."
+        },
+        answer: "D",
+        detail: "Las aplicaciones Android no proporcionan un único punto de entrada."
+    },
+    {
+        question: "Una aplicación móvil que comparte la misma base de código para diversos los dispositivos móviles es una app:",
+        options: {
+            A: "Nativa.",
+            B: "Híbrida.",
+            C: "Web progresiva.",
+            D: "Responsive."
+        },
+        answer: "B",
+        detail: "Una app híbrida comparte la misma base de código para múltiples dispositivos."
+    },
+    {
+        question: "Relaciona los componentes de android:",
+        options: {
+            A: "1 iii, 2 iv, 3 ii, 4 i.",
+            B: "1 i, 2 ii, 3 iii, 4 iv.",
+            C: "1 i, 2 iii, 3 ii, 4 iv.",
+            D: "1 ii, 2 i, 3 iv, 4 iii."
+        },
+        answer: "A",
+        detail: "1 es receptor de mensaje, 2 es actividad, 3 es servicio, 4 es proveedor de contenido."
     }
 ];
