@@ -878,5 +878,258 @@ export const plataformas = [
         },
         answer: "A",
         detail: "1 es receptor de mensaje, 2 es actividad, 3 es servicio, 4 es proveedor de contenido."
+    },
+    {
+        question: "¿Por qué se dice que una prueba ha fallado?",
+        options: {
+            A: "Porque si una prueba falla significa que tenemos un error en el software.",
+            B: "Porque en una prueba es muy difícil que el resultado obtenido coincida exactamente con el esperado.",
+            C: "Porque el resultado real de la prueba no se corresponde con los criterios definidos para darla por buena, pero eso no supone en sí un error.",
+            D: "Porque el resultado real de la prueba no se corresponde con los criterios definidos para darla por buena, por lo que es evidentemente un error."
+        },
+        answer: "C",
+        detail: "Porque el resultado real de la prueba no se corresponde con los criterios definidos para darla por buena, pero eso no supone en sí un error."
+    },
+    {
+        question: "El desarrollo dirigido por comportamiento (behaviour driven development, BDD) se diferencia de otros enfoques de pruebas, ya que:",
+        options: {
+            A: "El cliente escribe los requisitos.",
+            B: "Es obligatorio escribir las pruebas antes de diseñar y desarrollar el software.",
+            C: "Se puede usar herramientas que generan completamente las pruebas partiendo desde los requisitos.",
+            D: "Porque los casos de prueba se definen en un lenguaje entendible por usuarios y técnicos."
+        },
+        answer: "D",
+        detail: "Porque los casos de prueba se definen en un lenguaje entendible por usuarios y técnicos."
+    },
+    {
+        question: "El valor y utilidad de las plataformas para pruebas es:",
+        options: {
+            A: "Reducir el esfuerzo al no tener que escribir los requisitos.",
+            B: "Reducir el coste asociado al diseño, ejecución y documentación de las pruebas.",
+            C: "Agilizar el desarrollo de software con un flujo de integración continua.",
+            D: "Reducir el esfuerzo al no tener que analizar el resultado de las pruebas."
+        },
+        answer: "C",
+        detail: "Agilizar el desarrollo de software con un flujo de integración continua."
+    },
+    {
+        question: "El concepto de emular, simular o mockear un sistema sirve para:",
+        options: {
+            A: "No tener que generar el código de todo el sistema.",
+            B: "Facilitar las pruebas de rendimiento del sistema.",
+            C: "Crear escenarios de prueba en los que se integra una versión falsa de un servicio externo o interno que pueda reemplazar al real.",
+            D: "Tener varias versiones en producción del sistema para desarrollar A/B testing."
+        },
+        answer: "C",
+        detail: "Crear escenarios de prueba en los que se integra una versión falsa de un servicio externo o interno que pueda reemplazar al real."
+    },
+    {
+        question: "¿Cuál de las siguientes afirmaciones describe mejor el propósito del lenguaje Gherkin?",
+        options: {
+            A: "Gherkin es un lenguaje de programación utilizado para desarrollar aplicaciones web.",
+            B: "Gherkin se utiliza para escribir pruebas automatizadas en un lenguaje comprensible tanto para desarrolladores como para no técnicos.",
+            C: "Gherkin es una herramienta de análisis estático de código fuente.",
+            D: "Gherkin es un entorno de desarrollo integrado (IDE) especializado en pruebas de rendimiento."
+        },
+        answer: "B",
+        detail: "Gherkin se utiliza para escribir pruebas automatizadas en un lenguaje comprensible tanto para desarrolladores como para no técnicos."
+    },
+    {
+        question: "La validación y verificación son términos asociados a las pruebas, en los que:",
+        options: {
+            A: "Ambos términos se usan indistintamente para referirse a las pruebas.",
+            B: "La verificación persigue buscar fallos y la validación comprobar los requisitos del cliente.",
+            C: "La validación es manual y la verificación es automática.",
+            D: "La validación persigue buscar fallos y la verificación comprobar los requisitos del cliente."
+        },
+        answer: "B",
+        detail: "La verificación persigue buscar fallos y la validación comprobar los requisitos del cliente."
+    },
+    {
+        question: "¿Cuál de las siguientes herramientas es más adecuada para las pruebas de unidad?",
+        options: {
+            A: "Mockito",
+            B: "JMeter",
+            C: "PHPUnit",
+            D: "Cucumber"
+        },
+        answer: "C",
+        detail: "PHPUnit es la herramienta más adecuada para las pruebas de unidad."
+    },
+    {
+        question: "¿Qué herramienta se utiliza principalmente para pruebas de integración?",
+        options: {
+            A: "Cucumber",
+            B: "PHPUnit",
+            C: "JMeter",
+            D: "Mockito"
+        },
+        answer: "D",
+        detail: "Mockito es la herramienta más adecuada para pruebas de integración."
+    },
+    {
+        question: "¿Qué herramienta es la más indicada para realizar pruebas de sistema?",
+        options: {
+            A: "JMeter",
+            B: "Cucumber",
+            C: "Mockito",
+            D: "PHPUnit"
+        },
+        answer: "A",
+        detail: "JMeter es la herramienta más indicada para realizar pruebas de sistema."
+    },
+    {
+        question: "¿Cuál herramienta es adecuada para llevar a cabo pruebas de aceptación?",
+        options: {
+            A: "JMeter",
+            B: "PHPUnit",
+            C: "Cucumber",
+            D: "Mockito"
+        },
+        answer: "C",
+        detail: "Cucumber es adecuada para llevar a cabo pruebas de aceptación."
+    },
+    {
+        question: "Selecciona cuál de los siguientes elementos no forma parte de una arquitectura basada en eventos:",
+        options: {
+            A: "El productor de eventos.",
+            B: "El consumidor de eventos.",
+            C: "La plataforma de monitorización y despliegue de eventos.",
+            D: "La plataforma de procesamiento de eventos."
+        },
+        answer: "C",
+        detail: "La plataforma de monitorización y despliegue de eventos no forma parte de una arquitectura basada en eventos."
+    },
+    {
+        question: "Selecciona cuál de los siguientes objetivos no es parte de la integración continua:",
+        options: {
+            A: "Facilitar la integración de código realizado por varias personas a la vez.",
+            B: "Asegurar que los desarrollos en paralelo se integran y no dan conflictos.",
+            C: "Facilitar la integración de los cambios de forma frecuente y regular.",
+            D: "Automatizar las pruebas para garantizar que el paso a producción es correcto y eficiente."
+        },
+        answer: "D",
+        detail: "Automatizar las pruebas para garantizar que el paso a producción es correcto y eficiente no es un objetivo de la integración continua."
+    },
+    {
+        question: "Las dos plataformas más comunes para el despliegue en contenedores son Docker y Kubernetes, y sus diferencias son:",
+        options: {
+            A: "Que una es open source y la otra comercial.",
+            B: "Que una es para contenedores sobre Linux y la otra para cualquier sistema operativo.",
+            C: "Que Docker es para contenedores en un solo nodo y Kubernetes está destinado a ejecutarlas en un clúster.",
+            D: "Que solo una de ellas soporta CI/CD."
+        },
+        answer: "C",
+        detail: "Docker es para contenedores en un solo nodo y Kubernetes está destinado a ejecutarlas en un clúster."
+    },
+    {
+        question: "El término DevOps hace referencia a:",
+        options: {
+            A: "Un desarrollo ágil de software directamente en la nube.",
+            B: "Una fase de scrum en la que el equipo de testing trabaja con el equipo de operaciones y despliegues.",
+            C: "Una forma de representar un trabajo en equipo entre la parte de desarrollo y la de operaciones.",
+            D: "Una disciplina de Ingeniería del software que aplica al mantenimiento de sistemas."
+        },
+        answer: "C",
+        detail: "DevOps representa un trabajo en equipo entre desarrollo y operaciones."
+    },
+    {
+        question: "¿Cuál de las siguientes plataformas se utiliza para el despliegue de contenedores con varios nodos?",
+        options: {
+            A: "Bare Metal",
+            B: "Docker",
+            C: "VMWare",
+            D: "Red Hat OpenShift"
+        },
+        answer: "D",
+        detail: "Red Hat OpenShift se utiliza para el despliegue de contenedores con varios nodos."
+    },
+    {
+        question: "¿Cuál es la plataforma adecuada para el despliegue tradicional?",
+        options: {
+            A: "Docker",
+            B: "VMWare",
+            C: "Bare Metal",
+            D: "Red Hat OpenShift"
+        },
+        answer: "C",
+        detail: "Bare Metal es la plataforma adecuada para el despliegue tradicional."
+    },
+    {
+        question: "¿Qué plataforma se usa principalmente para desplegar máquinas virtuales?",
+        options: {
+            A: "Red Hat OpenShift",
+            B: "Bare Metal",
+            C: "VMWare",
+            D: "Docker"
+        },
+        answer: "C",
+        detail: "VMWare se usa principalmente para desplegar máquinas virtuales."
+    },
+    {
+        question: "¿Cuál de las siguientes plataformas es adecuada para el despliegue de contenedores en un solo nodo?",
+        options: {
+            A: "VMWare",
+            B: "Docker",
+            C: "Bare Metal",
+            D: "Red Hat OpenShift"
+        },
+        answer: "B",
+        detail: "Docker es adecuada para el despliegue de contenedores en un solo nodo."
+    },
+    {
+        question: "Bajo el término de integración y la distribución continuas (CI/CD) nos referimos a:",
+        options: {
+            A: "Una forma de automatizar el testeo de software.",
+            B: "Un método ágil para liberar nuevas versiones cada sprint de dos semanas.",
+            C: "La combinación de metodologías ágiles y DevOps.",
+            D: "Un método para distribuir las aplicaciones a los clientes con frecuencia mediante el uso de la automatización en las etapas del desarrollo de aplicaciones."
+        },
+        answer: "D",
+        detail: "Un método para distribuir las aplicaciones a los clientes con frecuencia mediante el uso de la automatización en las etapas del desarrollo de aplicaciones."
+    },
+    {
+        question: "ELK, ahora conocido como Elastic Stack, representa la unión de tres proyectos open source. Selecciona cuál de los siguientes no forma parte de ELK:",
+        options: {
+            A: "ElasticTash.",
+            B: "Logstash.",
+            C: "Elasticsearch.",
+            D: "Kibana."
+        },
+        answer: "A",
+        detail: "ElasticTash no forma parte de ELK."
+    },
+    {
+        question: "Indica cuál es el intermediario de mensajes de código abierto más utilizado:",
+        options: {
+            A: "Microsoft Biztalk.",
+            B: "RabbitMQ.",
+            C: "Apache Kafka.",
+            D: "Red Hat Fuse."
+        },
+        answer: "B",
+        detail: "RabbitMQ es el intermediario de mensajes de código abierto más utilizado."
+    },
+    {
+        question: "Las plataformas que dan soporte a los patrones de integración de aplicaciones empresariales (enterprise integration patterns, EIP) son conocidas como:",
+        options: {
+            A: "Plataformas de gestión de eventos.",
+            B: "Plataformas middleware orientado a mensajes (message oriented middleware, MOM).",
+            C: "Plataformas enterprise service bus (ESB).",
+            D: "Plataformas Java messaging service (JMS)."
+        },
+        answer: "C",
+        detail: "Las plataformas enterprise service bus (ESB) dan soporte a los patrones de integración de aplicaciones empresariales."
+    },
+    {
+        question: "¿Qué beneficio no está relacionado con la monitorización o supervisión de sistemas?",
+        options: {
+            A: "Detectar cortes de servicio de forma temprana.",
+            B: "Habilitar la funcionalidad asíncrona.",
+            C: "Medir la escalabilidad del sistema.",
+            D: "Obtener datos de uso del sistema en tiempo real."
+        },
+        answer: "B",
+        detail: "Habilitar la funcionalidad asíncrona no está relacionado con la monitorización o supervisión de sistemas."
     }
 ];

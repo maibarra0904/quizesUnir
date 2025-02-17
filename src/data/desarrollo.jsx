@@ -962,5 +962,94 @@ export const desarrollo = [
         },
         answer: "a",
         detail: "Spring Data Elasticsearch."
+    },
+    {
+        question: "¿Cuál de los siguientes no es un factor de la usabilidad según Jakob Nielsen?",
+        options: {
+            a: "Todas son factores de usabilidad.",
+            b: "Facilidad de aprendizaje.",
+            c: "Eficiencia de uso.",
+            d: "Capacidad de recuerdo.",
+            e: "Frecuencia de error.",
+            f: "Satisfacción subjetiva."
+        },
+        answer: "a",
+        detail: "Todas las opciones mencionadas son factores de usabilidad."
+    },
+    {
+        question: "¿Qué establecen los principios generales de la usabilidad?",
+        options: {
+            a: "Establecen los puntos más importantes para lograr una mayor facilidad de uso.",
+            b: "Establecen los puntos más importantes para lograr una mayor accesibilidad.",
+            c: "Establecen los puntos a evitar para lograr una mayor facilidad de uso.",
+            d: "Establecen los puntos más importantes para evitar una mayor facilidad de uso."
+        },
+        answer: "a",
+        detail: "Los principios generales de usabilidad establecen los puntos más importantes para facilitar el uso."
+    },
+    {
+        question: "¿Cuál de los siguientes no es un principio de usabilidad establecido por Nielsen?",
+        options: {
+            a: "Control y libertad del usuario.",
+            b: "Limitación de los colores.",
+            c: "Flexibilidad y eficiencia de uso.",
+            d: "Ayuda y documentación."
+        },
+        answer: "b",
+        detail: "La limitación de los colores no es un principio de usabilidad según Nielsen."
+    },
+    {
+        question: "¿Cuál de los siguientes no es un principio de usabilidad establecido por Nielsen?",
+        options: {
+            a: "Estética y diseño minimalista.",
+            b: "Ayudar a los usuarios a reconocer.",
+            c: "Consistencia y estándares.",
+            d: "Ocultación del estado del sistema."
+        },
+        answer: "d",
+        detail: "La ocultación del estado del sistema no es un principio de usabilidad según Nielsen."
+    },
+    {
+        question: "¿Quiénes han sido los diferentes autores explicados en este tema sobre los principios de usabilidad?",
+        options: {
+            a: "Norman y Nielsen.",
+            b: "Nielsen, Sheiderman y Krug.",
+            c: "Nielsen, Sheiderman y Norman.",
+            d: "Ninguna de las anteriores."
+        },
+        answer: "b",
+        detail: "Nielsen, Sheiderman y Krug son los autores mencionados sobre los principios de usabilidad."
+    },
+    {
+        question: "¿Qué es el ROI en tecnología?",
+        options: {
+            a: "Es el incremento que se obtiene por cada producto vendido en tecnología durante un determinado tiempo.",
+            b: "Es el beneficio que se obtiene por cada unidad monetaria invertida en tecnología durante un determinado tiempo. El retorno de la inversión realizada.",
+            c: "Es el riesgo que se tiene al invertir en tecnología durante un determinado tiempo.",
+            d: "Ninguna de las anteriores."
+        },
+        answer: "b",
+        detail: "El ROI es el retorno de la inversión realizada en tecnología."
+    },
+    {
+        question: "¿Cuáles son los tipos de cuestionarios más relevantes?",
+        options: {
+            a: "QUIS.",
+            b: "WAMMI.",
+            c: "QUIS y WAMMI.",
+            d: "RENTI."
+        },
+        answer: "c",
+        detail: "Los tipos de cuestionarios más relevantes son QUIS y WAMMI."
+    },
+    {
+        question: "¿Cuál es el significado de QUIS?",
+        options: {
+            a: "Preguntas sobre la satisfacción de la interfaz de usuario.",
+            b: "Question for User Interface Satisfaction.",
+            c: "Ambas."
+        },
+        answer: "c",
+        detail: "QUIS significa tanto preguntas sobre la satisfacción de la interfaz de usuario como 'Question for User Interface Satisfaction'."
     }
 ];

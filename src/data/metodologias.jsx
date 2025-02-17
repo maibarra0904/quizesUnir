@@ -1098,6 +1098,115 @@ export const metodologias = [
         },
         answer: "B",
         detail: "Observer."
+    },
+    {
+        question: "¿De qué se encargan las técnicas de validación del software?",
+        options: {
+            A: "De comprobar la correcta especificación de requisitos según las necesidades del usuario.",
+            B: "De garantizar que el sistema final cumple con las expectativas del cliente o usuario.",
+            C: "De responder a la pregunta «¿estamos construyendo el sistema correcto?»,",
+            D: "Todas las respuestas anteriores son correctas."
+        },
+        answer: "D",
+        detail: "Todas las respuestas anteriores son correctas."
+    },
+    {
+        question: "¿Cuál es el objetivo principal de las pruebas del sistema?",
+        options: {
+            A: "Comprobar la corrección funcional de las capacidades implementadas.",
+            B: "Comprobar el correcto funcionamiento del sistema en un entorno operativo real, con especial atención a los requisitos no funcionales.",
+            C: "Garantizar la adecuación del sistema a las necesidades del cliente.",
+            D: "Comprobar la correcta interacción entre componentes del sistema en el entorno de desarrollo."
+        },
+        answer: "B",
+        detail: "Comprobar el correcto funcionamiento del sistema en un entorno operativo real, con especial atención a los requisitos no funcionales."
+    },
+    {
+        question: "¿Cuál de las siguientes pruebas se parece más a una prueba de aceptación?",
+        options: {
+            A: "Una prueba de validación de tipo alfa.",
+            B: "Una prueba unitaria.",
+            C: "Una prueba de validación de tipo beta.",
+            D: "Una prueba de integración entre todos los componentes del sistema."
+        },
+        answer: "C",
+        detail: "Una prueba de validación de tipo beta se asemeja más a una prueba de aceptación."
+    },
+    {
+        question: "¿Cuál de las siguientes es una ventaja del enfoque de desarrollo TDD?",
+        options: {
+            A: "i) Ayuda a construir código que se comprueba de manera automática.",
+            B: "ii) Aumenta la productividad de los equipos de desarrollo.",
+            C: "iii) Ayuda a mejorar el diseño del producto, aunque no haya una fase específica dedicada a ello.",
+            D: "i) y iii) son correctas."
+        },
+        answer: "D",
+        detail: "i) y iii) son correctas."
+    },
+    {
+        question: "¿En qué consiste el patrón AAA dentro de la técnica TDD?",
+        options: {
+            A: "En escribir los test teniendo en cuenta los intereses del usuario final.",
+            B: "En definir las pruebas teniendo en cuenta las acciones esperadas por parte del usuario.",
+            C: "En diseñar cada nuevo módulo antes de proceder a su implementación.",
+            D: "En estructurar las pruebas comenzando por la definición de parámetros de entrada, colocar luego las acciones a ejecutar y, finalmente, comprobar los resultados esperados."
+        },
+        answer: "D",
+        detail: "En estructurar las pruebas comenzando por la definición de parámetros de entrada, colocar luego las acciones a ejecutar y, finalmente, comprobar los resultados esperados."
+    },
+    {
+        question: "¿Qué beneficios aporta la técnica de desarrollo ATDD sobre TDD?",
+        options: {
+            A: "i) Garantiza que el sistema no será finalizado hasta que se verifiquen todas las pruebas de aceptación.",
+            B: "ii) Ayuda a modelar las pruebas desde el punto de vista de los resultados esperados por el cliente.",
+            C: "iii) Involucra en el proceso de desarrollo y pruebas a un número mayor de stakeholders.",
+            D: "i) y ii) son correctas."
+        },
+        answer: "D",
+        detail: "i) y ii) son correctas."
+    },
+    {
+        question: "Cuando empleamos un enfoque de desarrollo dirigido por las pruebas, esto significa que:",
+        options: {
+            A: "Debemos definir todas las pruebas al comienzo del desarrollo del sistema.",
+            B: "Debemos escribir las pruebas inmediatamente después de finalizar la fase de diseño.",
+            C: "Debemos emplear obligatoriamente un framework apropiado que ayude a automatizar las pruebas.",
+            D: "Ninguna de las respuestas anteriores es correcta."
+        },
+        answer: "D",
+        detail: "Ninguna de las respuestas anteriores es correcta."
+    },
+    {
+        question: "¿Qué tres enfoques del concepto de calidad se contemplan en las normas ISO/IEC 9126 y en la ISO/IEC 25000?",
+        options: {
+            A: "Calidad inherente, calidad intrínseca y calidad medible.",
+            B: "Calidad interna, calidad del proceso y calidad externa.",
+            C: "Calidad interna, calidad externa y calidad en uso.",
+            D: "Ninguna de las respuestas anteriores es correcta."
+        },
+        answer: "C",
+        detail: "Calidad interna, calidad externa y calidad en uso."
+    },
+    {
+        question: "¿Qué factores afectan a la calidad del producto software?",
+        options: {
+            A: "La cualificación del equipo de desarrollo.",
+            B: "La calidad de los procesos empleados.",
+            C: "La tecnología utilizada en los procesos.",
+            D: "Todas las respuestas anteriores son correctas."
+        },
+        answer: "D",
+        detail: "Todas las respuestas anteriores son correctas."
+    },
+    {
+        question: "¿Qué es CMMI?",
+        options: {
+            A: "Una metodología de desarrollo de software.",
+            B: "Un modelo de proceso tradicional.",
+            C: "Un modelo de madurez de procesos.",
+            D: "Una metodología para evaluar la calidad de los procesos."
+        },
+        answer: "C",
+        detail: "CMMI es un modelo de madurez de procesos."
     }
-
 ];

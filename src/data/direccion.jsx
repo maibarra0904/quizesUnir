@@ -745,5 +745,225 @@ export const direccion = [
         },
         answer: "B",
         detail: "Es importante entender la razón detrás de las estimaciones antes de tomar decisiones."
+    },
+    {
+        question: "El objetivo de la gestión de la calidad es:",
+        options: {
+            A: "Asegurar que las pruebas se hagan antes de entregar el producto o servicio final al cliente.",
+            B: "Asegurar que el proyecto satisfaga las necesidades por las cuales fue emprendido.",
+            C: "Asegurar que el cliente acepte el alcance del proyecto.",
+            D: "Asegurar que el proyecto sea conforme con las normas ISO9000 y ISO10006."
+        },
+        answer: "B",
+        detail: "Asegurar que el proyecto satisfaga las necesidades por las cuales fue emprendido."
+    },
+    {
+        question: "El lema «la calidad es gratis», de Philip Crosby, significa que:",
+        options: {
+            A: "No se debe invertir en actividades preventivas de calidad.",
+            B: "Las actividades de calidad no deberían engendrar gastos.",
+            C: "Los costos de la calidad siempre son más que compensatorios con las ganancias económicas de clientes satisfechos y la eliminación de los costes de no calidad.",
+            D: "Se debe incluir todas las actividades de calidad en el presupuesto del proyecto para que no parezcan costos adicionales."
+        },
+        answer: "C",
+        detail: "Los costos de calidad son compensatorios con las ganancias de clientes satisfechos."
+    },
+    {
+        question: "Los procesos de la gestión de la calidad del PMI® son:",
+        options: {
+            A: "La planificación de la calidad, el aseguramiento de la calidad y el control de la calidad, junto con la adaptación para la mejora continua.",
+            B: "La planificación de la calidad, el aseguramiento de la calidad y la mejora continua de la calidad.",
+            C: "La evaluación de la calidad, el control de la calidad y la prevención de la calidad.",
+            D: "Los definidos en los catorce puntos de la calidad proporcionados por Deming."
+        },
+        answer: "A",
+        detail: "Los procesos incluyen planificación, aseguramiento y control de calidad."
+    },
+    {
+        question: "El liderazgo de la gestión de la calidad en un proyecto es responsabilidad de:",
+        options: {
+            A: "Del auditor interno de calidad.",
+            B: "Del cliente.",
+            C: "Del jefe de proyecto.",
+            D: "De todos."
+        },
+        answer: "C",
+        detail: "El jefe de proyecto es responsable del liderazgo en gestión de calidad."
+    },
+    {
+        question: "¿Qué opción no es una inversión de naturaleza preventiva?",
+        options: {
+            A: "Invertir tiempo y recursos en la calidad de diseño.",
+            B: "Invertir tiempo y recursos en la formación del equipo y el ambiente de trabajo.",
+            C: "Invertir tiempo y recursos en revisiones y pruebas.",
+            D: "Invertir tiempo y recursos en el diseño de un ciclo de vida de proyecto."
+        },
+        answer: "C",
+        detail: "Las revisiones y pruebas son inversiones correctivas, no preventivas."
+    },
+    {
+        question: "Cuál de las siguientes no supone, normalmente, una ventaja a favor de suministrar internamente el proyecto:",
+        options: {
+            A: "Estabilizar la plantilla.",
+            B: "Mantener la confidencialidad.",
+            C: "Reducir el plazo del proyecto.",
+            D: "Integración con operaciones internas."
+        },
+        answer: "C",
+        detail: "Reducir el plazo del proyecto no es una ventaja típica de suministrar internamente."
+    },
+    {
+        question: "El contrato mediante el cual se acuerda un honorario fijo y el cliente paga los costes del suministrador hasta un límite máximo establecido, se denomina contrato de:",
+        options: {
+            A: "Coste más incentivo.",
+            B: "Precio fijo más incentivo.",
+            C: "Coste más honorario fijo.",
+            D: "Máximo garantizado y compartición del coste."
+        },
+        answer: "D",
+        detail: "Es un contrato de máximo garantizado y compartición del coste."
+    },
+    {
+        question: "Cuál de estas afirmaciones relativas a la fase de negociación del contrato es incorrecta:",
+        options: {
+            A: "La fase más importante de la negociación es la planificación.",
+            B: "Hay que separar los problemas de las personas.",
+            C: "En una negociación siempre hay vencedores y vencidos.",
+            D: "Es importante elegir el lugar y la forma de la negociación."
+        },
+        answer: "C",
+        detail: "No siempre hay vencedores y vencidos; la negociación puede ser colaborativa."
+    },
+    {
+        question: "En un contrato de suministro se estima que el coste para el suministrador va a ser de 5000€ y se ha acordado que el beneficio objetivo que para este es de 600 € y el beneficio máximo que puede obtener es de 1000€. ¿Cuál es el precio del suministro si el tipo de contrato es a coste más honorario fijo y el coste real es de 5300€?",
+        options: {
+            A: "6000€.",
+            B: "600€.",
+            C: "5900€.",
+            D: "Depende del coste final."
+        },
+        answer: "C",
+        detail: "El precio es 5900€, sumando coste y honorario fijo."
+    },
+    {
+        question: "En un contrato de suministro se estima que el coste para el suministrador va a ser de 5000€ y se ha acordado que el beneficio objetivo que para este es de 600€ y el beneficio máximo que puede obtener es de 1000€. ¿Cuál es el beneficio para el suministrador si el tipo de contrato es a precio fijo por 6000€ si el coste real es de 5400€?",
+        options: {
+            A: "6.000€.",
+            B: "600€.",
+            C: "5900€.",
+            D: "Depende del coste final."
+        },
+        answer: "B",
+        detail: "El beneficio es 600€, ya que se paga el precio fijo."
+    },
+    {
+        question: "Una vez terminada la planificación, tú, como director/a de proyectos, comienzas la ejecución e inmediatamente percibes que los miembros del equipo tienen diferentes opiniones sobre el plan de trabajo, los entregables para desarrollar y el nivel de riesgo del proyecto. Te quedas realmente sorprendido por la situación, pero ¿qué es lo siguiente que deberías hacer?",
+        options: {
+            A: "Esperar a que los diferentes miembros del equipo revisen la documentación del proyecto para que todos tengan un criterio común. Los conflictos que surjan durante este periodo ya se resolverán más tarde.",
+            B: "Como surgirán malentendidos, aplicarás las técnicas de gestión de riesgo para reducir los impactos negativos que se puedan originar.",
+            C: "Organizar de forma inmediata reuniones para identificar y resolver los malentendidos que pudiese haber entre los miembros del equipo para evitar problemas de relación entre ellos, desintegración del equipo y por tanto los impactos en coste, tiempo y calidad que se pudiesen derivar.",
+            D: "Entrevistarse en privado con cada miembro del equipo para informarles de qué es lo que se necesita en el proyecto y qué es lo que esperas de ellos. De esta manera habrá un clima de confianza y se evitará la injerencia de otros miembros del equipo."
+        },
+        answer: "C",
+        detail: "Organizar reuniones para resolver malentendidos es lo más adecuado."
+    },
+    {
+        question: "Durante la ejecución del proyecto, ¿qué no tiene que ser considerado un cambio y, por tanto, no se le aplica el control integrado de cambios?",
+        options: {
+            A: "El cliente tiene que adelantar el cumplimiento de un requisito legal asociado con su propio negocio y nos pide que le adelantemos un mes la entrega del proyecto.",
+            B: "El director financiero nos comenta que tenemos que reducir un 10 % el coste del proyecto porque no hay liquidez suficiente para acometer el proyecto tal y como está presupuestado actualmente.",
+            C: "Al revisar el proyecto, el cliente se da cuenta que uno de los entregables debe modificarse porque las características acordadas no son adecuadas para la evolución actual del negocio.",
+            D: "Se debe modificar el plan del proyecto porque el SPI es de 0,8 y el CPI es de 0,7."
+        },
+        answer: "D",
+        detail: "La modificación del plan debido a SPI y CPI no requiere control de cambios."
+    },
+    {
+        question: "Mientras ejecuta un proyecto, usted tiene la sensación de que existe una actitud negativa de su equipo en relación con desarrollo del proyecto. ¿Qué tipo de documento necesita, entre otros, para entender mejor lo que está sucediendo y mejorar la situación?",
+        options: {
+            A: "El acta de constitución del proyecto.",
+            B: "Evaluaciones de desempeño del equipo o informes de desempeño del trabajo.",
+            C: "Los objetivos del proyecto y el enunciado del alcance.",
+            D: "El presupuesto y el cronograma detallados."
+        },
+        answer: "B",
+        detail: "Las evaluaciones de desempeño ayudarán a entender la situación del equipo."
+    },
+    {
+        question: "Al finalizar el proyecto, se realiza el análisis de los resultados y, utilizando el método del valor ganado, el proyecto muestra CPI (índice rendimiento en coste) de 0,75 y un SPI (índice de rendimiento en tiempo) de 1,20. ¿Cuál es la explicación más razonable?",
+        options: {
+            A: "El proyecto finalizó antes de tiempo pero con sobrecoste.",
+            B: "El proyecto ha producido entregables adicionales que no fueron pedidos originariamente y esa es la causa del sobrecoste.",
+            C: "El proyecto se ha entregado antes de la fecha comprometida y con ahorros en el coste.",
+            D: "El proyecto ha terminado por encima del presupuesto y con un retraso significativo."
+        },
+        answer: "A",
+        detail: "El CPI bajo indica sobrecoste, mientras que el SPI alto indica finalización anticipada."
+    },
+    {
+        question: "¿Qué es menos importante cuando se trata de archivar los registros del proyecto (información relevante del proyecto: hechos y/o conclusiones del ejercicio de lecciones aprendidas)?",
+        options: {
+            A: "Un sistema de administración del archivo de registros bien diseñado.",
+            B: "La integración del archivo de registros con el software de la empresa.",
+            C: "Fácil disponibilidad de la información para su uso futuro.",
+            D: "Registros actualizados reflejando, de forma fidedigna, los resultados finales."
+        },
+        answer: "B",
+        detail: "La integración con el software no es tan crucial como otros aspectos del archivo."
+    },
+    {
+        question: "Un director de proyectos de su organización le comenta que lo mejor para monitorizar y controlar un proyecto es usar hitos de duraciones entre una y cuatro semanas. ¿Qué le comentarías tú?",
+        options: {
+            A: "Teniendo en cuenta que un hito es una actividad de duración cero y que se utiliza para identificar algunos puntos significativos, le diría que se están equivocando.",
+            B: "Te parece adecuado, porque ahorra mucho trabajo al no tener que medir el progreso de las actividades.",
+            C: "Te parece adecuado, ya que los hitos reflejan fechas fijas y/o impuestas exclusivamente durante el ciclo de vida del proyecto.",
+            D: "Te parece adecuado si los hitos son usados exclusivamente para las revisiones de la situación del proyecto que se realizan entre las fases del proyecto."
+        },
+        answer: "A",
+        detail: "Un hito no tiene duración, por lo que no puede ser de uno a cuatro semanas."
+    },
+    {
+        question: "Usted acaba de terminar un proyecto interno, pero el problema que se presenta es que algunos interesados clave (stakeholders), incluyendo el propio patrocinador del proyecto, no quieren firmar la aceptación de alguno de los entregables, y, por tanto, el proyecto no se puede transferir a operaciones y tampoco cerrar. En esta situación, ¿qué es lo que no harías a continuación?",
+        options: {
+            A: "Identificar y discutir abiertamente las razones personales y/o técnicas de su resistencia a aceptar determinados entregables.",
+            B: "Identificar los puntos abiertos y solventarlos. Después, cerrar formalmente el proyecto.",
+            C: "Invitar a todas las partes a una reunión donde se puedan identificar los malentendidos, y las posibles formas de solución.",
+            D: "Cerrar el proyecto porque ya terminaste, los interesados ya encontrarán la forma de resolver sus discrepancias por sí mismos."
+        },
+        answer: "D",
+        detail: "Cerrar el proyecto sin resolver discrepancias no es apropiado."
+    },
+    {
+        question: "¿Qué no es adecuado cuando se organiza y/o prepara los documentos relativos a las lecciones aprendidas?",
+        options: {
+            A: "El realizar los ejercicios lecciones aprendidas y documentarlas debería ser un ejercicio que aumente la experiencia de aprendizaje, tanto suya como del equipo del proyecto.",
+            B: "Las lecciones aprendidas deben ser escritas con un lenguaje, aunque profesional, que sea fácil de entender por otras personas que no estén familiarizadas con el proyecto en cuestión.",
+            C: "Las lecciones aprendidas deben identificar a las personas y grupos que causaron las desviaciones y lo errores, especialmente si pertenecen a la propia organización.",
+            D: "La documentación de las lecciones aprendidas debe estar en algún lugar, físico o no, que permita tener un acceso muy fácil para todos aquellos que puedan necesitar más tarde la información."
+        },
+        answer: "C",
+        detail: "Identificar a las personas involucradas no es adecuado para las lecciones aprendidas."
+    },
+    {
+        question: "De las respuestas siguientes, señala cuál no se corresponde con un cierre de contrato realizado correctamente:",
+        options: {
+            A: "Terminación anticipada de un contrato debido a un incumplimiento asociado a las cláusulas de cancelación incluidas en los términos y condiciones del contrato.",
+            B: "Por un interés común hay una terminación temprana del proyecto, las partes hacen la liquidación del proyecto (acuerdan la situación, la responsabilidades y los pagos) y, finalmente, cierre del contrato.",
+            C: "Terminación temprana de un contrato a causa de un incumplimiento inmaterial.",
+            D: "Verificación y aceptación del producto por los interesados, facturación y cierre administrativo."
+        },
+        answer: "C",
+        detail: "La terminación por incumplimiento inmaterial no se considera un cierre adecuado."
+    },
+    {
+        question: "¿Cuál no es la principal utilidad de un informe final de proyecto?",
+        options: {
+            A: "Si un proyecto ha sido cancelado antes de ser completado, explicar las causas.",
+            B: "Preparar la aceptación del producto, servicio o resultado final.",
+            C: "Informar a los interesados de que el proyecto ha sido finalizado.",
+            D: "Reconocer lo que se ha hecho y conseguido por todos los participantes."
+        },
+        answer: "B",
+        detail: "El informe final no se utiliza principalmente para preparar la aceptación del producto."
     }
 ];

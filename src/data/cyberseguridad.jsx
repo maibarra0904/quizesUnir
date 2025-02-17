@@ -1144,5 +1144,115 @@ export const cyberseguridad = [
         },
         answer: "D",
         detail: "Todas las anteriores son ciertas."
+    },
+    {
+        question: "¿Qué tipo de análisis puede realizar una herramienta SAST para comprobar las interacciones entre distintas funciones?",
+        options: {
+            A: "Intraprocedural.",
+            B: "Interprocedural.",
+            C: "Semántico.",
+            D: "Todos los anteriores."
+        },
+        answer: "B",
+        detail: "El análisis interprocedural comprueba las interacciones entre distintas funciones."
+    },
+    {
+        question: "Qué tipo de análisis realiza una herramienta de tipo DAST?",
+        options: {
+            A: "Semántico.",
+            B: "Sintáctico.",
+            C: "Interprocedural.",
+            D: "Intraprodedural."
+        },
+        answer: "B",
+        detail: "El análisis sintáctico es el que realiza una herramienta DAST."
+    },
+    {
+        question: "Las herramientas de tipo IAST pueden instrumentar el:",
+        options: {
+            A: "Código fuente.",
+            B: "Peticiones y respuestas.",
+            C: "Código ejecutable.",
+            D: "Ninguna de las anteriores."
+        },
+        answer: "C",
+        detail: "Las herramientas IAST pueden instrumentar el código ejecutable."
+    },
+    {
+        question: "El test funcional de seguridad se realiza en fase de:",
+        options: {
+            A: "Análisis.",
+            B: "Diseño.",
+            C: "Desarrollo.",
+            D: "Pruebas o despliegue."
+        },
+        answer: "D",
+        detail: "El test funcional de seguridad se realiza en la fase de pruebas o despliegue."
+    },
+    {
+        question: "El análisis estático de código fuente se realiza en la fase de:",
+        options: {
+            A: "Análisis.",
+            B: "Diseño.",
+            C: "Desarrollo.",
+            D: "Pruebas o despliegue."
+        },
+        answer: "C",
+        detail: "El análisis estático de código fuente se realiza en la fase de desarrollo."
+    },
+    {
+        question: "El análisis estático de caja blanca (IAST):",
+        options: {
+            A: "Realiza un análisis local de cada función.",
+            B: "Realiza un análisis interprocedural entre clases o módulos.",
+            C: "Realiza un análisis léxico, sintáctico y semántico del código fuente y configuraciones.",
+            D: "Todas las anteriores."
+        },
+        answer: "D",
+        detail: "El análisis IAST realiza un análisis léxico, sintáctico y semántico."
+    },
+    {
+        question: "Señalar la afirmación falsa:",
+        options: {
+            A: "Las herramientas de análisis de tipo IAST no suelen tener falsos positivos.",
+            B: "Las herramientas RASP se pueden utilizar como firewalls de aplicaciones web de tipo software.",
+            C: "Las herramientas de tipo IAST normalmente no tienen impacto en el rendimiento.",
+            D: "Las herramientas IAST obtienen un informe del análisis de vulnerabilidades."
+        },
+        answer: "C",
+        detail: "Las herramientas de tipo IAST pueden tener impacto en el rendimiento."
+    },
+    {
+        question: "Las herramientas de tipo RASP:",
+        options: {
+            A: "Bloquean las peticiones maliciosas que son capaces de explotar una vulnerabilidad.",
+            B: "No bloquean, solo detectan vulnerabilidades.",
+            C: "Tienen muchos falsos positivos.",
+            D: "Todas las anteriores son ciertas."
+        },
+        answer: "A",
+        detail: "Las herramientas RASP bloquean las peticiones maliciosas."
+    },
+    {
+        question: "¿En qué fase se usan las herramientas de tipo RASP?",
+        options: {
+            A: "Análisis.",
+            B: "Diseño.",
+            C: "Desarrollo.",
+            D: "Producción."
+        },
+        answer: "D",
+        detail: "Las herramientas RASP se utilizan en la fase de producción."
+    },
+    {
+        question: "En cuanto a herramientas de análisis de la seguridad SAST:",
+        options: {
+            A: "No cubren todo en código de la aplicación.",
+            B: "Tienen falsos negativos y falsos positivos.",
+            C: "No pueden analizar código ejecutable.",
+            D: "Todas las anteriores son falsas."
+        },
+        answer: "B",
+        detail: "Las herramientas SAST pueden tener falsos negativos y positivos."
     }
 ];
