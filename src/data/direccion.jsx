@@ -965,5 +965,115 @@ export const direccion = [
         },
         answer: "B",
         detail: "El informe final no se utiliza principalmente para preparar la aceptación del producto."
+    },
+    {
+        question: "¿De qué elemento se puede prescindir si hay limitación de presupuesto?",
+        options: {
+            A: "WBS.",
+            B: "Plan de repuesta al riesgo.",
+            C: "Cronograma.",
+            D: "De ninguno de ellos."
+        },
+        answer: "D",
+        detail: "De ninguno de ellos."
+    },
+    {
+        question: "¿Qué no es una ventaja de hacer el WBS?",
+        options: {
+            A: "Mejorar la comprensión del proyecto por parte de todos los sujetos involucrados.",
+            B: "Identificar los objetivos de cada actividad y fase del proyecto (definición de entregables para cada actividad y/o fase).",
+            C: "Descompone el proyecto en actividades asociadas a la capacidad operativa de la organización.",
+            D: "Optimiza el uso de los recursos."
+        },
+        answer: "D",
+        detail: "Optimiza el uso de los recursos."
+    },
+    {
+        question: "¿Cuál es una ventaja de hacer un cronograma?",
+        options: {
+            A: "Facilita la introducción de cambios.",
+            B: "Asignar una tarea a una persona o recurso específico evitando la duplicación en la asignación de las tareas.",
+            C: "Disminución drástica de la incertidumbre.",
+            D: "Describir las actividades que se llevarán a cabo de manera clara y completa evitando cualquier ambigüedad."
+        },
+        answer: "A",
+        detail: "Facilita la introducción de cambios."
+    },
+    {
+        question: "¿Cuál no es una ventaja de hacer un presupuesto?",
+        options: {
+            A: "Revisar la planificación para conseguir los objetivos presupuestarios planificados en caso de darnos cuenta de que no llegamos a cumplirlos.",
+            B: "Mejorar la dirección y el seguimiento.",
+            C: "Favorecer el análisis para la optimización de los recursos del proyecto y conseguir la mayor eficiencia.",
+            D: "Permite detectar desviaciones en la planificación de costes y tiempos de forma anticipada (método de valor ganado-EVM)."
+        },
+        answer: "B",
+        detail: "Mejorar la dirección y el seguimiento."
+    },
+    {
+        question: "¿Cuál es una ventaja de hacer un plan de respuesta a los riesgos?",
+        options: {
+            A: "Incremento de la productividad al reducirse los retrabajos y/o reacciones frente a situaciones inesperadas.",
+            B: "Permite detectar desviaciones en la planificación de costes y tiempos de forma anticipada (método de valor ganado-EVM).",
+            C: "Focalización de tareas.",
+            D: "Mejorar la comprensión del proyecto por parte de todos los sujetos involucrados."
+        },
+        answer: "A",
+        detail: "Incremento de la productividad al reducirse los retrabajos y/o reacciones frente a situaciones inesperadas."
+    },
+    {
+        question: "¿Qué no es cierto con respecto a un plan de respuesta al riesgo?",
+        options: {
+            A: "Supone un aumento de la certeza sobre el proyecto.",
+            B: "Puede suponer un incremento del alcance.",
+            C: "Puede afectar a la duración del proyecto.",
+            D: "Al final el proyecto es más caro si se hace un análisis de riesgos que si no se hace."
+        },
+        answer: "D",
+        detail: "Al final el proyecto es más caro si se hace un análisis de riesgos que si no se hace."
+    },
+    {
+        question: "¿Cuál es el orden adecuado?",
+        options: {
+            A: "Necesidad, criterios de éxito, alcance, objetivo.",
+            B: "Necesidad, criterios de éxito, objetivo, alcance.",
+            C: "Necesidad, objetivo, criterios de éxito, alcance.",
+            D: "Necesidad, alcance, criterios de éxito, objetivo."
+        },
+        answer: "B",
+        detail: "Necesidad, criterios de éxito, objetivo, alcance."
+    },
+    {
+        question: "¿Qué es cierto en relación con la estimación de costes?",
+        options: {
+            A: "La estimación de los costes de las actividades no necesita de los resultados de los procesos de planificación de otras áreas, como por ejemplo: el cronograma del proyecto, el registro de riesgos y las asignaciones de personal.",
+            B: "El coste de una actividad se calcula, de forma básica, multiplicando el número de recursos por su coste horario por el tiempo que están trabajando en la actividad.",
+            C: "La exactitud de la estimación del costo de un proyecto se mantiene constante según avanza el proyecto, de manera que es un proceso iterativo.",
+            D: "Los costos se estiman para todos los recursos asignados al proyecto, es decir, recursos de trabajo, recursos materiales, coste de servicios e instalaciones, y en ningún caso se incluyen los posibles costes por contingencias."
+        },
+        answer: "B",
+        detail: "El coste de una actividad se calcula, de forma básica, multiplicando el número de recursos por su coste horario por el tiempo que están trabajando en la actividad."
+    },
+    {
+        question: "¿El orden adecuado para el desarrollo del plan de respuesta a los riesgos es?",
+        options: {
+            A: "Identificación, cualificación, cuantificación, priorización, respuesta.",
+            B: "Identificación, cualificación, cuantificación, respuesta.",
+            C: "Identificación, cuantificación, cualificación, respuesta.",
+            D: "Identificación, estimación de la probabilidad, estimación del impacto, respuesta."
+        },
+        answer: "B",
+        detail: "Identificación, cualificación, cuantificación, respuesta."
+    },
+    {
+        question: "¿Qué no es cierto en relación con el flujograma o diagrama de flujo?",
+        options: {
+            A: "Muestra la relación entre las actividades.",
+            B: "Identifica las relaciones de precedencia que tiene una actividad.",
+            C: "Identifica los diferentes caminos.",
+            D: "Es un diagrama que muestra las actividades en una línea temporal."
+        },
+        answer: "D",
+        detail: "Es un diagrama que muestra las actividades en una línea temporal."
     }
 ];

@@ -1254,5 +1254,170 @@ export const cyberseguridad = [
         },
         answer: "B",
         detail: "Las herramientas SAST pueden tener falsos negativos y positivos."
+    },
+    {
+        question: "Un WAF detecta y bloquea ataques web usando:",
+        options: {
+            A: "Expresiones regulares.",
+            B: "Análisis semántico.",
+            C: "No bloquea ataques.",
+            D: "Ninguna de las anteriores."
+        },
+        answer: "A",
+        detail: "Expresiones regulares."
+    },
+    {
+        question: "¿Qué tipo de instalación de un WAF solo detecta y no bloquea un ataque?",
+        options: {
+            A: "Bridge.",
+            B: "Proxy reverso.",
+            C: "Pasivo.",
+            D: "Ninguna de las anteriores."
+        },
+        answer: "C",
+        detail: "Pasivo."
+    },
+    {
+        question: "¿Qué tipo de instalación es la más recomendable para un WAF?",
+        options: {
+            A: "Bridge.",
+            B: "Proxy reverso.",
+            C: "Pasivo.",
+            D: "Ninguna de las anteriores."
+        },
+        answer: "B",
+        detail: "Proxy reverso."
+    },
+    {
+        question: "El modo de instalación de un WAF que no necesita cambiar la configuración IP de la LAN de la organización es:",
+        options: {
+            A: "Bridge.",
+            B: "Proxy reverso.",
+            C: "Pasivo.",
+            D: "Ninguna de las anteriores."
+        },
+        answer: "A",
+        detail: "Bridge."
+    },
+    {
+        question: "¿Cuál es una forma de diseño de un WAF?",
+        options: {
+            A: "Hardware específico.",
+            B: "Embebido en el hardware.",
+            C: "Servidor de propósito general.",
+            D: "Todas las anteriores son ciertas."
+        },
+        answer: "D",
+        detail: "Todas las anteriores son ciertas."
+    },
+    {
+        question: "Las defensas frente a ataques de denegación de servicio son:",
+        options: {
+            A: "Balanceadores de carga.",
+            B: "Clúster de servidores.",
+            C: "WAF.",
+            D: "Todas las anteriores."
+        },
+        answer: "D",
+        detail: "Todas las anteriores."
+    },
+    {
+        question: "Señalar la afirmación falsa:",
+        options: {
+            A: "Las herramientas de análisis de tipo IAST no suelen tener falsos positivos.",
+            B: "Las herramientas RASP no se pueden utilizar como firewalls de aplicaciones web de tipo software.",
+            C: "Las herramientas de tipo IAST normalmente tienen impacto en el rendimiento.",
+            D: "Las herramientas IAST pueden detectar únicamente, bloquear o sanear la petición."
+        },
+        answer: "B",
+        detail: "Las herramientas RASP no se pueden utilizar como firewalls de aplicaciones web de tipo software."
+    },
+    {
+        question: "Los WAF se pueden instalar como:",
+        options: {
+            A: "Reverse proxy.",
+            B: "Modo transparente.",
+            C: "Modo pasivo.",
+            D: "Todas las anteriores son ciertas."
+        },
+        answer: "D",
+        detail: "Todas las anteriores son ciertas."
+    },
+    {
+        question: "Respecto a las variantes de instalación de los WAF:",
+        options: {
+            A: "La configuración en modo proxy inverso es la más deseable.",
+            B: "Se debe proporcionar redundancia en la configuración con dos WAF.",
+            C: "Blacklist consiste en mantener una base de datos de firmas de ataques mientras que whitelist consiste en tener un modelo de tráfico aceptado entre la aplicación y el cliente.",
+            D: "Todas las demás son correctas."
+        },
+        answer: "D",
+        detail: "Todas las demás son correctas."
+    },
+    {
+        question: "La cabecera x-frame-options se debe configurar idealmente con el parámetro:",
+        options: {
+            A: "none.",
+            B: "*.",
+            C: "all.",
+            D: "Todas las anteriores son falsas."
+        },
+        answer: "A",
+        detail: "none."
+    },
+    {
+        question: "¿Cuál es la principal diferencia entre la arquitectura de una aplicación web tradicional y una aplicación AJAX?",
+        options: {
+            A: "En una aplicación web tradicional la lógica de presentación puede residir en el lado cliente.",
+            B: "En una aplicación AJAX la lógica de presentación reside en el lado servidor.",
+            C: "En una aplicación AJAX la lógica de presentación reside en el cliente.",
+            D: "En una aplicación AJAX la comunicación cliente-servidor es síncrona."
+        },
+        answer: "C",
+        detail: "En una aplicación AJAX la lógica de presentación reside en el cliente."
+    },
+    {
+        question: "¿Cuál es la fase de análisis de una herramienta tipo DAST que investiga los formularios y funcionalidades de que consta una aplicación web?",
+        options: {
+            A: "Reconocimiento.",
+            B: "Crawling.",
+            C: "Scan activo.",
+            D: "Auditoría."
+        },
+        answer: "B",
+        detail: "Crawling."
+    },
+    {
+        question: "¿Cuál de las siguientes es una vulnerabilidad que afecta directamente a la autorización que posibilita escalada de privilegios?",
+        options: {
+            A: "LFI.",
+            B: "OPEN REDIRECT.",
+            C: "HTTP RESPONSE SPLITTING.",
+            D: "Socket no cifrado."
+        },
+        answer: "A",
+        detail: "LFI."
+    },
+    {
+        question: "¿Cómo se llama la cabecera que debe alojar el ID de sesión?",
+        options: {
+            A: "REFERER.",
+            B: "AUTENTICATION.",
+            C: "AUTORIZATION.",
+            D: "SET-COOKIE."
+        },
+        answer: "D",
+        detail: "SET-COOKIE."
+    },
+    {
+        question: "El tipo de análisis de seguridad que consiste en un agente que se instala en el servidor de aplicaciones web, se denomina:",
+        options: {
+            A: "Dinámico.",
+            B: "Estático.",
+            C: "Interactivo.",
+            D: "Híbrido."
+        },
+        answer: "C",
+        detail: "Interactivo."
     }
 ];
