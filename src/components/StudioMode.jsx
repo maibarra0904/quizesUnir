@@ -171,6 +171,9 @@ const Studio = () => {
                     <span>{currentPage + 1} / {totalPages}</span>
                     <button onClick={handleNextPage} disabled={currentPage >= totalPages - 1}>▶</button>
                 </div>
+                <div>
+                    <button onClick={handleHome}>Home</button>
+                </div>
             </div>
         </div>
     );
