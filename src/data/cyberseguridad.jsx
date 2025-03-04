@@ -365,10 +365,10 @@ export const cyberseguridad = [
     {
         question: "La derivación de requisitos de seguridad depende de:",
         options: {
-            A: "El modelado de amenazas o casos de abuso.",
-            B: "El análisis de riesgos.",
-            C: "El análisis de seguridad del código fuente.",
-            D: "La A y la B."
+            A: "A. El modelado de amenazas o casos de abuso.",
+            B: "B. El análisis de riesgos.",
+            C: "C. El análisis de seguridad del código fuente.",
+            D: "D. La A y la B."
         },
         answer: "D",
         detail: "La A y la B."
@@ -431,10 +431,10 @@ export const cyberseguridad = [
     {
         question: "HTTP response splitting es una vulnerabilidad que puede suponer:",
         options: {
-            A: "La B y la D son correctas.",
-            B: "Inyección de código JavaScript.",
-            C: "Inyección de código SQL.",
-            D: "Inyección de código HTML."
+            A: "D. La A y C.",
+            B: "A. Inyección de código JavaScript.",
+            C: "B. Inyección de código SQL.",
+            D: "C. Inyección de código HTML."
         },
         answer: "A",
         detail: "La B y la D son correctas."
@@ -442,10 +442,10 @@ export const cyberseguridad = [
     {
         question: "¿Cuáles de los siguientes son vulnerabilidades del tipo Inyección?",
         options: {
-            A: "SQLi.",
-            B: "CSRF.",
-            C: "HTTP response splitting.",
-            D: "A y C son correctas."
+            A: "A. SQLi.",
+            B: "B. CSRF.",
+            C: "C. HTTP response splitting.",
+            D: "D. A y C son correctas."
         },
         answer: "D",
         detail: "A y C son correctas."
@@ -475,10 +475,10 @@ export const cyberseguridad = [
     {
         question: "El path traversal o inclusión de ficheros:",
         options: {
-            A: "Permite acceder a recursos del sistema de ficheros no permitidos.",
-            B: "Permite autenticarse suplantando a un usuario.",
-            C: "Permite el robo de credenciales.",
-            D: "La A y la C."
+            A: "A. Permite acceder a recursos del sistema de ficheros no permitidos.",
+            B: "B. Permite autenticarse suplantando a un usuario.",
+            C: "C. Permite el robo de credenciales.",
+            D: "D. La A y la C."
         },
         answer: "D",
         detail: "La A y la C."
@@ -541,10 +541,10 @@ export const cyberseguridad = [
     {
         question: "La HTTP response splitting es una vulnerabilidad que puede suponer:",
         options: {
-            A: "Inyección de código HTML.",
-            B: "Inyección de código JavaScript.",
-            C: "Inyección de código SQL.",
-            D: "La A y la B son correctas."
+            A: "A. Inyección de código HTML.",
+            B: "B. Inyección de código JavaScript.",
+            C: "C. Inyección de código SQL.",
+            D: "D. La A y la B son correctas."
         },
         answer: "D",
         detail: "La A y la B son correctas."
