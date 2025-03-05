@@ -1075,5 +1075,225 @@ export const direccion = [
         },
         answer: "D",
         detail: "Es un diagrama que muestra las actividades en una línea temporal."
+    },
+    {
+        question: "¿Cuál es la secuencia típica de las fases de la dirección de proyectos según lo discutido en clase?",
+        options: {
+            A: "Planificación, Inicio, Ejecución, Cierre, Control",
+            B: "Inicio, Planificación, Ejecución, Control, Cierre",
+            C: "Ejecución, Planificación, Inicio, Control, Cierre",
+            D: "Inicio, Ejecución, Planificación, Cierre, Control"
+        },
+        answer: "B",
+        detail: "Se ha enfatizado que las cinco fases son Inicio, Planificación, Ejecución, Control y Cierre [1, 2]."
+    },
+    {
+        question: "¿Cuál de las siguientes NO es una actividad principal en la fase de planificación de un proyecto?",
+        options: {
+            A: "Definir el alcance del proyecto.",
+            B: "Crear el cronograma del proyecto.",
+            C: "Asignar recursos a las tareas.",
+            D: "Obtener la aceptación formal de los entregables."
+        },
+        answer: "D",
+        detail: "Obtener la aceptación formal de los entregables es una actividad que se realiza principalmente durante la fase de ejecución y control, así como en el cierre del proyecto [1, 2]."
+    },
+    {
+        question: "¿Qué representa el 'camino crítico' en la gestión de proyectos?",
+        options: {
+            A: "La secuencia de actividades con la menor duración total.",
+            B: "La secuencia de actividades con la mayor duración total.",
+            C: "Cualquier secuencia de actividades que lleve al final del proyecto.",
+            D: "Las actividades que se pueden realizar en paralelo."
+        },
+        answer: "B",
+        detail: "El camino crítico es la secuencia de actividades que determina la duración total del proyecto, siendo la ruta más larga [3, 4]."
+    },
+    {
+        question: "¿Qué significa 'WBS' en la gestión de proyectos?",
+        options: {
+            A: "Work Breakdown Structure (Estructura de Desglose del Trabajo).",
+            B: "Workforce Balance System (Sistema de Equilibrio de la Fuerza Laboral).",
+            C: "Workflow Business Solution (Solución de Flujo de Trabajo Empresarial).",
+            D: "Worldwide Budget Standard (Estándar de Presupuesto Mundial)."
+        },
+        answer: "A",
+        detail: "WBS significa Work Breakdown Structure (Estructura de Desglose del Trabajo), una herramienta para descomponer el proyecto en entregables más pequeños y manejables."
+    },
+    {
+        question: "¿Cuál es la importancia de un 'análisis funcional' firmado por el cliente?",
+        options: {
+            A: "Permite calcular el coste total del proyecto.",
+            B: "Establece la fecha de inicio del proyecto.",
+            C: "Define el alcance del proyecto y sirve como referencia para la calidad.",
+            D: "Asigna los recursos a las diferentes tareas."
+        },
+        answer: "C",
+        detail: "Un análisis funcional firmado por el cliente define el alcance del proyecto y es un documento crucial para gestionar las expectativas y asegurar la calidad [6, 7]."
+    },
+    {
+        question: "¿Qué mide el Índice de Rendimiento del Cronograma (SPI)?",
+        options: {
+            A: "La eficiencia con la que se están utilizando los recursos económicos.",
+            B: "El porcentaje del trabajo completado en relación con el trabajo planificado.",
+            C: "La variación entre el coste real y el coste planificado.",
+            D: "El tiempo restante estimado para finalizar el proyecto."
+        },
+        answer: "B",
+        detail: "El SPI (Schedule Performance Index) mide la eficiencia del cronograma, comparando el trabajo realmente realizado con el trabajo planificado [8, 9]."
+    },
+    {
+        question: "¿Qué mide el Índice de Rendimiento de Costos (CPI)?",
+        options: {
+            A: "El porcentaje del trabajo completado en relación con el trabajo planificado.",
+            B: "La eficiencia con la que se están utilizando los recursos económicos.",
+            C: "La variación entre el tiempo real y el tiempo planificado.",
+            D: "El coste total estimado al finalizar el proyecto."
+        },
+        answer: "B",
+        detail: "El CPI (Cost Performance Index) mide la eficiencia de los costos, comparando el valor del trabajo realizado con el costo real de ese trabajo [8, 9]."
+    },
+    {
+        question: "¿Qué diferencia principal existe entre un 'riesgo' y una 'incertidumbre' en la gestión de proyectos?",
+        options: {
+            A: "Un riesgo tiene un impacto negativo, mientras que una incertidumbre puede ser positiva o negativa.",
+            B: "Una incertidumbre se puede planificar, mientras que un riesgo no.",
+            C: "Un riesgo es un evento que ya ha ocurrido, mientras que una incertidumbre es un evento futuro.",
+            D: "No hay una diferencia significativa entre ambos términos."
+        },
+        answer: "A",
+        detail: "Una incertidumbre es un evento o condición que, si ocurre, tiene un efecto positivo o negativo en uno o más objetivos del proyecto, mientras que el riesgo generalmente se asocia con impactos negativos."
+    },
+    {
+        question: "¿Cuál de las siguientes NO se considera un 'stakeholder' típico de un proyecto?",
+        options: {
+            A: "El director del proyecto.",
+            B: "El cliente o patrocinador del proyecto.",
+            C: "La competencia directa de la empresa que realiza el proyecto.",
+            D: "El equipo del proyecto."
+        },
+        answer: "C",
+        detail: "Los stakeholders son personas o grupos que tienen un interés en el proyecto o pueden ser afectados por él. La competencia directa generalmente no se considera un stakeholder directo del proyecto [10, 11]."
+    },
+    {
+        question: "¿Cuál es el propósito principal de un 'plan de comunicación' en un proyecto?",
+        options: {
+            A: "Definir el presupuesto detallado del proyecto.",
+            B: "Establecer los canales y la frecuencia de la información entre los interesados.",
+            C: "Identificar y analizar los riesgos del proyecto.",
+            D: "Documentar los requisitos funcionales del producto o servicio."
+        },
+        answer: "B",
+        detail: "El plan de comunicación define cómo, cuándo y a quién se enviará la información del proyecto, asegurando una comunicación efectiva con todos los stakeholders [12-14]."
+    },
+    {
+        question: "¿Qué se entiende por una reunión de 'kickoff' en la gestión de proyectos?",
+        options: {
+            A: "La última reunión al finalizar el proyecto.",
+            B: "Una reunión inicial para presentar el proyecto a todos los interesados.",
+            C: "Una reunión para resolver conflictos dentro del equipo del proyecto.",
+            D: "Una reunión para aprobar los cambios en el alcance del proyecto."
+        },
+        answer: "B",
+        detail: "La reunión de kickoff es una reunión inicial que marca el comienzo formal del proyecto y reúne a los principales stakeholders para alinear expectativas [2, 10]."
+    },
+    {
+        question: "¿Qué diferencia fundamental existe entre la gestión de proyectos tradicional y la metodología Scrum?",
+        options: {
+            A: "La gestión tradicional es más iterativa y flexible que Scrum.",
+            B: "Scrum es un tipo de gestión de proyectos predictiva, mientras que la tradicional es adaptativa.",
+            C: "La gestión tradicional se basa en un plan detallado al inicio, mientras que Scrum es más adaptativo a los cambios.",
+            D: "No hay diferencias significativas entre ambas metodologías."
+        },
+        answer: "C",
+        detail: "La gestión de proyectos tradicional se caracteriza por una planificación detallada al inicio, mientras que Scrum es una metodología ágil que se adapta a los cambios a lo largo del proyecto [6, 15]."
+    },
+    {
+        question: "¿Cuál de las siguientes NO es un elemento típico de un 'acta de constitución del proyecto'?",
+        options: {
+            A: "Los objetivos del proyecto.",
+            B: "El presupuesto detallado de cada actividad.",
+            C: "La descripción del alcance de alto nivel.",
+            D: "La identificación del director del proyecto."
+        },
+        answer: "B",
+        detail: "El acta de constitución del proyecto proporciona un resumen de alto nivel del proyecto. El presupuesto detallado se desarrolla en la fase de planificación [1, 10]."
+    },
+    {
+        question: "¿Qué implica la 'gestión del cambio' en un proyecto?",
+        options: {
+            A: "La modificación del equipo del proyecto a lo largo del tiempo.",
+            B: "El proceso de aprobación y gestión de las alteraciones al plan original del proyecto.",
+            C: "La adaptación de la metodología de gestión de proyectos durante la ejecución.",
+            D: "La renegociación del contrato con el cliente."
+        },
+        answer: "B",
+        detail: "La gestión del cambio se refiere al proceso formal para manejar las solicitudes de modificaciones al alcance, cronograma o presupuesto del proyecto [2, 16]."
+    },
+    {
+        question: "¿Cuál es la recomendación principal para estudiar para el examen según el instructor?",
+        options: {
+            A: "Memorizar todas las fórmulas del temario.",
+            B: "Leer los temas solo una vez.",
+            C: "Realizar los tests al final de cada tema.",
+            D: "Centrarse únicamente en las presentaciones de clase."
+        },
+        answer: "C",
+        detail: "El instructor enfatizó la importancia de realizar los tests al final de cada tema como una herramienta clave para el estudio."
+    },
+    {
+        question: "¿Qué herramienta se recomienda utilizar para la planificación y seguimiento del cronograma del proyecto en el laboratorio?",
+        options: {
+            A: "Microsoft Excel.",
+            B: "Microsoft Word.",
+            C: "Microsoft Project.",
+            D: "Google Docs."
+        },
+        answer: "C",
+        detail: "Microsoft Project se recomienda como la herramienta principal para la creación y gestión del cronograma del proyecto en el laboratorio."
+    },
+    {
+        question: "¿Cuál de las siguientes opciones describe mejor la importancia de la 'ética profesional' en la dirección de proyectos?",
+        options: {
+            A: "Asegura que los proyectos se completen dentro del presupuesto.",
+            B: "Garantiza que el equipo del proyecto siga las políticas de la empresa.",
+            C: "Fomenta la confianza, la transparencia y la toma de decisiones responsables en el proyecto.",
+            D: "Ayuda a cumplir con los plazos de entrega del proyecto."
+        },
+        answer: "C",
+        detail: "La ética profesional es fundamental para generar confianza y transparencia, y para asegurar una toma de decisiones responsables en la dirección de proyectos."
+    },
+    {
+        question: "¿Qué significa el acrónimo 'SMART' cuando se aplica a los objetivos de un proyecto?",
+        options: {
+            A: "Simple, Measurable, Achievable, Relevant, Timely.",
+            B: "Specific, Measurable, Assignable, Realistic, Time-bound.",
+            C: "Strategic, Manageable, Adaptable, Resourceful, Tangible.",
+            D: "Sustainable, Methodical, Accountable, Reliable, Transparent."
+        },
+        answer: "B",
+        detail: "SMART significa Specific (Específico), Measurable (Medible), Assignable (Asignable), Realistic (Realista) y Time-bound (Con plazos definidos)."
+    },
+    {
+        question: "¿Qué tipo de comunicación se enfatizó que debe tener una retroalimentación o respuesta en el mismo canal para temas importantes?",
+        options: {
+            A: "Comunicación informal con el equipo.",
+            B: "Comunicaciones formales con el cliente sobre acuerdos.",
+            C: "Mensajes instantáneos dentro del equipo.",
+            D: "Comentarios en los foros de la plataforma."
+        },
+        answer: "B",
+        detail: "Se destacó que para comunicaciones importantes con el cliente sobre acuerdos, la respuesta debe realizarse por el mismo canal que la pregunta (por ejemplo, si se pregunta por correo electrónico, la respuesta debe ser por correo electrónico)."
+    },
+    {
+        question: "¿Cuál es el objetivo principal de la fase de 'cierre' de un proyecto?",
+        options: {
+            A: "Entregar los entregables finales al cliente.",
+            B: "Evaluar el desempeño del equipo del proyecto.",
+            C: "Formalizar la finalización del proyecto, liberar recursos y comunicar el cierre a los interesados.",
+            D: "Identificar las lecciones aprendidas durante la ejecución del proyecto."
+        },
+        answer: "C",
+        detail: "La fase de cierre tiene como objetivo principal formalizar la finalización del proyecto, liberar los recursos asignados y comunicar el cierre a todos los stakeholders involucrados [1, 2, 21]."
     }
 ];
