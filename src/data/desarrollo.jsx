@@ -1260,5 +1260,280 @@ export const desarrollo = [
         },
         answer: "C",
         detail: "Una '**instancia**' de un **microservicio** representa una ejecución específica de ese **servicio** que está en funcionamiento y puede procesar solicitudes [11, 15]."
+      },
+      {
+        question: "¿Qué significa que un método HTTP sea idempotente?",
+        options: {
+          A: "Que siempre devuelve un resultado exitoso.",
+          B: "Que no modifica el estado del servidor.",
+          C: "Que realizar la misma operación repetidas veces produce el mismo efecto.",
+          D: "Que solo puede ser utilizado con métodos seguros."
+        },
+        answer: "C",
+        detail: "Un método es idempotente cuando las múltiples ejecuciones de la misma operación no generan cambios adicionales en el estado del servidor después de la primera ejecución exitosa."
+      },
+      {
+        question: "¿Cuál de los siguientes métodos HTTP es idempotente?",
+        options: {
+          A: "GET",
+          B: "POST",
+          C: "PATCH",
+          D: "CONNECT"
+        },
+        answer: "A",
+        detail: "El método GET es idempotente porque solo lee datos del servidor y no modifica su estado."
+      },
+      {
+        question: "¿Por qué el método DELETE se considera idempotente?",
+        options: {
+          A: "Porque elimina datos en cada operación.",
+          B: "Porque siempre devuelve un estado 200.",
+          C: "Porque eliminar el mismo recurso múltiples veces no cambia el estado del servidor después de la primera eliminación.",
+          D: "Porque crea una nueva instancia cada vez que se ejecuta."
+        },
+        answer: "C",
+        detail: "DELETE es idempotente porque eliminar un recurso que ya no existe no produce cambios adicionales en el servidor."
+      },
+      {
+        question: "¿Qué método HTTP no es idempotente?",
+        options: {
+          A: "PUT",
+          B: "GET",
+          C: "DELETE",
+          D: "POST"
+        },
+        answer: "D",
+        detail: "POST no es idempotente porque puede crear múltiples recursos si se ejecuta varias veces."
+      },
+      {
+        question: "¿Cuál es la principal diferencia entre PUT y POST en términos de idempotencia?",
+        options: {
+          A: "PUT modifica un recurso existente y POST crea un nuevo recurso.",
+          B: "PUT es idempotente y POST no lo es.",
+          C: "PUT solo funciona con datos JSON y POST con datos XML.",
+          D: "PUT nunca requiere autenticación, mientras que POST sí."
+        },
+        answer: "B",
+        detail: "PUT es idempotente porque sobrescribe el recurso completo, mientras que POST no lo es porque cada solicitud puede generar un nuevo recurso."
+      },
+      {
+        question: "¿Qué sucede si se ejecuta varias veces un método PUT con los mismos datos?",
+        options: {
+          A: "Crea múltiples recursos nuevos.",
+          B: "Sobrescribe el recurso existente sin cambios adicionales en el servidor.",
+          C: "Elimina los datos originales del recurso.",
+          D: "Genera un error en el servidor."
+        },
+        answer: "B",
+        detail: "PUT sobrescribe el recurso con los mismos datos y no produce cambios adicionales después de la primera operación."
+      },
+      {
+        question: "¿Por qué el método PATCH no se considera idempotente?",
+        options: {
+          A: "Porque modifica parcialmente el recurso y cada ejecución puede generar un resultado diferente dependiendo del estado previo.",
+          B: "Porque elimina completamente el recurso.",
+          C: "Porque es inseguro y no garantiza la coherencia de los datos.",
+          D: "Porque crea nuevos recursos en cada operación."
+        },
+        answer: "A",
+        detail: "PATCH no es idempotente porque las modificaciones parciales pueden depender del estado actual del recurso, lo que genera resultados diferentes en ejecuciones repetidas."
+      },
+      {
+        question: "¿Cuál de los siguientes métodos es tanto seguro como idempotente?",
+        options: {
+          A: "OPTIONS",
+          B: "POST",
+          C: "GET",
+          D: "DELETE"
+        },
+        answer: "C",
+        detail: "GET es un método tanto seguro como idempotente porque no modifica el estado del servidor y puede ejecutarse varias veces con el mismo resultado."
+      },
+      {
+        question: "¿Qué característica distingue a un método HTTP seguro?",
+        options: {
+          A: "No modifica el estado del servidor.",
+          B: "Es utilizado únicamente con conexiones HTTPS.",
+          C: "Siempre requiere autenticación.",
+          D: "No devuelve códigos de error."
+        },
+        answer: "A",
+        detail: "Un método seguro como GET no altera el estado del servidor, simplemente recupera datos."
+      },
+      {
+        question: "Si una solicitud DELETE se envía dos veces, ¿qué ocurrirá?",
+        options: {
+          A: "El recurso se eliminará dos veces, generando un error.",
+          B: "El estado del servidor no cambiará después de la primera eliminación.",
+          C: "Se creará automáticamente un nuevo recurso como reemplazo.",
+          D: "La segunda solicitud quedará en espera de confirmación."
+        },
+        answer: "B",
+        detail: "DELETE es idempotente, por lo que eliminar un recurso inexistente no genera cambios adicionales en el servidor."
+      },
+      {
+        question: "¿Qué función principal cumple el Gateway en un sistema de microservicios?",
+        options: {
+          A: "Registrar aplicaciones en Eureka.",
+          B: "Balancear la carga entre servidores.",
+          C: "Actuar como un enrutador que recibe solicitudes y las redirige a los servicios correspondientes.",
+          D: "Administrar bases de datos distribuidas."
+        },
+        answer: "C",
+        detail: "El Gateway actúa como un enrutador central que gestiona solicitudes entrantes y las dirige a los microservicios registrados en Eureka."
+      },
+      {
+        question: "¿Qué sucede si una aplicación deja de enviar 'heartbeats' a Eureka?",
+        options: {
+          A: "La aplicación se elimina del registro de Eureka.",
+          B: "El Gateway sigue redirigiendo solicitudes a la aplicación.",
+          C: "Se genera un error crítico en el sistema.",
+          D: "La aplicación entra en modo de solo lectura."
+        },
+        answer: "A",
+        detail: "Si una aplicación deja de enviar 'heartbeats', Eureka la elimina del registro, indicando que ya no está disponible."
+      },
+      {
+        question: "¿Qué determina el número de rutas en la tabla de rutas del Gateway?",
+        options: {
+          A: "La cantidad de instancias activas en Eureka.",
+          B: "La cantidad de aplicaciones registradas en Eureka.",
+          C: "La cantidad de solicitudes que recibe el Gateway.",
+          D: "El número de nodos en el clúster de Eureka."
+        },
+        answer: "B",
+        detail: "La tabla de rutas del Gateway tiene una entrada por cada aplicación registrada en Eureka."
+      },
+      {
+        question: "¿Cómo realiza el Gateway el balanceo de carga?",
+        options: {
+          A: "Mediante un proxy interno.",
+          B: "Distribuyendo las solicitudes entre las instancias disponibles de una aplicación registrada en Eureka.",
+          C: "Utilizando scripts configurados manualmente.",
+          D: "Enviando todas las solicitudes a una única instancia activa."
+        },
+        answer: "B",
+        detail: "El Gateway utiliza la información de Eureka para distribuir solicitudes entre las instancias disponibles de un servicio, logrando un balance de carga eficiente."
+      },
+      {
+        question: "¿Qué sucede si una aplicación registrada en Eureka tiene múltiples instancias?",
+        options: {
+          A: "El Gateway ignora las instancias adicionales.",
+          B: "Eureka solo registra la primera instancia.",
+          C: "El Gateway utiliza el balanceo de carga para distribuir solicitudes entre las instancias.",
+          D: "Se genera una entrada de tabla para cada instancia en el Gateway."
+        },
+        answer: "C",
+        detail: "Cuando hay múltiples instancias de una aplicación, el Gateway realiza balanceo de carga para distribuir solicitudes entre ellas."
+      },
+      {
+        question: "¿Qué sucede con las rutas del Gateway si una aplicación se elimina de Eureka?",
+        options: {
+          A: "La ruta correspondiente se elimina automáticamente del Gateway.",
+          B: "La ruta permanece activa indefinidamente.",
+          C: "Se genera un error en todas las solicitudes a esa aplicación.",
+          D: "El Gateway redirige las solicitudes a una ruta predeterminada."
+        },
+        answer: "A",
+        detail: "El Gateway actualiza su tabla de rutas en tiempo real y elimina las rutas asociadas a aplicaciones que ya no están registradas en Eureka."
+      },
+      {
+        question: "¿Cuál es la relación entre las instancias y las aplicaciones registradas en Eureka?",
+        options: {
+          A: "Cada instancia representa una aplicación distinta.",
+          B: "Varias instancias pueden pertenecer a la misma aplicación.",
+          C: "Las instancias no están relacionadas con las aplicaciones.",
+          D: "Eureka solo registra una instancia por aplicación."
+        },
+        answer: "B",
+        detail: "Varias instancias pueden pertenecer a la misma aplicación, lo que permite distribuir la carga y aumentar la disponibilidad."
+      },
+      {
+        question: "¿Qué propósito cumple el 'heartbeat' en Eureka?",
+        options: {
+          A: "Permite al Gateway redirigir solicitudes.",
+          B: "Confirma que una instancia está activa y disponible.",
+          C: "Elimina rutas redundantes en el Gateway.",
+          D: "Genera nuevas instancias de una aplicación."
+        },
+        answer: "B",
+        detail: "El 'heartbeat' es una señal que las instancias envían periódicamente a Eureka para informar que están activas y disponibles."
+      },
+      {
+        question: "¿Cómo responde el Gateway si una solicitud se dirige a una ruta que no existe?",
+        options: {
+          A: "Redirige a una ruta predeterminada.",
+          B: "Devuelve un error 404.",
+          C: "Crea automáticamente una nueva ruta.",
+          D: "Intenta registrar la ruta en Eureka."
+        },
+        answer: "B",
+        detail: "Cuando una solicitud se dirige a una ruta inexistente, el Gateway devuelve un error 404 indicando que el recurso no fue encontrado."
+      },
+      {
+        question: "¿Qué herramienta utiliza el Gateway para descubrir servicios disponibles?",
+        options: {
+          A: "Un servidor de base de datos.",
+          B: "El registro de servicios de Eureka.",
+          C: "Un balanceador de carga dedicado.",
+          D: "Archivos de configuración locales."
+        },
+        answer: "B",
+        detail: "El Gateway se basa en el registro de Eureka para descubrir qué servicios están disponibles y cómo enrutar solicitudes hacia ellos."
+      },
+      {
+        question: "¿Qué se necesita para que una aplicación aparezca en la tabla de rutas del Gateway?",
+        options: {
+          A: "Que registre al menos una instancia en Eureka.",
+          B: "Que configure manualmente una ruta en el Gateway.",
+          C: "Que envíe solicitudes directamente al Gateway.",
+          D: "Que tenga múltiples instancias activas."
+        },
+        answer: "A",
+        detail: "Para aparecer en la tabla de rutas del Gateway, la aplicación debe registrar al menos una instancia activa en Eureka."
+      },
+      {
+        question: "¿Qué indica una entrada en la tabla de rutas del Gateway?",
+        options: {
+          A: "El número total de usuarios concurrentes.",
+          B: "Que existe una aplicación registrada en Eureka.",
+          C: "Que una instancia está configurada manualmente.",
+          D: "Que todas las rutas son predeterminadas."
+        },
+        answer: "B",
+        detail: "Cada entrada en la tabla de rutas del Gateway indica la existencia de una aplicación registrada en Eureka."
+      },
+      {
+        question: "¿Qué ocurre si el Gateway no puede comunicarse con Eureka?",
+        options: {
+          A: "El Gateway sigue utilizando la última configuración válida.",
+          B: "El Gateway elimina todas las rutas configuradas.",
+          C: "El sistema se reinicia automáticamente.",
+          D: "Todas las solicitudes al Gateway se redirigen a una aplicación predeterminada."
+        },
+        answer: "A",
+        detail: "Si el Gateway pierde comunicación con Eureka, utiliza la última configuración conocida hasta que se restablezca la conexión."
+      },
+      {
+        question: "¿Qué protocolo utiliza Eureka para registrar y descubrir servicios?",
+        options: {
+          A: "HTTP/REST",
+          B: "SOAP",
+          C: "gRPC",
+          D: "FTP"
+        },
+        answer: "A",
+        detail: "Eureka utiliza HTTP/REST para el registro y descubrimiento de servicios, permitiendo que aplicaciones se comuniquen de manera eficiente."
+      },
+      {
+        question: "¿Qué ocurre si todas las instancias de una aplicación registrada en Eureka están inactivas?",
+        options: {
+          A: "El Gateway elimina automáticamente la ruta asociada.",
+          B: "Eureka mantiene la aplicación registrada pero marca sus instancias como inactivas.",
+          C: "Las solicitudes se redirigen a otra aplicación.",
+          D: "El Gateway genera un error 500 en todas las solicitudes."
+        },
+        answer: "B",
+        detail: "Eureka mantiene la aplicación registrada pero marca todas sus instancias como inactivas, lo que impide que el Gateway redirija solicitudes a estas."
       }
 ];
