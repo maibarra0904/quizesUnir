@@ -1208,5 +1208,203 @@ export const metodologias = [
         },
         answer: "C",
         detail: "CMMI es un modelo de madurez de procesos."
+    },
+    {
+        question: "¿Qué es CMMI?",
+        options: {
+            A: "Una metodología de desarrollo de software.",
+            B: "Un modelo de proceso tradicional.",
+            C: "Un modelo de madurez de procesos.",
+            D: "Una metodología para evaluar la calidad de los procesos."
+        },
+        answer: "C",
+        detail: "CMMI es un modelo de madurez de procesos."
+    },
+    {
+        question: "¿Qué significa MDA en el desarrollo de software?",
+        options: {
+            A: "Modelo de Datos Avanzado.",
+            B: "Arquitectura Dirigida por Modelos.",
+            C: "Método de Desarrollo Ágil.",
+            D: "Modelo de Análisis de Datos."
+        },
+        answer: "B",
+        detail: "MDA significa Arquitectura Dirigida por Modelos, un enfoque que utiliza modelos para generar software."
+    },
+    {
+        question: "¿Qué es un Lenguaje Específico de Dominio (DSL)?",
+        options: {
+            A: "Un lenguaje de programación general.",
+            B: "Un lenguaje adaptado a un dominio particular.",
+            C: "Un lenguaje para definir requisitos.",
+            D: "Un lenguaje de consulta de bases de datos."
+        },
+        answer: "B",
+        detail: "Un DSL es un lenguaje adaptado a un dominio particular, facilitando la expresión de soluciones específicas."
+    },
+    {
+        question: "¿Cuál es la función principal de OCL?",
+        options: {
+            A: "Definir flujos de trabajo.",
+            B: "Especificar restricciones en modelos.",
+            C: "Crear diagramas gráficos.",
+            D: "Generar código automáticamente."
+        },
+        answer: "B",
+        detail: "OCL se utiliza para especificar restricciones y condiciones en modelos orientados a objetos."
+    },
+    {
+        question: "¿Qué representa la verificación en el desarrollo de software?",
+        options: {
+            A: "Evaluar la satisfacción del cliente.",
+            B: "Asegurar que el software se construya según los requisitos.",
+            C: "Realizar pruebas de usabilidad.",
+            D: "Confirmar el rendimiento del software."
+        },
+        answer: "B",
+        detail: "La verificación implica asegurar que el software se construya de acuerdo con los requisitos y especificaciones."
+    },
+    {
+        question: "¿Qué es una transformación M2M?",
+        options: {
+            A: "Transformación de un modelo a otro modelo.",
+            B: "Transformación de un modelo a código fuente.",
+            C: "Transformación de código a un modelo.",
+            D: "Transformación de texto a un modelo."
+        },
+        answer: "A",
+        detail: "M2M se refiere a la transformación de un modelo en otro modelo, manteniendo la estructura y significado."
+    },
+    {
+        question: "¿Cuál es el propósito de las pruebas de aceptación del usuario?",
+        options: {
+            A: "Asegurar que el software cumple con los requisitos técnicos.",
+            B: "Confirmar que el software satisface las necesidades del usuario.",
+            C: "Verificar el rendimiento del software bajo carga.",
+            D: "Validar la calidad del código fuente."
+        },
+        answer: "B",
+        detail: "Las pruebas de aceptación del usuario se realizan para confirmar que el software satisface las necesidades y expectativas del usuario."
+    },
+    {
+        question: "¿Qué es un modelo de negocio en el contexto de MDA?",
+        options: {
+            A: "Un enfoque ágil para el desarrollo.",
+            B: "Un tipo de software de gestión.",
+            C: "Un modelo que describe cómo se genera valor.",
+            D: "Un modelo para definir la arquitectura técnica."
+        },
+        answer: "C",
+        detail: "Un modelo de negocio describe cómo se genera y entrega valor a los clientes."
+    },
+    {
+        question: "¿Qué tipo de transformaciones son M2T?",
+        options: {
+            A: "Modelo a Modelo.",
+            B: "Modelo a Texto.",
+            C: "Texto a Modelo.",
+            D: "Modelo a Diagramas."
+        },
+        answer: "B",
+        detail: "M2T se refiere a la transformación de un modelo a un formato textual, como código fuente."
+    },
+    {
+        question: "¿Cuál es una herramienta comúnmente utilizada para las transformaciones de modelos?",
+        options: {
+            A: "Photoshop.",
+            B: "Eclipse Modeling Framework (EMF).",
+            C: "Microsoft Word.",
+            D: "AutoCAD."
+        },
+        answer: "B",
+        detail: "Eclipse Modeling Framework (EMF) es comúnmente utilizado para crear y transformar modelos."
+    },
+    {
+        question: "En el contexto de OCL, ¿qué es una 'invariante'?",
+        options: {
+            A: "Una condición que debe mantenerse verdadera en un modelo.",
+            B: "Un tipo de dato específico.",
+            C: "Una función de transformación.",
+            D: "Un error en el modelo."
+        },
+        answer: "A",
+        detail: "Una 'invariante' es una condición que debe mantenerse verdadera en un modelo a lo largo de su ciclo de vida."
+    },
+    {
+        question: "¿Qué es la validación en el desarrollo de software?",
+        options: {
+            A: "Asegurar que el software cumpla con las especificaciones.",
+            B: "Evaluar si el software satisface las necesidades del usuario.",
+            C: "Realizar pruebas de rendimiento.",
+            D: "Verificar el código fuente."
+        },
+        answer: "B",
+        detail: "La validación evalúa si el software satisface las necesidades y expectativas del usuario final."
+    },
+    {
+        question: "¿Qué herramienta se puede usar para generar código a partir de un modelo?",
+        options: {
+            A: "Un procesador de texto.",
+            B: "Un generador de código basado en plantillas.",
+            C: "Una hoja de cálculo.",
+            D: "Un software de diseño gráfico."
+        },
+        answer: "B",
+        detail: "Un generador de código basado en plantillas convierte un modelo en código fuente."
+    },
+    {
+        question: "¿Qué es un caso de uso en el contexto de desarrollo de software?",
+        options: {
+            A: "Un documento de requisitos.",
+            B: "Una técnica de programación.",
+            C: "Una descripción de cómo los usuarios interactúan con el sistema.",
+            D: "Un modelo de datos."
+        },
+        answer: "C",
+        detail: "Un caso de uso describe cómo los usuarios interactúan con el sistema para lograr un objetivo específico."
+    },
+    {
+        question: "¿Cuál es el objetivo principal de las pruebas unitarias?",
+        options: {
+            A: "Probar la aplicación completa.",
+            B: "Verificar el rendimiento del sistema.",
+            C: "Asegurar que cada unidad de código funcione correctamente.",
+            D: "Validar la interfaz de usuario."
+        },
+        answer: "C",
+        detail: "Las pruebas unitarias aseguran que cada unidad de código funcione correctamente de manera aislada."
+    },
+    {
+        question: "¿Qué es una arquitectura de software?",
+        options: {
+            A: "Un modelo de datos.",
+            B: "La estructura y organización de un sistema de software.",
+            C: "Un tipo de lenguaje de programación.",
+            D: "Un enfoque para la gestión de proyectos."
+        },
+        answer: "B",
+        detail: "La arquitectura de software es la estructura y organización de un sistema de software, incluyendo sus componentes y relaciones."
+    },
+    {
+        question: "¿Qué es el análisis de requisitos?",
+        options: {
+            A: "La fase de diseño del software.",
+            B: "La identificación y documentación de las necesidades del cliente.",
+            C: "Un tipo de prueba de software.",
+            D: "La implementación del código."
+        },
+        answer: "B",
+        detail: "El análisis de requisitos implica identificar y documentar las necesidades del cliente para el software."
+    },
+    {
+        question: "¿Cuál es un beneficio de usar DSL en el desarrollo de software?",
+        options: {
+            A: "Aumenta la complejidad del código.",
+            B: "Facilita la comunicación con los expertos del dominio.",
+            C: "Reduce la necesidad de pruebas.",
+            D: "Elimina la necesidad de documentación."
+        },
+        answer: "B",
+        detail: "El uso de un DSL facilita la comunicación con los expertos del dominio al utilizar un lenguaje adaptado a sus necesidades."
     }
 ];

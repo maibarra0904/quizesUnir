@@ -1419,5 +1419,192 @@ export const cyberseguridad = [
         },
         answer: "C",
         detail: "Interactivo."
+    },
+    {
+        question: "¿Cuál es la principal función de un WAF?",
+        options: {
+            A: "Proteger aplicaciones web de ataques.",
+            B: "Monitorear el tráfico de red.",
+            C: "Gestionar contraseñas de usuarios.",
+            D: "Realizar análisis de código estático."
+        },
+        answer: "A",
+        detail: "Un WAF protege aplicaciones web de diversos tipos de ataques."
+    },
+    {
+        question: "¿Qué significa SAST?",
+        options: {
+            A: "Static Application Security Testing.",
+            B: "Secure Application Software Testing.",
+            C: "Systematic Application Security Testing.",
+            D: "Static Application Security Tool."
+        },
+        answer: "A",
+        detail: "SAST significa Static Application Security Testing."
+    },
+    {
+        question: "¿Qué tipo de vulnerabilidad es SQL Injection?",
+        options: {
+            A: "Inyección de código en bases de datos.",
+            B: "Acceso no autorizado a archivos.",
+            C: "Manipulación de sesiones.",
+            D: "Inyección de scripts en páginas web."
+        },
+        answer: "A",
+        detail: "SQL Injection es una inyección de código en bases de datos."
+    },
+    {
+        question: "¿Qué hace un sistema IAST?",
+        options: {
+            A: "Analiza el código fuente estáticamente.",
+            B: "Evalúa la seguridad de una aplicación en tiempo real.",
+            C: "Bloquea ataques en tiempo de ejecución.",
+            D: "Monitorea el tráfico de red."
+        },
+        answer: "B",
+        detail: "IAST evalúa la seguridad de una aplicación en tiempo real."
+    },
+    {
+        question: "¿Qué es un ataque TOCTOU?",
+        options: {
+            A: "Un ataque de inyección de SQL.",
+            B: "Un ataque que explota la ventana de tiempo entre verificación y uso.",
+            C: "Un ataque de denegación de servicio.",
+            D: "Un ataque de manipulación de sesiones."
+        },
+        answer: "B",
+        detail: "TOCTOU explota la ventana de tiempo entre verificación y uso."
+    },
+    {
+        question: "¿Qué es DAST?",
+        options: {
+            A: "Dynamic Application Security Testing.",
+            B: "Data Application Security Testing.",
+            C: "Direct Application Security Testing.",
+            D: "Dynamic Application Security Tool."
+        },
+        answer: "A",
+        detail: "DAST significa Dynamic Application Security Testing."
+    },
+    {
+        question: "¿Cuál es una característica de RASP?",
+        options: {
+            A: "Analiza el código fuente antes de la ejecución.",
+            B: "Proporciona protección en tiempo real a las aplicaciones.",
+            C: "Requiere acceso al código fuente.",
+            D: "Es un tipo de firewall de red."
+        },
+        answer: "B",
+        detail: "RASP proporciona protección en tiempo real a las aplicaciones."
+    },
+    {
+        question: "¿Qué es un ataque XSS?",
+        options: {
+            A: "Un ataque de inyección de comandos.",
+            B: "Un ataque que inyecta scripts maliciosos en páginas web.",
+            C: "Un ataque de denegación de servicio.",
+            D: "Un ataque de suplantación de identidad."
+        },
+        answer: "B",
+        detail: "XSS inyecta scripts maliciosos en páginas web."
+    },
+    {
+        question: "¿Qué hace una herramienta SCA?",
+        options: {
+            A: "Analiza el código fuente en busca de vulnerabilidades.",
+            B: "Evalúa las bibliotecas de código abierto en busca de vulnerabilidades.",
+            C: "Monitorea el tráfico de red.",
+            D: "Bloquea ataques en tiempo de ejecución."
+        },
+        answer: "B",
+        detail: "SCA evalúa las bibliotecas de código abierto en busca de vulnerabilidades."
+    },
+    {
+        question: "¿Qué es un ataque CSRF?",
+        options: {
+            A: "Un ataque que inyecta scripts en páginas web.",
+            B: "Un ataque que suplantan solicitudes en nombre de un usuario autenticado.",
+            C: "Un ataque de inyección de SQL.",
+            D: "Un ataque de manipulación de sesiones."
+        },
+        answer: "B",
+        detail: "CSRF suplantan solicitudes en nombre de un usuario autenticado."
+    },
+    {
+        question: "¿Qué es un cortafuegos de aplicaciones web (WAF)?",
+        options: {
+            A: "Un dispositivo que protege redes.",
+            B: "Una herramienta que protege aplicaciones web de ataques.",
+            C: "Un sistema de gestión de contraseñas.",
+            D: "Un software de análisis de código."
+        },
+        answer: "B",
+        detail: "Un WAF protege aplicaciones web de ataques."
+    },
+    {
+        question: "¿Qué tipo de vulnerabilidad es IDOR?",
+        options: {
+            A: "Inyección de código en bases de datos.",
+            B: "Acceso no autorizado a objetos internos.",
+            C: "Manipulación de sesiones.",
+            D: "Inyección de scripts en páginas web."
+        },
+        answer: "B",
+        detail: "IDOR es un acceso no autorizado a objetos internos."
+    },
+    {
+        question: "¿Qué es un análisis de composición de software (SCA)?",
+        options: {
+            A: "Un análisis de código fuente estático.",
+            B: "Un análisis de bibliotecas y componentes de código abierto.",
+            C: "Un análisis de tráfico de red.",
+            D: "Un análisis de vulnerabilidades en tiempo de ejecución."
+        },
+        answer: "B",
+        detail: "SCA analiza bibliotecas y componentes de código abierto."
+    },
+    {
+        question: "¿Qué significa el término 'hardcoded password'?",
+        options: {
+            A: "Una contraseña almacenada de forma segura.",
+            B: "Una contraseña codificada en el código fuente.",
+            C: "Una contraseña que se genera dinámicamente.",
+            D: "Una contraseña que se almacena en un servidor seguro."
+        },
+        answer: "B",
+        detail: "Hardcoded password es una contraseña codificada en el código fuente."
+    },
+    {
+        question: "¿Qué es un ataque de denegación de servicio (DoS)?",
+        options: {
+            A: "Un ataque que inunda un servidor con tráfico.",
+            B: "Un ataque que roba información sensible.",
+            C: "Un ataque que inyecta código malicioso.",
+            D: "Un ataque que manipula sesiones de usuario."
+        },
+        answer: "A",
+        detail: "Un ataque DoS inunda un servidor con tráfico para hacerlo inaccesible."
+    },
+    {
+        question: "¿Qué es un ataque de Path Traversal?",
+        options: {
+            A: "Un ataque que permite acceder a archivos y directorios no autorizados.",
+            B: "Un ataque que inyecta scripts en páginas web.",
+            C: "Un ataque que suplantan solicitudes en nombre de un usuario autenticado.",
+            D: "Un ataque que roba información sensible."
+        },
+        answer: "A",
+        detail: "Path Traversal permite acceder a archivos y directorios no autorizados."
+    },
+    {
+        question: "¿Qué es un ataque de Null Byte Injection?",
+        options: {
+            A: "Un ataque que inyecta bytes nulos en la entrada de datos.",
+            B: "Un ataque que inyecta scripts en páginas web.",
+            C: "Un ataque que suplantan solicitudes en nombre de un usuario autenticado.",
+            D: "Un ataque que roba información sensible."
+        },
+        answer: "A",
+        detail: "Null Byte Injection inyecta bytes nulos en la entrada de datos."
     }
 ];
