@@ -579,7 +579,7 @@ export const desarrollo = [
             A: "A. Envelope.",
             B: "B. Header.",
             C: "C. Body.",
-            D: "A. y C."
+            D: "D. A y C"
         },
         answer: "D",
         detail: "Las partes obligatorias de un mensaje SOAP son el Envelope y el Body."
@@ -698,7 +698,7 @@ export const desarrollo = [
             A: "A. Fácil escalabilidad horizontal.",
             B: "B. Dependencia de un reloj global.",
             C: "C. Concurrencia real.",
-            D: "A. y C."
+            D: "D. A y C"
         },
         answer: "D",
         detail: "Los sistemas distribuidos se caracterizan por ser **fáciles**, tener **escalabilidad horizontal** y **concurrencia real**."
