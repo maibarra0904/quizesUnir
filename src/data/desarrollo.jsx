@@ -1051,5 +1051,214 @@ export const desarrollo = [
         },
         answer: "c",
         detail: "QUIS significa tanto preguntas sobre la satisfacción de la interfaz de usuario como 'Question for User Interface Satisfaction'."
-    }
+    },
+    {
+        question: "¿Cuál es el principal propósito de un **enrutador** en una aplicación **frontend** desarrollada con React, según lo discutido en las fuentes?",
+        options: {
+          A: "Gestionar la comunicación con el **backend**.",
+          B: "Definir qué componente se renderiza en función de la **URL** en el navegador.",
+          C: "Almacenar y gestionar el **estado** de la aplicación.",
+          D: "Aplicar estilos y dar formato a los componentes de la interfaz de usuario."
+        },
+        answer: "B",
+        detail: "El principal propósito del **enrutador** es determinar qué componente de la interfaz de usuario se muestra al usuario basándose en la **URL** que visita en su navegador [1]."
+      },
+      {
+        question: "En el contexto de **React Router**, ¿cómo se determina qué ruta coincide con la **URL** actual?",
+        options: {
+          A: "Comparando la **URL** con las rutas definidas de forma secuencial y eligiendo la primera coincidencia.",
+          B: "Eligiendo la ruta que tenga el mayor número de segmentos en común con la **URL**.",
+          C: "Utilizando una función de **hashing** para mapear la **URL** a una ruta específica.",
+          D: "De forma aleatoria entre todas las rutas definidas."
+        },
+        answer: "A",
+        detail: "Las rutas en **React Router** se comparan secuencialmente con la **URL**, y la primera ruta que coincide es la que se selecciona [1]."
+      },
+      {
+        question: "Según se menciona en las fuentes sobre **React Router**, ¿las rutas son sensibles a mayúsculas y minúsculas (**case sensitive**)?",
+        options: {
+          A: "No, las rutas no distinguen entre mayúsculas y minúsculas.",
+          B: "Sí, las rutas son estrictamente sensibles a mayúsculas y minúsculas.",
+          C: "Depende de la configuración específica del **enrutador**.",
+          D: "Solo la parte de los parámetros de la ruta es sensible a mayúsculas y minúsculas."
+        },
+        answer: "B",
+        detail: "Las rutas en **React Router** son **case sensitive**, lo que significa que se distingue entre mayúsculas y minúsculas al hacer la coincidencia con la **URL** [2]."
+      },
+      {
+        question: "¿Cuál es la función principal de **Eureka** en una arquitectura de **microservicios**?",
+        options: {
+          A: "Actuar como un **gateway** para todas las peticiones externas.",
+          B: "Servir como un **servidor de registro** donde los **microservicios** se registran y pueden ser descubiertos por otros **servicios**.",
+          C: "Gestionar la **configuración** centralizada de todos los **microservicios**.",
+          D: "Almacenar de forma persistente los datos de todos los **microservicios**."
+        },
+        answer: "B",
+        detail: "**Eureka** funciona como un **servidor de registro** (**service discovery**) donde los **microservicios** se registran y anuncian su ubicación, permitiendo que otros **servicios** los descubran [3-5]."
+      },
+      {
+        question: "¿Qué información principal registran los **microservicios** en **Eureka**?",
+        options: {
+          A: "Su código fuente completo y la información de sus dependencias.",
+          B: "Su nombre (**nombre de registro**), dirección **IP** y **puerto**.",
+          C: "Las credenciales de seguridad para acceder a sus bases de datos.",
+          D: "Los logs de ejecución y las métricas de rendimiento."
+        },
+        answer: "B",
+        detail: "Los **microservicios** registran principalmente su **nombre de registro**, dirección **IP** y **puerto** en **Eureka** para que otros **servicios** puedan localizarlos [3, 6]."
+      },
+      {
+        question: "¿Cómo se comunican los **microservicios** entre sí en un entorno donde se utiliza **Eureka** para el **descubrimiento de servicios**?",
+        options: {
+          A: "Directamente utilizando sus direcciones **IP** y **puertos** codificados.",
+          B: "A través del **gateway**, que actúa como intermediario para todas las comunicaciones.",
+          C: "Utilizando el **nombre de registro** del **microservicio** destino, permitiendo que **Eureka** resuelva su ubicación física.",
+          D: "Mediante mensajes en colas gestionadas por **Eureka**."
+        },
+        answer: "C",
+        detail: "Los **microservicios** se comunican utilizando el **nombre de registro** del **microservicio** al que desean acceder. **Eureka** se encarga de resolver la dirección **IP** y el **puerto** correspondientes [3]."
+      },
+      {
+        question: "¿Cuál es la función principal de **Spring Cloud Gateway** en una arquitectura de **microservicios**?",
+        options: {
+          A: "Gestionar las bases de datos distribuidas de los **microservicios**.",
+          B: "Actuar como un punto de entrada único (**gateway**) para todas las peticiones externas hacia los **microservicios**, enrutándolas al servicio apropiado.",
+          C: "Implementar la lógica de negocio centralizada de la aplicación.",
+          D: "Monitorizar la salud y el rendimiento de los **microservicios**."
+        },
+        answer: "B",
+        detail: "**Spring Cloud Gateway** actúa como un **gateway**, un punto de entrada único para las peticiones externas, y se encarga de enrutarlas a los **microservicios** correspondientes [3, 4]."
+      },
+      {
+        question: "¿Cómo construye **Spring Cloud Gateway** su **tabla de enrutamiento** en un entorno donde está integrado con **Eureka**?",
+        options: {
+          A: "Se configura manualmente con las rutas específicas de cada **microservicio**.",
+          B: "Consulta directamente las definiciones de las **APIs REST** de cada **microservicio**.",
+          C: "Automáticamente, utilizando la información de los **microservicios** registrados en **Eureka**.",
+          D: "Utiliza un archivo de configuración centralizado que debe ser actualizado cada vez que se añade o modifica un **microservicio**."
+        },
+        answer: "C",
+        detail: "**Spring Cloud Gateway** construye su **tabla de enrutamiento** de forma **automática** utilizando la información de los **microservicios** que están registrados en **Eureka** [7]."
+      },
+      {
+        question: "Según las fuentes, ¿existe una relación directa entre el número de aplicaciones registradas en **Eureka** y el número de entradas en la **tabla de rutas** de **Cloud Gateway** cuando la configuración predeterminada está en uso?",
+        options: {
+          A: "No hay relación directa.",
+          B: "El número de entradas en la **tabla de rutas** es generalmente menor que el número de aplicaciones registradas.",
+          C: "Sí, generalmente hay una entrada en la **tabla de rutas** por cada aplicación registrada en **Eureka**.",
+          D: "El número de entradas en la **tabla de rutas** es mayor que el número de aplicaciones registradas debido al balanceo de carga."
+        },
+        answer: "C",
+        detail: "Generalmente, en la configuración predeterminada, hay una entrada en la **tabla de rutas** de **Cloud Gateway** por cada aplicación que está registrada en **Eureka** [8]."
+      },
+      {
+        question: "En la **tabla de enrutamiento** de **Cloud Gateway**, ¿cómo se identifica a qué **microservicio** debe reenviarse una petición basada en la **URL**?",
+        options: {
+          A: "Analizando los **headers** específicos de la petición.",
+          B: "Comparando la **ruta** de la petición con los patrones definidos, que suelen basarse en el **nombre de la aplicación** registrada en **Eureka**.",
+          C: "Examinando el **body** de la petición para encontrar un identificador del **servicio**.",
+          D: "Utilizando un puerto específico en la **URL** para cada **microservicio**."
+        },
+        answer: "B",
+        detail: "La **tabla de enrutamiento** de **Cloud Gateway** utiliza el **path** de la petición, que generalmente incluye el **nombre de la aplicación** registrada en **Eureka**, para determinar a qué **microservicio** debe reenviarse la solicitud [9, 10]."
+      },
+      {
+        question: "¿Qué componente de **Spring Cloud Gateway** se encarga de utilizar la información de **Eureka** para componer la **tabla de enrutamiento** de forma automática?",
+        options: {
+          A: "El **LoadBalancerClient**.",
+          B: "El **DiscoveryClient**.",
+          C: "El **DiscoveryLocator** (a través de la propiedad `spring.cloud.gateway.discovery.locator.enabled`).",
+          D: "El **RouteLocatorBuilder**."
+        },
+        answer: "C",
+        detail: "La propiedad `spring.cloud.gateway.discovery.locator.enabled` habilita el **DiscoveryLocator**, que es el componente encargado de componer automáticamente la **tabla de enrutamiento** utilizando la información de **Eureka** [7]."
+      },
+      {
+        question: "Según se explica en las fuentes, ¿cuál es el puerto por defecto en el que se ejecuta **Spring Cloud Gateway**?",
+        options: {
+          A: "8080",
+          B: "8082",
+          C: "8761 (que suele ser el de Eureka Server)",
+          D: "8762"
+        },
+        answer: "D",
+        detail: "El puerto por defecto en el que se ejecuta **Spring Cloud Gateway** es el **8762** [10]."
+      },
+      {
+        question: "Cuando **Spring Cloud Gateway** recibe una petición y la enruta a un **microservicio** a través de **Eureka**, ¿a qué dirección se dirige la petición?",
+        options: {
+          A: "Directamente a la dirección **IP** y **puerto** de una instancia específica del **microservicio**.",
+          B: "Al **Load Balancer** gestionado por **Eureka** para ese **microservicio**, que luego distribuirá la carga entre sus instancias.",
+          C: "A la dirección **IP** y **puerto** del servidor de **Eureka**.",
+          D: "A una dirección **IP** y **puerto** configurados estáticamente en el **Gateway** para ese **microservicio**."
+        },
+        answer: "B",
+        detail: "El **Gateway** redirige la petición al **Load Balancer** de **Eureka** para el **microservicio** destino, y es **Eureka** quien se encarga de balancear la carga entre las diferentes instancias disponibles [10]."
+      },
+      {
+        question: "Si un **microservicio** tiene múltiples **instancias** registradas en **Eureka**, ¿cómo decide **Eureka** a qué instancia dirigir una petición a través del **Load Balancer**?",
+        options: {
+          A: "Utiliza un algoritmo de **round robin** por defecto.",
+          B: "Siempre dirige la petición a la primera instancia que se registró.",
+          C: "De forma aleatoria entre todas las instancias.",
+          D: "Basándose en la carga actual de cada instancia (aunque esto puede ser simulado en el ejemplo)."
+        },
+        answer: "A",
+        detail: "**Eureka** utiliza un algoritmo de **round robin** por defecto para balancear la carga entre las diferentes **instancias** de un **microservicio** [11]."
+      },
+      {
+        question: "¿Qué ocurre con la **tabla de enrutamiento** de **Cloud Gateway** si una nueva **instancia** de un **microservicio** se registra en **Eureka**?",
+        options: {
+          A: "La **tabla de enrutamiento** debe actualizarse manualmente.",
+          B: "La **tabla de enrutamiento** se actualiza automáticamente para incluir la nueva **instancia** (aunque la ruta general ya debería existir).",
+          C: "Es necesario reiniciar el **Cloud Gateway** para que reconozca la nueva **instancia**.",
+          D: "La nueva **instancia** no se tendrá en cuenta para el enrutamiento hasta la próxima versión de la aplicación."
+        },
+        answer: "B",
+        detail: "La **tabla de enrutamiento** de **Cloud Gateway** se actualiza **automáticamente** cuando nuevas **instancias** de los **microservicios** se registran en **Eureka** [12]."
+      },
+      {
+        question: "Según lo discutido en las fuentes, ¿es posible acceder a un **microservicio** directamente sin pasar por el **Cloud Gateway** en una arquitectura que utiliza ambos componentes?",
+        options: {
+          A: "No, todas las peticiones deben pasar siempre por el **Gateway**.",
+          B: "Sí, los **microservicios** pueden comunicarse directamente entre sí utilizando sus **nombres de registro** y **Eureka** para la resolución de direcciones.",
+          C: "Solo se puede acceder directamente a los **microservicios** desde la misma máquina virtual.",
+          D: "Depende de la configuración de red específica."
+        },
+        answer: "B",
+        detail: "Sí, los **microservicios** pueden comunicarse directamente entre sí utilizando sus **nombres de registro**, y **Eureka** les proporciona la ubicación física necesaria [3, 13]."
+      },
+      {
+        question: "Según se menciona en las fuentes, ¿qué ocurre si se decide cambiar el nombre de un **endpoint** en un **microservicio** registrado en **Eureka** y se está utilizando **Cloud Gateway** con el **DiscoveryLocator** habilitado?",
+        options: {
+          A: "No tiene ningún impacto en el enrutamiento a través del **Gateway**.",
+          B: "Es necesario actualizar manualmente la configuración de enrutamiento en el **Cloud Gateway**.",
+          C: "Los clientes que accedan a través del **Gateway** seguirán utilizando el nombre anterior hasta que se reinicie el **Gateway**.",
+          D: "Los cambios en los **endpoints** dentro del **microservicio** no afectan directamente la forma en que el **Gateway** enruta las peticiones al **servicio** basado en su nombre registrado en **Eureka**."
+        },
+        answer: "D",
+        detail: "Cambiar el nombre de un **endpoint** dentro de un **microservicio** no afecta directamente la forma en que el **Cloud Gateway** enruta las peticiones al **servicio** basado en su nombre registrado en **Eureka**. El enrutamiento del **Gateway** se basa en el nombre del **servicio**, no en los **endpoints** internos [12]."
+      },
+      {
+        question: "En el ejemplo de configuración de **Cloud Gateway** mostrado en las fuentes, ¿para qué se utiliza la propiedad `spring.cloud.gateway.discovery.locator.lower-case-service-id`?",
+        options: {
+          A: "Para convertir todos los **headers** de las peticiones a minúsculas.",
+          B: "Para asegurar que los nombres de los **servicios** registrados en **Eureka** se conviertan a minúsculas al crear las rutas en el **Gateway**.",
+          C: "Para que todas las rutas definidas manualmente en el **Gateway** sean en minúsculas.",
+          D: "Para que la comunicación entre el **Gateway** y los **microservicios** se realice utilizando solo minúsculas en los nombres de los **servicios**."
+        },
+        answer: "B",
+        detail: "La propiedad `spring.cloud.gateway.discovery.locator.lower-case-service-id` se utiliza para que las rutas generadas en la **tabla de enrutamiento** del **Gateway** sean en minúsculas, utilizando los nombres de los **servicios** de **Eureka** en ese formato [9]."
+      },
+      {
+        question: "¿Qué representa el término '**instancia**' en el contexto de **microservicios** registrados en **Eureka**?",
+        options: {
+          A: "Una base de datos individual asociada a un **microservicio**.",
+          B: "Una unidad de código fuente de un **microservicio**.",
+          C: "Una ejecución en particular (un despliegue) de un **microservicio** que está activa y disponible para recibir peticiones.",
+          D: "Una interfaz de usuario específica para interactuar con un **microservicio**."
+        },
+        answer: "C",
+        detail: "Una '**instancia**' de un **microservicio** representa una ejecución específica de ese **servicio** que está en funcionamiento y puede procesar solicitudes [11, 15]."
+      }
 ];
