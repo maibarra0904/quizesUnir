@@ -1295,5 +1295,60 @@ export const direccion = [
         },
         answer: "C",
         detail: "La fase de cierre tiene como objetivo principal formalizar la finalización del proyecto, liberar los recursos asignados y comunicar el cierre a todos los stakeholders involucrados [1, 2, 21]."
+    },
+    {
+        question: "En un proyecto de construcción, después de 6 meses, el valor ganado (EV) es de 120,000 €, el coste real (AC) es de 150,000 € y el valor planeado (PV) es de 130,000 €. ¿Cuál es el CPI?",
+        options: {
+            A: "0.80",
+            B: "0.87",
+            C: "0.92",
+            D: "1.00"
+        },
+        answer: "B",
+        detail: "CPI = EV / AC = 120,000 € / 150,000 € = 0.80. Esto indica que el proyecto está sobrepasando su presupuesto."
+    },
+    {
+        question: "En un proyecto de software, después de 4 meses, el valor ganado (EV) es de 200,000 €, el coste real (AC) es de 250,000 € y el valor planeado (PV) es de 220,000 €. ¿Cuál es el SPI?",
+        options: {
+            A: "0.83",
+            B: "0.91",
+            C: "1.00",
+            D: "1.10"
+        },
+        answer: "A",
+        detail: "SPI = EV / PV = 200,000 € / 220,000 € = 0.91. Esto indica que el proyecto está retrasado en comparación con el cronograma."
+    },
+    {
+        question: "Un proyecto de marketing tiene un presupuesto de 80,000 € y un plazo de 5 meses. Al final del tercer mes, el EV es de 40,000 €, el AC es de 50,000 € y el PV es de 45,000 €. ¿Cuál es el CPI?",
+        options: {
+            A: "0.80",
+            B: "0.90",
+            C: "1.00",
+            D: "1.10"
+        },
+        answer: "A",
+        detail: "CPI = EV / AC = 40,000 € / 50,000 € = 0.80. Esto indica que se está gastando más de lo planeado."
+    },
+    {
+        question: "En un proyecto de investigación, el valor ganado (EV) es de 75,000 €, el coste real (AC) es de 60,000 € y el valor planeado (PV) es de 90,000 €. ¿Cuál es el SPI?",
+        options: {
+            A: "0.75",
+            B: "0.83",
+            C: "1.10",
+            D: "1.25"
+        },
+        answer: "A",
+        detail: "SPI = EV / PV = 75,000 € / 90,000 € = 0.83. Esto significa que el proyecto está detrás del cronograma."
+    },
+    {
+        question: "Un proyecto de desarrollo de producto tiene un EV de 150,000 €, un AC de 120,000 € y un PV de 180,000 €. ¿Cuál es el CPI y qué indica sobre el proyecto?",
+        options: {
+            A: "1.25, el proyecto está bajo presupuesto.",
+            B: "0.80, el proyecto está sobre presupuesto.",
+            C: "1.00, el proyecto está en presupuesto.",
+            D: "0.90, el proyecto está en riesgo."
+        },
+        answer: "A",
+        detail: "CPI = EV / AC = 150,000 € / 120,000 € = 1.25. Esto indica que el proyecto está bajo presupuesto."
     }
 ];
