@@ -218,5 +218,115 @@ export const auditoria = [
         },
         answer: "C",
         detail: "Codificación."
+    },
+    {
+        question: "Señala la respuesta correcta. Las perspectivas de las pruebas de seguridad basadas en el riesgo son las siguientes:",
+        options: {
+            A: "Perspectiva gerencia.",
+            B: "Perspectiva atacante.",
+            C: "Perspectiva usuario.",
+            D: "Perspectiva del analista."
+        },
+        answer: "B",
+        detail: "Perspectiva atacante."
+    },
+    {
+        question: "Señala la respuesta correcta. El principal problema de las herramientas de análisis estático es:",
+        options: {
+            A: "Falsos negativos que produce.",
+            B: "Gran cantidad de defectos que encuentra.",
+            C: "Reglas de la herramienta.",
+            D: "Falsos positivos que produce."
+        },
+        answer: "A",
+        detail: "Falsos negativos que produce."
+    },
+    {
+        question: "Señala la respuesta incorrecta. Las herramientas de análisis estático realizan varios tipos de análisis:",
+        options: {
+            A: "Taint Propagation.",
+            B: "Análisis puntual.",
+            C: "Model checking.",
+            D: "Análisis de flujo de datos."
+        },
+        answer: "B",
+        detail: "Análisis puntual."
+    },
+    {
+        question: "Señala la respuesta correcta. Los tests de penetración:",
+        options: {
+            A: "Demuestran que ningún defecto existe.",
+            B: "Revisan el código.",
+            C: "El entendimiento del ambiente de ejecución y de los problemas de configuración es el mejor resultado de cualquier prueba de penetración.",
+            D: "Las conclusiones de seguridad son repetibles a través de equipos diferentes y varían extensamente dependiendo de la habilidad y la experiencia de los probadores."
+        },
+        answer: "C",
+        detail: "El entendimiento del ambiente de ejecución y de los problemas de configuración es el mejor resultado de cualquier prueba de penetración."
+    },
+    {
+        question: "Señalar la respuesta correcta. A la hora de realizar la distribución y despliegue del software desarrollado es recomendable realizar las siguientes buenas prácticas:",
+        options: {
+            A: "Distribuir el software con una configuración por defecto segura y lo más restrictiva posible.",
+            B: "Proporcionar una herramienta de instalación automática.",
+            C: "Cambio los valores de configuración predeterminados durante el desarrollo.",
+            D: "Todas son correctas."
+        },
+        answer: "D",
+        detail: "Todas son correctas."
+    },
+    {
+        question: "Señala la respuesta incorrecta. Los objetivos de las pruebas de seguridad basadas en el riesgo son:",
+        options: {
+            A: "Verificar la operación del software bajo en su entorno de producción.",
+            B: "Verificar la capacidad de supervivencia del software ante la aparición de anomalías, errores y su manejo de estas mediante excepciones que minimicen el alcance e impacto de los daños que puedan resultar de los ataques.",
+            C: "Verificar la falta de defectos y debilidades explotables.",
+            D: "Verificar la fiabilidad del software, en términos de comportamiento seguro y cambios de estado confiables."
+        },
+        answer: "A",
+        detail: "Verificar la operación del software bajo en su entorno de producción."
+    },
+    {
+        question: "Señalar la respuesta incorrecta. El análisis estático de código fuente es adecuado para identificar problemas de seguridad por ciertas razones:",
+        options: {
+            A: "Las herramientas de análisis estático comprueban el código a fondo y coherentemente, sin ninguna tendencia, que a veces los programadores según su criterio podrían tener sobre algunas partes del código que pudieran ser más «interesantes» desde una perspectiva de seguridad.",
+            B: "Examinando el código en sí mismo, las herramientas de análisis estático a menudo pueden indicar la causa de origen de un problema de seguridad, no solamente uno de sus síntomas.",
+            C: "Cuando un investigador de seguridad descubre una nueva variedad de ataque, las herramientas de análisis estático no ayudan a comprobar de nuevo una gran cantidad de código para ver dónde el nuevo ataque podría tener éxito.",
+            D: "El análisis estático puede encontrar errores tempranamente en el desarrollo, aún antes de que el programa sea ejecutado por primera vez."
+        },
+        answer: "C",
+        detail: "Cuando un investigador de seguridad descubre una nueva variedad de ataque, las herramientas de análisis estático no ayudan a comprobar de nuevo una gran cantidad de código."
+    },
+    {
+        question: "Señalar la respuesta correcta. La principal misión de los tests de penetración es:",
+        options: {
+            A: "Revisar estáticamente el código del sistema.",
+            B: "Comprobar las vulnerabilidades del software.",
+            C: "Verificar cómo el software se comporta y resiste ante diferentes tipos de ataque.",
+            D: "Probar la seguridad de la arquitectura del software."
+        },
+        answer: "C",
+        detail: "Verificar cómo el software se comporta y resiste ante diferentes tipos de ataque."
+    },
+    {
+        question: "Indicar la respuesta incorrecta. Los factores principales prácticos que determinan la utilidad de una herramienta de análisis estático son:",
+        options: {
+            A: "El equilibrio que la herramienta hace entre la precisión, la profundidad y la escalabilidad.",
+            B: "Porcentaje de falsos positivos de la herramienta.",
+            C: "Las características de la herramienta para hacerla fácil de usar.",
+            D: "La capacidad de la herramienta para comprender el programa que se analiza."
+        },
+        answer: "B",
+        detail: "Porcentaje de falsos positivos de la herramienta."
+    },
+    {
+        question: "Señalar la respuesta correcta. Una herramienta de análisis de código reporta que existe una vulnerabilidad de inyección SQL. Sin embargo, después de la correspondiente verificación, se comprueba que en realidad no existe tal vulnerabilidad. ¿Qué tipo de limitación de las herramientas de análisis de código se ha expuesto?",
+        options: {
+            A: "Un falso positivo.",
+            B: "Un falso negativo.",
+            C: "Una vulnerabilidad específica de un lenguaje de programación.",
+            D: "Ninguna de las anteriores."
+        },
+        answer: "A",
+        detail: "Un falso positivo."
     }
 ]
