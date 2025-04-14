@@ -5,6 +5,9 @@ import { cyberseguridad } from '../data/cyberseguridad';
 import { desarrollo } from '../data/desarrollo';
 import { direccion } from '../data/direccion';
 import { metodologias } from '../data/metodologias';
+import { administracion } from '../data/administracion';
+import { auditoria } from '../data/auditoria';
+
 
 const Home = () => {
     const [selectedSubject, setSelectedSubject] = useState('');
@@ -31,6 +34,8 @@ const Home = () => {
         { id: 3, name: 'metodologias', quantity: metodologias.length },
         { id: 4, name: 'cyberseguridad', quantity: cyberseguridad.length },
         { id: 5, name: 'direccion', quantity: direccion.length },
+        { id: 6, name: 'administracion', quantity: administracion.length },
+        { id: 7, name: 'auditoria', quantity: auditoria.length },
         // Agrega más materias según sea necesario
     ];
 

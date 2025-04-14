@@ -6,6 +6,9 @@ import { cyberseguridad } from '../data/cyberseguridad';
 import { desarrollo } from '../data/desarrollo';
 import { direccion } from '../data/direccion';
 import { metodologias } from '../data/metodologias';
+import { administracion } from '../data/administracion';
+import { auditoria } from '../data/auditoria';
+
 
 const Studio = () => {
     const location = useLocation();
@@ -45,6 +48,14 @@ const Studio = () => {
             case 'metodologias':
                 setSubjectName('Metodologías de Desarrollo Web');
                 questions = [...metodologias];
+                break;
+            case 'administracion':
+                setSubjectName('Administración de Sistemas, Virtualización, Cloud Computing y DevOps');
+                questions = [...administracion];
+                break;
+            case 'auditoria':
+                setSubjectName('Desarrollo Seguro de Software, Virtualización, Cloud Computing y DevOps');
+                questions = [...auditoria];
                 break;
             default:
                 questions = []; // Manejo por defecto
