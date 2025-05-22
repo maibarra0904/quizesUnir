@@ -328,5 +328,445 @@ export const auditoria = [
         },
         answer: "A",
         detail: "Un falso positivo."
-    }
+    },
+    {
+    question: "Es fundamental que un auditor de sistemas de información:",
+    options: {
+      A: "Tenga conocimiento de la legislación aplicable en la compañía.",
+      B: "Tenga conocimiento de los objetivos de la compañía.",
+      C: "Tenga conocimiento de los sistemas de información.",
+      D: "Todas las anteriores."
+    },
+    answer: "D",
+    detail: "Todas las anteriores."
+  },
+  {
+    question: "¿Dónde se debe situar un departamento de auditoría interna dentro de una compañía?",
+    options: {
+      A: "Su situación no es relevante.",
+      B: "Siempre depende de Tecnología.",
+      C: "Depende de la empresa, pero lo más recomendable es que dependa de Seguridad.",
+      D: "En una ubicación jerárquica en la que pueda realizar sus actuaciones de manera independiente."
+    },
+    answer: "D",
+    detail: "En una ubicación jerárquica en la que pueda realizar sus actuaciones de manera independiente."
+  },
+  {
+    question: "En relación con la clasificación de controles internos, según su naturaleza, podemos afirmar que:",
+    options: {
+      A: "Son normalmente detectivos, correctivos y preventivos. En ocasiones, se incluyen los controles alternativos.",
+      B: "Son voluntarios, obligatorios, manuales y automáticos.",
+      C: "Son voluntarios, obligatorios, manuales, automáticos, preventivos, detectivos y correctivos.",
+      D: "Son controles generales, de aplicación, de área y legales."
+    },
+    answer: "A",
+    detail: "Son normalmente detectivos, correctivos y preventivos. En ocasiones, se incluyen los controles alternativos."
+  },
+  {
+    question: "En relación con la clasificación de controles internos, según su naturaleza, podemos afirmar que:",
+    options: {
+      A: "Los controles detectivos actúan sobre la causa de los riesgos con el fin de disminuir su probabilidad de ocurrencia.",
+      B: "Los controles preventivos se diseñan para descubrir un evento, irregularidad o resultado no previsto, alertan sobre la presencia de riesgos y permiten tomar medidas inmediatas, pudiendo ser manuales o automáticos.",
+      C: "Las opciones A y B son correctas.",
+      D: "Las opciones A y B son incorrectas."
+    },
+    answer: "D",
+    detail: "Las opciones A y B son incorrectas."
+  },
+  {
+    question: "Los controles generales se clasifican en:",
+    options: {
+      A: "Controles de organización y operación, controles de tratamiento de datos, así como controles de hardware y software de sistemas.",
+      B: "Controles de entrada de datos, controles de tratamiento de datos y controles de salida de datos.",
+      C: "Controles de organización y operación, controles de desarrollo de sistemas y documentación, así como controles de hardware y software de sistemas.",
+      D: "Ninguna de las anteriores es cierta."
+    },
+    answer: "C",
+    detail: "Controles de organización y operación, controles de desarrollo de sistemas y documentación, así como controles de hardware y software de sistemas."
+  },
+  {
+    question: "¿Se puede considerar un control como señuelo?",
+    options: {
+      A: "No, un control siempre debe tener un objetivo claro.",
+      B: "No, los controles tienen que ser reales.",
+      C: "Sí, se utilizan para desviar la atención de un potencial atacante.",
+      D: "Ninguna de las respuestas anteriores es correcta."
+    },
+    answer: "C",
+    detail: "Sí, se utilizan para desviar la atención de un potencial atacante."
+  },
+  {
+    question: "Dentro de controles generales, podemos afirmar que no son controles de organización y operación:",
+    options: {
+      A: "Seguridad lógica y física, controles de procesamiento y control de presupuestos.",
+      B: "Procedimientos, separación de entornos y estándares y nomenclatura.",
+      C: "Controles de segregación de funciones.",
+      D: "Todos los anteriores son controles de organización y operación."
+    },
+    answer: "A",
+    detail: "Seguridad lógica y física, controles de procesamiento y control de presupuestos."
+  },
+  {
+    question: "Los controles deben:",
+    options: {
+      A: "Estar implantados.",
+      B: "Cubrir los objetivos por los que fueron implantados.",
+      C: "Ser efectivos.",
+      D: "Todas las anteriores."
+    },
+    answer: "D",
+    detail: "Todas las anteriores."
+  },
+  {
+    question: "En relación con los controles de organización y operación, para una segregación de funciones adecuada:",
+    options: {
+      A: "Una misma persona no puede realizar funciones determinadas en un mismo entorno.",
+      B: "Una misma persona no puede realizar funciones determinadas en un entorno y en otro.",
+      C: "Las opciones A y B son correctas.",
+      D: "Las opciones A y B son incorrectas."
+    },
+    answer: "B",
+    detail: "Una misma persona no puede realizar funciones determinadas en un entorno y en otro."
+  },
+  {
+    question: "Los controles de hardware y software de sistemas:",
+    options: {
+      A: "Preservan las tres dimensiones de la información: confidencialidad, disponibilidad y seguridad.",
+      B: "Preservan las tres dimensiones de la información: fiabilidad, disponibilidad y confidencialidad.",
+      C: "Preservan dos de las tres dimensiones de la información: integridad, disponibilidad y confidencialidad.",
+      D: "Ninguna de las anteriores es correcta."
+    },
+    answer: "C",
+    detail: "Preservan dos de las tres dimensiones de la información: integridad, disponibilidad y confidencialidad."
+  },
+  {
+    question: "¿Cuál es uno de los pilares fundamentales de la definición de auditoría?",
+    options: {
+      A: "Proceso objetivo.",
+      B: "Proceso subjetivo.",
+      C: "Calculo el riesgo tecnológico.",
+      D: "Calculo el riesgo operacional."
+    },
+    answer: "A",
+    detail: "Proceso objetivo."
+  },
+  {
+    question: "El objetivo final de la auditoría es:",
+    options: {
+      A: "Generar un proceso subjetivo.",
+      B: "Dar recomendaciones a la alta dirección.",
+      C: "Entregar un informe.",
+      D: "Comunicar los resultados de manera correcta."
+    },
+    answer: "B",
+    detail: "Dar recomendaciones a la alta dirección."
+  },
+  {
+    question: "Cualquier sistema informático utilizado por las compañías debe:",
+    options: {
+      A: "Salvaguardar la propiedad de la información.",
+      B: "Mantener la integridad de los datos.",
+      C: "Asegurar la confidencialidad de la información.",
+      D: "Todas las anteriores."
+    },
+    answer: "D",
+    detail: "Todas las anteriores."
+  },
+  {
+    question: "¿Cuál de las siguientes afirmaciones es cierta?",
+    options: {
+      A: "No hace falta un alineamiento entre el plan estratégico y el plan de las TIC al tratarse de taxonomías de planes totalmente diferentes.",
+      B: "Las organizaciones con consideración a las TI tienen mayor retorno de inversión a medio y largo plazo que aquellas que no lo consideran ante los mismos objetivos estratégicos, de tal forma que con la madurez tecnológica se llegue a un estado de mayor retorno.",
+      C: "El plan informático de TI se tiene que corresponder con el plan estratégico de la empresa.",
+      D: "Ninguna afirmación es cierta."
+    },
+    answer: "C",
+    detail: "El plan informático de TI se tiene que corresponder con el plan estratégico de la empresa."
+  },
+  {
+    question: "La auditoría del CPD, ¿corresponde con una auditoria de sistemas o de seguridad física?",
+    options: {
+      A: "Al estar los sistemas dentro del CPD, se corresponde en exclusiva con una auditoria de sistemas.",
+      B: "Al ser una ubicación física, estas auditorías están centradas en las auditorias de seguridad física.",
+      C: "Es una auditoria de sistemas porque no existen las auditorias de seguridad física.",
+      D: "Pueden ser las dos, dependiendo de los objetivos de la auditoria."
+    },
+    answer: "D",
+    detail: "Pueden ser las dos, dependiendo de los objetivos de la auditoria."
+  },
+  {
+    question: "Cuáles son las diferencias más relevantes entre auditoría y control internos.",
+    options: {
+      A: "Realizan la misma función, por lo que la diferencias simplemente es en la nomenclatura que se le dé en cada empresa.",
+      B: "El control interno tiene mucho más peso que la auditoria interna.",
+      C: "La auditoría interna tiene mucho más peso que control interno.",
+      D: "La periodicidad y frecuencia de sus actuaciones."
+    },
+    answer: "D",
+    detail: "La periodicidad y frecuencia de sus actuaciones."
+  },
+  {
+    question: "Las auditorias de seguridad solo engloban:",
+    options: {
+      A: "Los temas tecnológicos.",
+      B: "Los temas físicos.",
+      C: "Los temas operacionales.",
+      D: "Todas las anteriores."
+    },
+    answer: "D",
+    detail: "Todas las anteriores."
+  },
+  {
+    question: "Cuál es uno de los objetivos principales del auditor:",
+    options: {
+      A: "Elaborar un informe de situación y entregarlo.",
+      B: "Evaluar y comprobar, en determinados momentos, los controles y procedimientos informáticos.",
+      C: "Pedir evidencias y analizarlas.",
+      D: "Ninguna de las anteriores."
+    },
+    answer: "B",
+    detail: "Evaluar y comprobar, en determinados momentos, los controles y procedimientos informáticos."
+  },
+  {
+    question: "Se denomina auditoria informática porque:",
+    options: {
+      A: "Se utilizan muchos sistemas informáticos para encontrar los resultados.",
+      B: "Solo pueden realizarse por personas con unos estudios relacionados con la Informática.",
+      C: "El objeto auditado son los sistemas de información.",
+      D: "Ninguna de las anteriores."
+    },
+    answer: "C",
+    detail: "El objeto auditado son los sistemas de información."
+  },
+  {
+    question: "Cuando se encuentran hallazgos en la auditoria:",
+    options: {
+      A: "Se notifica de manera inmediata cualquier hallazgo a la Alta Dirección.",
+      B: "Se notifica de manera inmediata cualquier hallazgo a nuestro interlocutor.",
+      C: "Se documentan formalmente y ya se notificarán.",
+      D: "Ninguna de las anteriores."
+    },
+    answer: "C",
+    detail: "Se documentan formalmente y ya se notificarán."
+  },
+  {
+    question: "Señala la respuesta incorrecta. Con respecto a los errores y excepciones:",
+    options: {
+      A: "Si un método declara que lanza una excepción checked, todos los objetos que lo utilizan deben manejar la excepción o declarar que lo lanzan también.",
+      B: "Los compiladores de Java no hacen cumplir las reglas en cuanto a excepciones checked.",
+      C: "Todas las excepciones en C++ son checked.",
+      D: "Las excepciones unchecked no tienen que ser declaradas o manejadas."
+    },
+    answer: "C",
+    detail: "Todas las excepciones en C++ son checked."
+  },
+  {
+    question: "Señala la o las respuestas correctas. ¿Qué tipo de vulnerabilidad se comete en este código? public ResultSet execSQL(Connection conn, String sql) { Statement stmt = null; ResultSet rs = null; try { stmt = conn.createStatement(); rs = stmt.executeQuery(sql); } catch (SQLException sqe) { logger.log(Level.WARNING, \"error executing: \" + sql, sqe); } finally { close(stmt); } return rs; }",
+    options: {
+      A: "Integer overflows.",
+      B: "Desbordamiento de buffer.",
+      C: "Format string.",
+      D: "Manipulación de información privada."
+    },
+    answer: "D",
+    detail: "Manipulación de información privada."
+  },
+  {
+    question: "Señala la respuesta correcta. Se tienen dos opciones para crear archivos temporales de forma segura:",
+    options: {
+      A: "Generar los nombres de archivo temporales que sean difíciles de adivinar, usando un generador de números pseudo-aleatorios (PRNG) criptográficamente seguros para crear un elemento aleatorio en cada nombre del archivo temporal.",
+      B: "Almacenar los archivos temporales bajo un directorio que no es públicamente accesible, eliminando así toda la discusión con respecto a ataques.",
+      C: "Almacenar los archivos temporales bajo un directorio que es públicamente accesible, eliminando así toda la discusión con respecto a ataques.",
+      D: "Generar los nombres de archivo temporales que sean difíciles de adivinar usando un generador de números pseudo-aleatorios (PRNG) estadístico para crear un elemento en cada nombre del archivo temporal."
+    },
+    answer: "A",
+    detail: "Generar los nombres de archivo temporales que sean difíciles de adivinar, usando un generador de números pseudo-aleatorios (PRNG) criptográficamente seguros para crear un elemento aleatorio en cada nombre del archivo temporal."
+  },
+  {
+    question: "Señala la respuesta incorrecta. Métodos para detectar y prevenir intergers overflows:",
+    options: {
+      A: "Usar tipos sin signo.",
+      B: "Verificar el tipo de los buffers.",
+      C: "Restringir la entrada numérica de usuario.",
+      D: "Entender las reglas de conversión entre enteros."
+    },
+    answer: "B",
+    detail: "Verificar el tipo de los buffers."
+  },
+  {
+    question: "Señala la respuesta incorrecta. Los ataques de escalada de privilegios pueden tener como objetivo cualquier variedad de vulnerabilidades de software, que son principalmente un riesgo en programas privilegiados:",
+    options: {
+      A: "Archivos de sistema.",
+      B: "Condiciones de carrera de acceso a archivos.",
+      C: "Inyección de comandos.",
+      D: "Mal uso de descriptores de archivo estándar."
+    },
+    answer: "A",
+    detail: "Archivos de sistema."
+  },
+  {
+    question: "Señala la respuesta incorrecta. Consideraciones sobre potenciales vulnerabilidades de Java:",
+    options: {
+      A: "Seguridad de tipos. Los campos que son declarados privados o protegidos, o que tienen protección, por defecto, deberían ser públicamente accesibles.",
+      B: "Campos públicos. Un campo que es declarado público directamente puede ser no ser accedido por cualquier parte de un programa Java y puede ser modificado por las mismas (a no ser que el campo sea declarado como final).",
+      C: "Serialización. Esta facilidad posibilita que el estado del programa sea capturado y convertido en un byte stream que puede ser restaurado por la operación inversa, que es la deserialización.",
+      D: "JVM. La JVM, en sí misma, a menudo está escrita en C para una plataforma dada. Esto quiere decir que, sin la atención cuidadosa a detalles de puesta en práctica, la JVM en sí misma no susceptible a problemas de desbordamiento."
+    },
+    answer: "B",
+    detail: "Campos públicos. Un campo que es declarado público directamente puede ser no ser accedido por cualquier parte de un programa Java y puede ser modificado por las mismas (a no ser que el campo sea declarado como final)."
+  },
+  {
+    question: "Señala la respuesta correcta. Revisando el programa ¿cuál de las siguientes preguntas describe mejor lo que está haciendo la función? void aFunction(char *buf) { static char BANNED_CHARACTERS[] = {'>', '<', '!', '*'}; int l = strlen(buf); int i; for(i = 0; i < l; i++) { int j; int k = sizeof(BANNED_CHARACTERS) / sizeof(char); for(j = 0; j < k; j++) { if(buf[i] == BANNED_CHARACTERS[j]) buf[i] = ' '; } } }",
+    options: {
+      A: "Asegurar la no violabilidad espacial de la memoria.",
+      B: "Validar la entrada mediante lista blanca.",
+      C: "Asegurar la no violabilidad temporal de la memoria.",
+      D: "Validar la entrada mediante lista negra."
+    },
+    answer: "D",
+    detail: "Validar la entrada mediante lista negra."
+  },
+  {
+    question: "Señala la incorrecta. Las funciones de strings limitadas son más seguras que las funciones ilimitadas, pero hay todavía mucho margen para el error. Los fallos de programación más comunes que se pueden cometer con las funciones de string limitadas:",
+    options: {
+      A: "El buffer de destino se desborda porque el límite depende del tamaño de los datos de la fuente, más bien que del tamaño del buffer de destino.",
+      B: "El buffer de destino se desborda porque su límite se especifica como el tamaño total del buffer, más bien que como el espacio restante.",
+      C: "El buffer de destino se deja sin un terminador nulo.",
+      D: "El programa escribe a una posición arbitraria en la memoria porque el buffer de destino se termina con el carácter nulo."
+    },
+    answer: "D",
+    detail: "El programa escribe a una posición arbitraria en la memoria porque el buffer de destino se termina con el carácter nulo."
+  },
+  {
+    question: "Señalar la respuesta correcta. ¿Qué tipo de vulnerabilidad se comete en este código? #include <stdio.h> #include <stdlib.h> #include <unistd.h> #define MY_TMP_FILE \"/tmp/file.tmp\" int main(int argc, char* argv[]) { FILE * f; if (!access(MY_TMP_FILE, F_OK)) { printf (\"File exists!\\n\"); return EXIT_FAILURE; } tmpFile = fopen(MY_TMP_FILE, \"w\"); if (tmpFile == NULL) { return EXIT_FAILURE; } fputs(\"Some text...\\n\", tmpFile); fclose(tmpFile); return EXIT_SUCCESS; }",
+    options: {
+      A: "Integer overflows.",
+      B: "Desbordamiento de buffer.",
+      C: "Condiciones de carrera.",
+      D: "Use after free."
+    },
+    answer: "C",
+    detail: "Condiciones de carrera."
+  },
+  {
+    question: "Señala la respuesta correcta. ¿Cuándo ocurre un ataque de integer overflow?",
+    options: {
+      A: "Al realizar una operación de una resta.",
+      B: "Un entero es usado como si fuera un puntero.",
+      C: "Un entero es usado para acceder a un buffer fuera de sus límites.",
+      D: "No hay más espacio en el programa para almacenar un entero."
+    },
+    answer: "C",
+    detail: "Un entero es usado para acceder a un buffer fuera de sus límites."
+  },
+  {
+    question: "Señala la respuesta correcta. En los apuntes de la asignatura se presentan una serie de recomendaciones de buenas prácticas:",
+    options: {
+      A: "Manejo de los datos con precaución.",
+      B: "Confiar en software de terceros en operaciones críticas.",
+      C: "Usar listas de errores.",
+      D: "Usar en el código nombres relativos de ficheros."
+    },
+    answer: "A",
+    detail: "Manejo de los datos con precaución."
+  },
+  {
+    question: "Señala la respuesta correcta. ¿Qué tipo de vulnerabilidad se comete en este código? String user_state = \"Unknown\"; try { HttpSession user_session = Init.sessions.get(tmpUser.getUser()); user_state = user_session == null ? \"Unknown\" : (String)user_session.getAttribute(\"USER_STATUS\"); user_state = user_state == null ? \"Available\" : user_state; } ... %> <%=user_state %>",
+    options: {
+      A: "Integer overflows.",
+      B: "Desbordamiento de buffer.",
+      C: "Uso de datos invalidados.",
+      D: "Use after free."
+    },
+    answer: "C",
+    detail: "Uso de datos invalidados."
+  },
+  {
+    question: "Señala la respuesta correcta. ¿Qué tipo de vulnerabilidad se comete en este código? char *stringcopy(char *str1, char *str2) { while (*str2) *str1++ = *str2++; return str2; } main(int argc, char **argv) { char *buffer = (char *)malloc(16 * sizeof(char)); stringcopy(buffer, argv[1]); printf(\"%s\\n\", buffer); }",
+    options: {
+      A: "Integer overflows.",
+      B: "Desbordamiento de buffer.",
+      C: "Format string.",
+      D: "Use after free."
+    },
+    answer: "B",
+    detail: "Desbordamiento de buffer."
+  },
+  {
+    question: "Señala la respuesta correcta. ¿Qué tipo de vulnerabilidad se comete en este código? struct hostent *hp; struct in_addr myaddr; char* tHost = \"trustme.com\"; myaddr.s_addr = inet_addr(ip_addr_string); hp = gethostbyaddr((char *) &myaddr, sizeof(struct in_addr), AF_INET); if (hp && !strncmp(hp->h_name, tHost, sizeof(tHost))) { trusted = true; } else { trusted = false; }",
+    options: {
+      A: "Buffer overflow.",
+      B: "Validación límites de confianza.",
+      C: "Validación de entrada DNS.",
+      D: "Memory leaks."
+    },
+    answer: "C",
+    detail: "Validación de entrada DNS."
+  },
+  {
+    question: "Señala la respuesta correcta. ¿Es el siguiente código correcto? if (path != null && path.length() > 0 && path.length() <= MAXPATH) { fileOperation(path); }",
+    options: {
+      A: "Es correcto.",
+      B: "Es incorrecto.",
+      C: "No se puede determinar.",
+      D: "Ninguna de las anteriores."
+    },
+    answer: "A",
+    detail: "Es correcto."
+  },
+  {
+    question: "Señala la respuesta correcta. ¿Qué tipo de vulnerabilidad se comete en este código? u_int nresp; nresp = packet_get_int(); if (nresp > 0) { response = xmalloc(nresp*sizeof(char*)); for (i = 0; i < nresp; i++) response[i] = packet_get_string(NULL); }",
+    options: {
+      A: "Integer overflows.",
+      B: "Desbordamiento de buffer.",
+      C: "Format string.",
+      D: "Use after free."
+    },
+    answer: "A",
+    detail: "Integer overflows."
+  },
+  {
+    question: "Señala la respuesta correcta. ¿Qué tipo de vulnerabilidad se comete en este código? while (fgets(buf, sizeof buf, f)) { lreply(200, buf); ... } void lreply(int n, char *fmt, ...) { char buf[BUFSIZ]; ... vsnprintf(buf, sizeof buf, fmt, ap); ... }",
+    options: {
+      A: "Integer overflows.",
+      B: "Desbordamiento de buffer.",
+      C: "Format string.",
+      D: "Use after free."
+    },
+    answer: "C",
+    detail: "Format string."
+  },
+  {
+    question: "Señala la respuesta correcta. Al realizar una buena validación de entrada por defecto, una mejora con API de seguridad aumenta la capacidad de hacer lo siguiente:",
+    options: {
+      A: "Entender y mantener la lógica de validación de entrada.",
+      B: "Actualizar y modificar el intento de introducir la validación coherentemente.",
+      C: "Aplicar una validación de entrada sensible a contexto coherentemente a toda la entrada.",
+      D: "Descentralizar la lógica de validación."
+    },
+    answer: "D",
+    detail: "Descentralizar la lógica de validación."
+  },
+  {
+    question: "Señalar la respuesta incorrecta. En el desarrollo de aplicaciones seguras y confiables se requiere el seguimiento de unas buenas prácticas:",
+    options: {
+      A: "Insistir en el proceso de revisión de código.",
+      B: "Formación continua.",
+      C: "Invocar programas en los que no se confía desde otros en los que se confía.",
+      D: "Manejo de los datos con precaución."
+    },
+    answer: "C",
+    detail: "Invocar programas en los que no se confía desde otros en los que se confía."
+  },
+  {
+    question: "Señala la respuesta correcta. ¿Cuál es la mejor forma de prevenir ataques de desbordamiento de buffer?",
+    options: {
+      A: "Tener precauciones al realizar conversiones de tipo.",
+      B: "Utilizar un lenguaje de programación que fuerce la comprobación de tipos y de memoria.",
+      C: "Comprobar los límites de memoria.",
+      D: "Comprobar las longitudes del buffer."
+    },
+    answer: "B",
+    detail: "Utilizar un lenguaje de programación que fuerce la comprobación de tipos y de memoria."
+  }
 ]
