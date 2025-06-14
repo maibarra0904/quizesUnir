@@ -779,5 +779,115 @@ export const administracion = [
     },
     answer: "D",
     detail: "Funciones como servicio."
+  },
+  {
+    question: "Tener un registro de seguimiento de auditoría es muy importante para muchas situaciones de:",
+    options: {
+      A: "Resiliencia y control.",
+      B: "Control de gasto y seguridad.",
+      C: "Conformidad y seguridad.",
+      D: "Seguridad y resiliencia."
+    },
+    answer: "C",
+    detail: "Conformidad y seguridad."
+  },
+  {
+    question: "La popularidad de la IaC continúa creciendo porque proporciona una solución viable para:",
+    options: {
+      A: "Desafíos multicuenta.",
+      B: "Desafíos como cómo replicar.",
+      C: "Backup y restore de infraestructuras críticas.",
+      D: "Desafíos de las nuevas tecnologías."
+    },
+    answer: "B",
+    detail: "Desafíos como cómo replicar."
+  },
+  {
+    question: "Las plantillas de CloudFormation se pueden escribir en archivos de notación de objetos de:",
+    options: {
+      A: "JavaScript o Yaml.",
+      B: "Javascript y XML.",
+      C: "XML y Java.",
+      D: "En cualquier formato de texto plano."
+    },
+    answer: "A",
+    detail: "JavaScript o Yaml."
+  },
+  {
+    question: "En informática, una caché es una capa de almacenamiento de:",
+    options: {
+      A: "Datos de alta velocidad.",
+      B: "Microprocesadores de última generación.",
+      C: "Datos de tiempo de vida pequeños.",
+      D: "Ninguna de las anteriores."
+    },
+    answer: "A",
+    detail: "Datos de alta velocidad."
+  },
+  {
+    question: "A la hora de decidir qué datos desea almacenar en caché, que factor no se tiene en cuenta:",
+    options: {
+      A: "Datos y patrones de acceso.",
+      B: "Velocidad y gasto.",
+      C: "Obsolescencia.",
+      D: "Distancias de las métricas de los routers."
+    },
+    answer: "D",
+    detail: "Distancias de las métricas de los routers."
+  },
+  {
+    question: "Una red de entrega de contenido (CDN) es un sistema de servidores de almacenamiento en:",
+    options: {
+      A: "En caché en formato denominado mesh.",
+      B: "Caché distribuido a nivel mundial.",
+      C: "Caché compartido en cada una de las regiones del proveedor de nube.",
+      D: "Con sistema operativo de High Performance Computing."
+    },
+    answer: "B",
+    detail: "Caché distribuido a nivel mundial."
+  },
+  {
+    question: "Los microservicios son un enfoque de arquitectura y organización para el desarrollo de:",
+    options: {
+      A: "Software en el que las aplicaciones están compuestas por pasarelas de comunicaciones independientes entre sí.",
+      B: "Software en el que las aplicaciones están compuestas por servidores Linux.",
+      C: "Software en el que las aplicaciones están compuestas por servicios independientes que se comunican a través de interfaces de programación de aplicaciones (API) bien definidas.",
+      D: "Hardware y software en el que las aplicaciones están compuestas por servicios independientes."
+    },
+    answer: "C",
+    detail: "Software en el que las aplicaciones están compuestas por servicios independientes que se comunican a través de interfaces de programación de aplicaciones (API) bien definidas."
+  },
+  {
+    question: "¿Cuál no es una característica compartida de los microservicios?",
+    options: {
+      A: "Descentralizados.",
+      B: "Independientes.",
+      C: "Políglota.",
+      D: "Efímeros."
+    },
+    answer: "D",
+    detail: "Efímeros."
+  },
+  {
+    question: "Los contenedores son un método de virtualización del sistema operativo que le permite:",
+    options: {
+      A: "Ejecutar una aplicación en sistemas Linux.",
+      B: "Ejecutar una aplicación y sus dependencias en procesos de recursos aislados.",
+      C: "Ejecutar aplicaciones Java y sus dependencias en procesos de recursos aislados.",
+      D: "Ejecutar una aplicación y sus dependencias en procesos de recursos compartidos."
+    },
+    answer: "B",
+    detail: "Ejecutar una aplicación y sus dependencias en procesos de recursos aislados."
+  },
+  {
+    question: "Mediante la informática sin servidor, puede crear aplicaciones modernas con mayor agilidad:",
+    options: {
+      A: "Y mayor resiliencia al cambio.",
+      B: "Y menos sistemas de seguridad.",
+      C: "Y menos recursos físicos.",
+      D: "Y menor costo total de propiedad (TCO)."
+    },
+    answer: "D",
+    detail: "Y menor costo total de propiedad (TCO)."
   }
 ]

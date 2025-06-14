@@ -768,5 +768,115 @@ export const auditoria = [
     },
     answer: "B",
     detail: "Utilizar un lenguaje de programación que fuerce la comprobación de tipos y de memoria."
+  },
+  {
+    question: "¿Qué acciones son fundamentales en la planificación de una auditoría?",
+    options: {
+      A: "Comprensión del negocio.",
+      B: "Posibles riesgos.",
+      C: "Metodología que se debe utilizar.",
+      D: "Todas son correctas."
+    },
+    answer: "D",
+    detail: "Todas las anteriores."
+  },
+  {
+    question: "¿Cuál es la finalidad de un estándar de auditoría?",
+    options: {
+      A: "Es una metodología utilizada por cada una de las empresas auditoras.",
+      B: "Los estándares definen los requerimientos obligatorios para la auditoría de sistemas y la generación de informe.",
+      C: "Es una guía y se tiene que seguir de manera exacta.",
+      D: "Ninguna de anteriores."
+    },
+    answer: "B",
+    detail: "Los estándares definen los requerimientos obligatorios para la auditoría de sistemas y la generación de informe."
+  },
+  {
+    question: "¿Cuántos organismos de auditoría existen?",
+    options: {
+      A: "Solo uno, ISACA.",
+      B: "Solo uno, IIA.",
+      C: "Dos, ISACA e IIA.",
+      D: "Existen mucho más que dos organismos."
+    },
+    answer: "D",
+    detail: "Existen mucho más que dos organismos."
+  },
+  {
+    question: "¿Para qué se usan las herramientas de auditoría?",
+    options: {
+      A: "Para verificar de una manera clara los medios técnicos.",
+      B: "Para valorar registros, planes, presupuestos, programas, controles y otros aspectos que afectan a la administración y control de una organización o las áreas que la integran.",
+      C: "Para industrializar el proceso o actuación de auditoría.",
+      D: "No existen herramientas de auditoría como tal."
+    },
+    answer: "B",
+    detail: "Para valorar registros, planes, presupuestos, programas, controles y otros aspectos que afectan a la administración y control de una organización o las áreas que la integran."
+  },
+  {
+    question: "¿Un conjunto de preguntas que deben ser contestadas oralmente por el interlocutor constituye una herramienta de auditoría?",
+    options: {
+      A: "Sí.",
+      B: "No.",
+      C: "Depende del conjunto de preguntas.",
+      D: "Ninguna de las anteriores."
+    },
+    answer: "A",
+    detail: "Sí."
+  },
+  {
+    question: "¿Una herramienta de auditoría es lo mismo que una herramienta de evaluación de seguridad?",
+    options: {
+      A: "Sí.",
+      B: "No.",
+      C: "Depende de la herramienta.",
+      D: "Ninguna de las anteriores."
+    },
+    answer: "B",
+    detail: "No."
+  },
+  {
+    question: "La metodología de auditoría debería ser establecida y aprobada por:",
+    options: {
+      A: "El departamento de auditoría interna de la compañía.",
+      B: "El grupo de seguridad de la compañía.",
+      C: "La gerencia de auditoría.",
+      D: "Es un documento interno y por modificaciones no es conveniente que esté aprobada."
+    },
+    answer: "C",
+    detail: "La gerencia de auditoría."
+  },
+  {
+    question: "Los objetivos de auditoría se centran a menudo en:",
+    options: {
+      A: "Entregar un informe de resultados.",
+      B: "Cumplir con los requerimientos legales o regulatorios.",
+      C: "Validar que existen controles internos para minimizar los riesgos del negocio.",
+      D: "Ninguna de las anteriores."
+    },
+    answer: "C",
+    detail: "Validar que existen controles internos para minimizar los riesgos del negocio."
+  },
+  {
+    question: "Una evidencia puede ser:",
+    options: {
+      A: "Un documento Word.",
+      B: "Un registro de un sistema.",
+      C: "Una conversación con un interlocutor.",
+      D: "Todas las anteriores."
+    },
+    answer: "D",
+    detail: "Todas las anteriores."
+  },
+  {
+    question: "El informe final de auditoría:",
+    options: {
+      A: "Contiene el informe final.",
+      B: "Contiene el informe preliminar.",
+      C: "Las respuestas A y B son correctas.",
+      D: "Ninguna de las respuestas anteriores es correcta."
+    },
+    answer: "C",
+    detail: "Las respuestas A y B son correctas."
   }
 ]
