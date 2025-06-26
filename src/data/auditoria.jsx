@@ -878,5 +878,225 @@ export const auditoria = [
     },
     answer: "C",
     detail: "Las respuestas A y B son correctas."
-  }
+  },
+  {
+    question: "Una prueba de intrusión es:",
+    options: {
+        A: "Solo un análisis de vulnerabilidades.",
+        B: "Un tipo de hacking ético.",
+        C: "Habitualmente de caja blanca, gris y negra.",
+        D: "No es un pen test."
+    },
+    answer: "C",
+    detail: "Habitualmente de caja blanca, gris y negra."
+},
+{
+    question: "¿Qué fases habitualmente se utilizan en una auditoría técnica de seguridad (test de intrusión)?",
+    options: {
+        A: "La recopilación de información del sistema por auditar, análisis de vulnerabilidades, explotación/ataque de las vulnerabilidades detectadas y realización de informe técnico y ejecutivo.",
+        B: "La recopilación de información del sistema por auditar, explotación/ataque de las vulnerabilidades detectadas. Nunca se realiza informe.",
+        C: "Explotación/ataque de las vulnerabilidades detectadas y realización de informe técnico.",
+        D: "La recopilación de información del sistema por auditar y realización de informe técnico y ejecutivo."
+    },
+    answer: "A",
+    detail: "La recopilación de información del sistema por auditar, análisis de vulnerabilidades, explotación/ataque de las vulnerabilidades detectadas y realización de informe técnico y ejecutivo."
+},
+{
+    question: "Las pruebas de fuerza bruta se basan en:",
+    options: {
+        A: "Utilización de ficheros con palabras en diferentes idiomas para averiguar por ensayo/error los usuarios y/o contraseña en las pantallas de log in.",
+        B: "Utilización de todas las combinaciones posibles con un set de caracteres definido y una longitud.",
+        C: "Lo que se denominan rainbow tables.",
+        D: "Ninguna de las respuestas anteriores es correcta."
+    },
+    answer: "B",
+    detail: "Utilización de todas las combinaciones posibles con un set de caracteres definido y una longitud."
+},
+{
+    question: "¿Qué es el sniffing de paquetes de red?",
+    options: {
+        A: "Es la técnica para inyectar paquetes en redes inalámbricas.",
+        B: "Es la técnica pasiva que permite la captura de datos (paquetes de datos) que se distribuyen en una red.",
+        C: "Es la técnica por la que se intercepta y modifica la información en una red.",
+        D: "Es la técnica por la que consigues el control de administración en las máquinas servidoras."
+    },
+    answer: "B",
+    detail: "Es la técnica pasiva que permite la captura de datos (paquetes de datos) que se distribuyen en una red."
+},
+{
+    question: "¿A qué tipo de pruebas de penetración pertenece la siguiente afirmación? «Se simulan ataques reales, pero conociendo de antemano gran parte de la información técnica. Se tiene un conocimiento limitado de los activos y las defensas que los protegen».",
+    options: {
+        A: "Caja blanca.",
+        B: "Caja negra.",
+        C: "Reversal.",
+        D: "Caja gris."
+    },
+    answer: "D",
+    detail: "Caja gris."
+},
+{
+    question: "Las auditorías técnicas de seguridad tienen como objetivo:",
+    options: {
+        A: "Analizar la funcionalidad de los sistemas de información de una organización y sus servicios realizando una batería de pruebas planificadas.",
+        B: "Analizar la seguridad implantada en los sistemas de información y telecomunicaciones de una organización y sus servicios realizando una batería de pruebas planificadas que simulen el comportamiento de un atacante.",
+        C: "Verificar los sistemas de información de una organización y sus servicios realizando una batería de pruebas planificadas.",
+        D: "Todas son correctas."
+    },
+    answer: "B",
+    detail: "Analizar la seguridad implantada en los sistemas de información y telecomunicaciones de una organización y sus servicios realizando una batería de pruebas planificadas que simulen el comportamiento de un atacante."
+},
+{
+    question: "¿Cuál de la siguientes es un tipo de auditoría técnica de seguridad?",
+    options: {
+        A: "Auditoría de seguridad de sistemas.",
+        B: "Auditoría de redes wifi.",
+        C: "Auditoría de aplicaciones web.",
+        D: "Todas."
+    },
+    answer: "D",
+    detail: "Todas."
+},
+{
+    question: "¿Qué conjunto de amenazas típicas pueden poner en riesgo una compañía?",
+    options: {
+        A: "Del entorno, defectos de las aplicaciones, causadas por las personas de forma accidental y causadas por las personas de forma deliberada.",
+        B: "De origen natural, del entorno, defectos de las aplicaciones, causadas por las personas de forma accidental y causadas por las personas de forma deliberada.",
+        C: "De origen natural, del entorno, defectos de las aplicaciones y causadas por las personas de forma deliberada.",
+        D: "De origen natural, del entorno, defectos de las aplicaciones y causadas por las personas de forma accidental."
+    },
+    answer: "B",
+    detail: "De origen natural, del entorno, defectos de las aplicaciones, causadas por las personas de forma accidental y causadas por las personas de forma deliberada."
+},
+{
+    question: "¿Qué define un hacking ético de tipo gris?",
+    options: {
+        A: "Se conoce toda información, como direcciones IP, pero no de la infraestructura.",
+        B: "No se conoce nada de información.",
+        C: "Se conoce alguna información, como direcciones IP, pero no de la infraestructura.",
+        D: "Todas son correctas."
+    },
+    answer: "C",
+    detail: "Se conoce alguna información, como direcciones IP, pero no de la infraestructura."
+},
+{
+    question: "Los informes de auditorías técnicas de seguridad:",
+    options: {
+        A: "Incluyen como anexo el informe ejecutivo.",
+        B: "Describen con detalle técnico las fases de la auditoría de seguridad que realizan.",
+        C: "No necesitan definir el objetivo y el alcance de la auditoría.",
+        D: "Ninguna."
+    },
+    answer: "B",
+    detail: "Describen con detalle técnico las fases de la auditoría de seguridad que realizan."
+},
+{
+    question: "La finalidad de una auditoría de cumplimiento es:",
+    options: {
+        A: "Evaluar el grado de cumplimiento de una norma de seguridad.",
+        B: "Analizar el código estático del código de aplicaciones para buscar vulnerabilidades, tanto de aplicaciones del tipo web como de cualquier tipo de aplicación.",
+        C: "Evaluar el nivel de seguridad de las LAN corporativas de carácter interno de una organización.",
+        D: "Analizar la protección que proporciona una red de seguridad perimetral desde el exterior."
+    },
+    answer: "A",
+    detail: "Evaluar el grado de cumplimiento de una norma de seguridad."
+},
+{
+    question: "Las auditorías de cumplimiento son del tipo:",
+    options: {
+        A: "Caja blanca.",
+        B: "Caja negra.",
+        C: "Caja gris.",
+        D: "Ninguna de las anteriores."
+    },
+    answer: "A",
+    detail: "Caja blanca."
+},
+{
+    question: "Señala la respuesta incorrecta. Una metodología tiene que proporcionar finalmente un proceso sencillo y estructurado de pruebas que sea:",
+    options: {
+        A: "Válido para siempre.",
+        B: "Coherente con las leyes individuales y locales y el derecho a la privacidad.",
+        C: "Basado en el mérito y esfuerzo de los probadores y analistas.",
+        D: "Consistente y repetible."
+    },
+    answer: "A",
+    detail: "Válido para siempre."
+},
+{
+    question: "¿Cuál de las siguientes metodologías se considera un marco de trabajo?",
+    options: {
+        A: "Open Source Security Testing Methodology Manual (OSSTMM).",
+        B: "Penetration Testing Execution Standard (PTES).",
+        C: "Technical Guide to Information Security Testing and Assessment (NIST 800-115).",
+        D: "Information System Security Assessment Framework (ISSAF)."
+    },
+    answer: "D",
+    detail: "Information System Security Assessment Framework (ISSAF)."
+},
+{
+    question: "¿Qué metodología se enfoca en criterios de evaluación?",
+    options: {
+        A: "The Open Source Security Testing Methodology. Manual (OSSTMM).",
+        B: "The Information System Security Assessment Framework (ISSAF).",
+        C: "Technical Guide to Information Security Testing and Assessment (NIST 800-115).",
+        D: "The Penetration Testing Execution Standard (PTES)."
+    },
+    answer: "B",
+    detail: "The Information System Security Assessment Framework (ISSAF)."
+},
+{
+    question: "¿Cuál no es una metodología de pruebas de penetración?",
+    options: {
+        A: "PTES.",
+        B: "ISSAF.",
+        C: "OSSTMM.",
+        D: "PMBOK."
+    },
+    answer: "D",
+    detail: "PMBOK."
+},
+{
+    question: "Dentro de la metodología OSSTMM se definen una serie de pruebas, ¿cuál de las siguientes no lo es?",
+    options: {
+        A: "Búsqueda de vulnerabilidades.",
+        B: "Escaneo de la seguridad.",
+        C: "Test de intrusión.",
+        D: "Auditoría de informática."
+    },
+    answer: "D",
+    detail: "Auditoría de informática."
+},
+{
+    question: "¿En qué metodología se testea la seguridad desde un entorno no privilegiado hacia un entorno privilegiado para evadir los componentes de seguridad, procesos y alarmas, y ganar acceso privilegiado?",
+    options: {
+        A: "ITIL.",
+        B: "PMBOK.",
+        C: "ISSAF.",
+        D: "OSSTMM."
+    },
+    answer: "D",
+    detail: "OSSTMM."
+},
+{
+    question: "¿Cuál no es un control de la metodología Open Web Application Security Project (OWASP)?",
+    options: {
+        A: "Autorización.",
+        B: "Gestión de sesiones.",
+        C: "Información clasificada.",
+        D: "Manejo de errores."
+    },
+    answer: "C",
+    detail: "Información clasificada."
+},
+{
+    question: "Señala la respuesta incorrecta. De acuerdo con la metodología Common Criteria ISO 15408 (CC), el proceso de evaluación comienza mediante el envío al laboratorio acreditado por parte del proveedor del producto de una serie de documentos:",
+    options: {
+        A: "Protection profile (PP). Identifica los requisitos y especificaciones de seguridad que debe cumplir una familia de productos TIC por evaluar.",
+        B: "Target of evaluation (TOE). Es el producto TIC que pretende validar con respecto a las características de seguridad y su funcionamiento.",
+        C: "Security target (ST). Especifica los requisitos funcionales de seguridad que se solicitan evaluar en el TOE, con respecto a su PP tomado como referencia.",
+        D: "System design (SD). Incluye el diseño detallado de la familia de productos TIC por evaluar."
+    },
+    answer: "D",
+    detail: "System design (SD). Incluye el diseño detallado de la familia de productos TIC por evaluar."
+}
 ]

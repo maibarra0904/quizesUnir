@@ -889,5 +889,225 @@ export const administracion = [
     },
     answer: "D",
     detail: "Y menor costo total de propiedad (TCO)."
+  },
+  {
+    question: "DevOps es un término relativamente nuevo para describir lo que también ha sido llamado como:",
+    options: {
+        A: "Gestión de desarrollo y operaciones.",
+        B: "Administración de desarrolladores.",
+        C: "Administración de sistemas ágiles.",
+        D: "Ninguna de las anteriores."
+    },
+    answer: "C",
+    detail: "Administración de sistemas ágiles."
+},
+{
+    question: "En un entorno DevOps, los equipos son responsables de:",
+    options: {
+        A: "La gestión TI de la empresa.",
+        B: "Ofrecer nuevas características, pero también estabilidad, escalabilidad y fiabilidad.",
+        C: "Ofrecer nuevos productos hardware y software.",
+        D: "Ofrecer integración entre desarrolladores y administradores."
+    },
+    answer: "B",
+    detail: "Ofrecer nuevas características, pero también estabilidad, escalabilidad y fiabilidad."
+},
+{
+    question: "Un Entorno DevOps exitoso procura:",
+    options: {
+        A: "Construir un puente basado en la comunicación y la colaboración.",
+        B: "Construir una sólida relación entre dirección y departamento TI.",
+        C: "Construir entornos de pre y producción.",
+        D: "Ninguna de las anteriores."
+    },
+    answer: "A",
+    detail: "Construir un puente basado en la comunicación y la colaboración."
+},
+{
+    question: "¿Cuál no es una oportunidad adicional en una herramienta de automatización en el mundo DevOps?",
+    options: {
+        A: "Integración de incidentes.",
+        B: "Infraestructura escalable.",
+        C: "Herramientas de compilación y desarrollo.",
+        D: "Flujos de trabajo de entrega continua."
+    },
+    answer: "A",
+    detail: "Integración de incidentes."
+},
+{
+    question: "En el corazón de los principios DevOps se encuentra el:",
+    options: {
+        A: "Aprendizaje ágil.",
+        B: "Aprendizaje múltiple.",
+        C: "Aprendizaje empresarial.",
+        D: "Aprendizaje colaborativo."
+    },
+    answer: "D",
+    detail: "Aprendizaje colaborativo."
+},
+{
+    question: "La estrategia de DevOps se centra en la capacidad empresarial para:",
+    options: {
+        A: "La entrega del producto log.",
+        B: "La entrega continua de software.",
+        C: "La entrega de características funcionales.",
+        D: "Adaptarse a la tecnología."
+    },
+    answer: "B",
+    detail: "La entrega continua de software."
+},
+{
+    question: "Para que la adopción de DevOps sea exitosa, es necesario que la organización tenga el objetivo de:",
+    options: {
+        A: "Gestionar el cambio.",
+        B: "Adaptarse.",
+        C: "Innovar.",
+        D: "Mejorar."
+    },
+    answer: "C",
+    detail: "Innovar."
+},
+{
+    question: "El Shadow IT (o TI oculta), engloba a todas:",
+    options: {
+        A: "Las personas que no son del departamento de TI.",
+        B: "Las personas que se mueven al departamento de TI desde otros departamentos.",
+        C: "Las directrices generadas desde el departamento de TI que no se cumplen.",
+        D: "Las tecnologías y elementos dentro de TI que están fuera de control."
+    },
+    answer: "D",
+    detail: "Las tecnologías y elementos dentro de TI que están fuera de control."
+},
+{
+    question: "Las métricas de evaluación tradicionales pasan a un segundo plano y la evaluación de los objetivos de la empresa debe centrarse en:",
+    options: {
+        A: "La satisfacción de los requisitos del product backlog.",
+        B: "La satisfacción del cliente.",
+        C: "Los beneficios empresariales trimestrales.",
+        D: "Con cultura DevOps no se necesita realizar métricas de evaluación."
+    },
+    answer: "B",
+    detail: "La satisfacción del cliente."
+},
+{
+    question: "La aplicación de DevSecOps en la organización debe tener tres soportes interrelacionados:",
+    options: {
+        A: "Personas, procesos y normas.",
+        B: "Principios, procesos y personas.",
+        C: "Procesos, tecnología y negocio.",
+        D: "Personas, procesos y tecnología."
+    },
+    answer: "D",
+    detail: "Personas, procesos y tecnología."
+  },
+  {
+    question: "¿Cuáles no son etapas de los scripts de código?",
+    options: {
+        A: "Descargar y compilar.",
+        B: "Descargar y desplegar.",
+        C: "Desplegar y enviar test de errores.",
+        D: "Enviar informes y descargar."
+    },
+    answer: "C",
+    detail: "Desplegar y enviar test de errores."
+},
+{
+    question: "Un repositorio de código es el:",
+    options: {
+        A: "Almacén de secretos de la aplicación.",
+        B: "Almacén de los ficheros que conforman en el código fuente de un sistema.",
+        C: "Almacén de los ficheros que conforman el código testeado de un sistema.",
+        D: "Almacén de los ejecutables verificados."
+    },
+    answer: "B",
+    detail: "Almacén de los ficheros que conforman en el código fuente de un sistema."
+},
+{
+    question: "Git es un cliente que es capaz de:",
+    options: {
+        A: "Comunicarse con muchos tipos de servidores distinto.",
+        B: "Gestionar cualquier código.",
+        C: "Comunicarse con servidores Linux.",
+        D: "Ninguna de las anteriores."
+    },
+    answer: "A",
+    detail: "Comunicarse con muchos tipos de servidores distinto."
+},
+{
+    question: "¿Qué es considerado un Merge Conflict?",
+    options: {
+        A: "Cuando dos desarrolladores han modificado a la vez un mismo fichero del sistema.",
+        B: "Cuando dos desarrolladores abren ramas en un Git con el mismo nombre.",
+        C: "Cuando dos desarrolladores usan el mismo usuario en el mismo repositorio Git.",
+        D: "Cuando dos líneas de código en un repositorio Git coinciden y se fusionan automáticamente."
+    },
+    answer: "A",
+    detail: "Cuando dos desarrolladores han modificado a la vez un mismo fichero del sistema."
+},
+{
+    question: "Una plataforma de desarrollo es un sistema:",
+    options: {
+        A: "Se gestionan los desarrolladores y sus tareas.",
+        B: "Se gestionan los test de código.",
+        C: "Se gestiona las versiones de código.",
+        D: "Se gestiona el desarrollo de un proyecto y su evolución."
+    },
+    answer: "D",
+    detail: "Se gestiona el desarrollo de un proyecto y su evolución."
+},
+{
+    question: "En una versión denominada 5.4.3 ¿Qué indica el número 4?",
+    options: {
+        A: "Indica la versión del componente.",
+        B: "Indica la versión de una mejora realizada sobre ese componente.",
+        C: "Indica la versión correctiva dentro de la versión feature.",
+        D: "Indica la versión feature dentro de la versión correctiva."
+    },
+    answer: "B",
+    detail: "Indica la versión de una mejora realizada sobre ese componente."
+},
+{
+    question: "¿Qué herramienta de CI no es un orquestador?",
+    options: {
+        A: "Jenkins.",
+        B: "Bamboo.",
+        C: "Gradle.",
+        D: "Travis."
+    },
+    answer: "C",
+    detail: "Gradle."
+},
+{
+    question: "¿Cuál no es una estrategia de despliegue?",
+    options: {
+        A: "Big bang deployment.",
+        B: "Rolling upgrade.",
+        C: "Blue-green.",
+        D: "Lower TTL."
+    },
+    answer: "D",
+    detail: "Lower TTL."
+},
+{
+    question: "Rolling upgrade consiste en ir:",
+    options: {
+        A: "Apagando instancias del servidor y ejecutar los procesos de actualización en todas máquinas a la vez.",
+        B: "Apagando instancias del servidor y ejecutar los procesos de actualización en cada instancia una a una.",
+        C: "Apagando instancias del servidor todas menos una y ejecutar los procesos de actualización en esa instancia.",
+        D: "Ninguna de las anteriores."
+    },
+    answer: "B",
+    detail: "Apagando instancias del servidor y ejecutar los procesos de actualización en cada instancia una a una."
+},
+{
+    question: "El objetivo del despliegue continuo es:",
+    options: {
+        A: "Realizar estos despliegues de forma autónoma.",
+        B: "Realizar estos despliegues con scripts de ficheros json.",
+        C: "Realizar estos despliegues de forma gradual.",
+        D: "Realizar estos despliegues de forma automatizada o casi automatizada."
+    },
+    answer: "D",
+    detail: "Realizar estos despliegues de forma automatizada o casi automatizada."
   }
 ]
