@@ -1,12 +1,12 @@
 // src/App.js
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import Quiz from './components/Formulario';
 import Studio from './components/StudioMode';
 
 function App() {
   return (
-    <Router basename="/quizesUnir">
+    <Router>
       <div>
         <Routes>
           <Route path="/" element={<Home />} />
