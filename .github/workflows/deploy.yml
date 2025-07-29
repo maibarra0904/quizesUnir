@@ -28,44 +28,18 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Cache node modules
-        uses: actions/cache@v4
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
-
       - name: Install dependencies
-        run: npm ci --cache ~/.npm --prefer-offline
+        run: npm ci
 
       - name: Build React App
         run: npm run build
-        env:
-          NODE_ENV: production
 
-      - name: Add .nojekyll file
-        run: touch ./dist/.nojekyll
-
-      - name: Debug - Comprehensive verification
+      - name: Debug - List dist contents
         run: |
-          echo "=== Build directory contents ==="
+          echo "Contents of dist directory:"
           ls -la ./dist/
-          echo ""
-          echo "=== Complete index.html content ==="
+          echo "Contents of index.html:"
           cat ./dist/index.html
-          echo ""
-          echo "=== Searching for problematic patterns ==="
-          echo "Looking for '/src/main.jsx':"
-          grep "/src/main.jsx" ./dist/index.html && echo "FOUND PROBLEM: Raw JSX reference!" || echo "Good: No raw JSX reference"
-          echo "Looking for '/quizesUnir/':"
-          grep "/quizesUnir/" ./dist/index.html && echo "Good: Base URL found" || echo "PROBLEM: Base URL missing!"
-          echo "Looking for asset references:"
-          grep -E "(src=|href=)" ./dist/index.html
-          echo ""
-          echo "=== File checksums ==="
-          md5sum ./dist/index.html
-          echo ""
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
