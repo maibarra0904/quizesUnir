@@ -11,7 +11,7 @@ export const plataformas = [
         detail: "Kit de desarrollo de software (Software Development Kit, SDK)."
     },
     {
-        question: "Relaciona las características con las diversas plataformas low-code:",
+        question: "Relaciona las características con las plataformas low-code:",
         options: {
             A: "Bitbucket Git de Atlassian.",
             B: "Subversion No se basa en Git.",
