@@ -5,6 +5,12 @@ on:
     branches:
       - main # O la rama principal de tu proyecto (master, main, etc.)
 
+# Configurar permisos para GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -28,5 +34,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist # O './dist' si usas Vite y tu output folder es 'dist'
-          cname: '' # Si tienes un dominio personalizado, ponlo aquí (ej: 'www.mi-dominio.com')
+          publish_dir: ./dist
