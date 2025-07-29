@@ -1,0 +1,9 @@
+DEPLOYMENT VERIFICATION
+======================
+Timestamp: 2025-01-28
+Base URL: /quizesUnir/
+Build System: Vite
+Status: GitHub Pages deployment test
+
+If you can see this file at https://maibarra0904.github.io/quizesUnir/verify.txt
+then the deployment is working correctly.
