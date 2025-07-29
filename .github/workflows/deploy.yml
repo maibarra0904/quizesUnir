@@ -41,6 +41,8 @@ jobs:
 
       - name: Build React App
         run: npm run build
+        env:
+          NODE_ENV: production
 
       - name: Add .nojekyll file
         run: touch ./dist/.nojekyll
@@ -51,6 +53,9 @@ jobs:
           ls -la ./dist/
           echo "Contents of index.html:"
           cat ./dist/index.html
+          echo "Verifying build configuration:"
+          echo "Base URL should be /quizesUnir/"
+          grep -o "/quizesUnir/" ./dist/index.html || echo "WARNING: Base URL not found!"
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
