@@ -56,6 +56,8 @@ jobs:
           echo "Verifying build configuration:"
           echo "Base URL should be /quizesUnir/"
           grep -o "/quizesUnir/" ./dist/index.html || echo "WARNING: Base URL not found!"
+          echo "Checking for any problematic src attributes:"
+          grep "src=" ./dist/index.html || echo "No src attributes found"
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
