@@ -6,7 +6,7 @@ import Studio from './components/StudioMode';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/quizesUnir">
       <div>
         <Routes>
           <Route path="/" element={<Home />} />
